@@ -1,0 +1,42 @@
+Watching for file changes with StatReloader
+C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\myfirstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\myfirstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\myfirstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+"GET /about/ HTTP/1.1" 200 27
+"GET / HTTP/1.1" 200 13
+C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\lect_1_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 27
+"GET / HTTP/1.1" 200 13
+C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\lect_1_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 13
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\myfirstapp\views.py", line 20, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\lect_1_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\lect_1_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\lect_1_project\settings.py changed, reloading.
+INFO 2024-01-10 00:00:03,879 autoreload 12792 1468 Watching for file changes with StatReloader
+INFO 2024-01-10 00:00:31,939 autoreload 19240 8800 Watching for file changes with StatReloader
+INFO 2024-01-10 00:00:33,479 views 19240 8700 Index page accessed
+INFO 2024-01-10 00:00:33,480 basehttp 19240 8700 "GET / HTTP/1.1" 200 13
+ERROR 2024-01-10 00:00:40,400 views 19240 8700 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\myfirstapp\views.py", line 20, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-01-10 00:00:40,402 basehttp 19240 8700 "GET /about/ HTTP/1.1" 200 27
