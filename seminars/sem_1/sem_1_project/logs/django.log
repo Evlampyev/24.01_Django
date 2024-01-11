@@ -1,0 +1,29 @@
+[INFO    :   django.utils.autoreload] - 2024-01-12 00:21:05,097 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-12 00:21:13,271 : log_message @ 0212: "GET /second/random_digits HTTP/1.1" 200 2
+[INFO    :   django.utils.autoreload] - 2024-01-12 00:24:47,294 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-12 00:24:47,610 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-12 00:24:51,646 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :           secondapp.views] - 2024-01-12 00:24:59,632 : random_digits @ 0024: Случайное граница от 1 до 100
+[INFO    :             django.server] - 2024-01-12 00:24:59,633 : log_message @ 0212: "GET /second/random_digits HTTP/1.1" 200 1
+[INFO    :           secondapp.views] - 2024-01-12 00:25:06,025 : cube_faces @ 0019: Случайное граница от 1 до 6
+[INFO    :             django.server] - 2024-01-12 00:25:06,026 : log_message @ 0212: "GET /second/cube_faces HTTP/1.1" 200 1
+[INFO    :           secondapp.views] - 2024-01-12 00:25:07,412 : cube_faces @ 0019: Случайное граница от 1 до 6
+[INFO    :             django.server] - 2024-01-12 00:25:07,413 : log_message @ 0212: "GET /second/cube_faces HTTP/1.1" 200 1
+[INFO    :   django.utils.autoreload] - 2024-01-12 00:25:44,550 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-12 00:25:59,189 : log_message @ 0212: "GET /first HTTP/1.1" 200 21
+[INFO    :           secondapp.views] - 2024-01-12 00:28:02,259 : cube_faces @ 0019: Случайное граница от 1 до 6
+[INFO    :             django.server] - 2024-01-12 00:28:02,259 : log_message @ 0212: "GET /second/cube_faces HTTP/1.1" 200 1
+[INFO    :   django.utils.autoreload] - 2024-01-12 00:28:55,074 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-12 00:28:55,395 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :           secondapp.views] - 2024-01-12 00:29:00,690 : heads_and_tails @ 0012: Орел и решка страница
+[INFO    :             django.server] - 2024-01-12 00:29:00,690 : log_message @ 0212: "GET /second/heads_and_tails HTTP/1.1" 200 10
+[WARNING :            django.request] - 2024-01-12 00:29:37,494 : log_response @ 0241: Not Found: /random_digits
+[WARNING :             django.server] - 2024-01-12 00:29:37,495 : log_message @ 0212: "GET /random_digits HTTP/1.1" 404 2338
+[INFO    :           secondapp.views] - 2024-01-12 00:29:48,842 : random_digits @ 0024: Случайное число от 1 до 100
+[INFO    :             django.server] - 2024-01-12 00:29:48,844 : log_message @ 0212: "GET /second/random_digits HTTP/1.1" 200 2
+[INFO    :           secondapp.views] - 2024-01-12 00:29:54,806 : random_digits @ 0024: Случайное число от 1 до 100
+[INFO    :             django.server] - 2024-01-12 00:29:54,807 : log_message @ 0212: "GET /second/random_digits HTTP/1.1" 200 2
+[INFO    :           secondapp.views] - 2024-01-12 00:29:55,991 : random_digits @ 0024: Случайное число от 1 до 100
+[INFO    :             django.server] - 2024-01-12 00:29:55,993 : log_message @ 0212: "GET /second/random_digits HTTP/1.1" 200 2
+[INFO    :           secondapp.views] - 2024-01-12 00:29:57,089 : random_digits @ 0024: Случайное число от 1 до 100
+[INFO    :             django.server] - 2024-01-12 00:29:57,090 : log_message @ 0212: "GET /second/random_digits HTTP/1.1" 200 2
