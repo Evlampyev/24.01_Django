@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    {% block title %}
+    <title>Базовый шаблон</title>
+    {% endblock %}
+    <link rel="stylesheet" href="{% static 'css/stylesheet.css'%}" type="text/css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            I'm a 50px tall header
+        </header>
+
+        <main>
+            {% block content %}
+            <h2>Это базовый шаблон</h2>
+
+
+            {% endblock %}
+        </main>
+
+        <footer>
+            I'm a 30px tall footer
+        </footer>
+    </div>
+</body>
+</html>
