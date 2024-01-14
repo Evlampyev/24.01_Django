@@ -5,19 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d27f7e-6422-4ac6-9009-a8356822e7b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/24_01_Django.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworks/projecthome/logs/django.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworks/projecthome/static/image/appfirst/cat_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworks/projecthome/static/image/appfirst/cat_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/24_01_Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/24_01_Django.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/projecthome/appfirst/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/projecthome/appfirst/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/projecthome/projecthome/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/projecthome/projecthome/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/projecthome/static/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/projecthome/static/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/projecthome/static/image/appfirst/cat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/projecthome/templates/appfirst/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/projecthome/templates/appfirst/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/projecthome/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/projecthome/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectures/lect_1/ReadMe_lect_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_1/ReadMe_lect_1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/myfirstapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/myfirstapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/myfirstapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/myfirstapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,9 +42,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2aj1vR9SMRUYX8akIMXaJDM53yD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,11 +55,55 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.HomeProject.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/GeekBrains/II_quarter/24_01_Django/homeworks/projecthome/appfirst/temlates",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\temlates" />
+      <recent name="C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\projecthome\temlates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\static\image\appfirst" />
+      <recent name="C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\templates\appfirst" />
+      <recent name="C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome" />
+      <recent name="C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst" />
+      <recent name="C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\t1emplates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HomeProject" type="PythonConfigurationType" factoryName="Python">
+      <module name="24_01_Django" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (24_01_Django)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="./homeworks/projecthome/manage.py" />
+      <option name="PARAMETERS" value="runserver 0.0.0.0:8000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -60,5 +121,19 @@
       <updated>1704817404807</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

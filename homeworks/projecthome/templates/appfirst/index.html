@@ -6,6 +6,18 @@
 {% endblock %}
 
 {% block content %}
-    <h4>Это главная страница</h4>
-    <img class="cat" src="{% static 'image/cat.jpg' %}" alt="photo">
+    <div class="row">
+        <h2 class="center">Это главная страница</h2>
+            <div class="col-3">
+                <img class="cat" src="{% static 'image/appfirst/cat_1.jpg' %}" alt="cat">
+            </div>
+        <div class="col-3 welcome_text center">
+                    {% for item in info %}
+                        <p>{{ item }}</p>
+                    {% endfor %}
+                </div>
+            <div class='col-3'>
+                <img class="cat" src="{% static 'image/appfirst/cat_2.jpg' %}" alt="cat">
+            </div>
+    </div>
 {% endblock %}

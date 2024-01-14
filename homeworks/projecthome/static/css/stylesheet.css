@@ -2,12 +2,15 @@
     height: 100vh;
 
     flex-direction: column;
-    // Direction of the items, can be row or column
+
 
 }
 
 main {
   flex: 1;
+  background-color:#ecf0f1;
+  min-height: 80vh;
+  margin: 3px;
 }
 
 // Rules below just for niceness
@@ -18,11 +21,10 @@ body {
 header {
   background-color: #2ecc71;
   height: 50px;
+
 }
 
-main {
-  background-color:#ecf0f1;
-}
+
 
 footer {
   background-color:#2c3e50;
@@ -30,11 +32,85 @@ footer {
   height: 30px;
 }
 
-.cat {
-    margin: auto;
-    height: 40vh;
+* {
+  box-sizing: border-box;
+}
+.col-3 {
+    width: 33.333%;
+    max-height: 100%;
+    min-height: 50vh;
+    border: 2px solid #123123;
+#    padding: 5px 10px;
+    float: left;
+}
+.row {
+    overflow: hidden;
+    width: 70%;
+    min-height: 75vh;
+    background-color: #CCFFFF;
+    margin: 0 auto;
+    border: 1px solid #123123;
+    padding: 5px 10px;
+
 }
 
-h4 {
+.cat {
+    max-width:100%;
+    max-height: 50vh;
+    display: block;
+    margin: 5px auto;
+}
+
+.welcome_text {
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (20 - 12) + 16px);
+}
+
+.center {
     text-align: center;
 }
+
+
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+  background:#819A32; /*добавляем фон всему меню*/
+  height: 50px; /*задаем высоту*/
+}
+a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#819A32; /*добавляем фон к пункту меню*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:0px 15px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block;
+  border-right: 1px solid #677B27; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+a:hover {
+  background:#D43737;/*добавляем эффект при наведении*/
+}
+li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  position:relative; /*задаем позицию для позиционирования*/
+}
+
+    /*Стили для скрытого выпадающего меню*/
+    li > ul {
+        position:absolute;
+        top:25px;
+        display:none;
+    }
+
+    /*Делаем скрытую часть видимой*/
+    li:hover > ul {
+        display:block;
+        width:250px;  /*Задаем ширину выпадающего меню*/
+    }
+   li:hover > ul > li {
+        float:none; /*Убираем горизонтальное позиционирование*/
+    }

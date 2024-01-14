@@ -1,0 +1,125 @@
+[INFO    :   django.utils.autoreload] - 2024-01-14 23:58:12,631 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-14 23:58:13,873 : index @ 0013: Главная страница
+[INFO    :             django.server] - 2024-01-14 23:58:13,879 : log_message @ 0212: "GET / HTTP/1.1" 200 1640
+[INFO    :            appfirst.views] - 2024-01-14 23:58:16,510 : about @ 0023: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-14 23:58:16,511 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 115
+[INFO    :            appfirst.views] - 2024-01-14 23:58:18,331 : about @ 0023: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-14 23:58:18,331 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 115
+[INFO    :   django.utils.autoreload] - 2024-01-15 00:01:13,207 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-15 00:01:23,810 : index @ 0013: Главная страница
+[INFO    :             django.server] - 2024-01-15 00:01:23,815 : log_message @ 0212: "GET / HTTP/1.1" 200 1640
+[INFO    :             django.server] - 2024-01-15 00:01:23,836 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[ERROR   : django.security.DisallowedHost] - 2024-01-15 00:01:43,600 : response_for_exception @ 0124: Invalid HTTP_HOST header: '192.168.0.113:8000'. You may need to add '192.168.0.113' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.113:8000'. You may need to add '192.168.0.113' to ALLOWED_HOSTS.
+[WARNING :            django.request] - 2024-01-15 00:01:43,644 : log_response @ 0241: Bad Request: /
+[WARNING :             django.server] - 2024-01-15 00:01:43,645 : log_message @ 0212: "GET / HTTP/1.1" 400 68790
+[ERROR   : django.security.DisallowedHost] - 2024-01-15 00:01:43,862 : response_for_exception @ 0124: Invalid HTTP_HOST header: '192.168.0.113:8000'. You may need to add '192.168.0.113' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.113:8000'. You may need to add '192.168.0.113' to ALLOWED_HOSTS.
+[WARNING :            django.request] - 2024-01-15 00:01:43,874 : log_response @ 0241: Bad Request: /favicon.ico
+[WARNING :             django.server] - 2024-01-15 00:01:43,874 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 400 68761
+[ERROR   : django.security.DisallowedHost] - 2024-01-15 00:02:15,983 : response_for_exception @ 0124: Invalid HTTP_HOST header: '192.168.0.113:8000'. You may need to add '192.168.0.113' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.113:8000'. You may need to add '192.168.0.113' to ALLOWED_HOSTS.
+[WARNING :            django.request] - 2024-01-15 00:02:16,000 : log_response @ 0241: Bad Request: /
+[WARNING :             django.server] - 2024-01-15 00:02:16,000 : log_message @ 0212: "GET / HTTP/1.1" 400 68927
+[ERROR   : django.security.DisallowedHost] - 2024-01-15 00:02:16,242 : response_for_exception @ 0124: Invalid HTTP_HOST header: '192.168.0.113:8000'. You may need to add '192.168.0.113' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.113:8000'. You may need to add '192.168.0.113' to ALLOWED_HOSTS.
+[WARNING :            django.request] - 2024-01-15 00:02:16,254 : log_response @ 0241: Bad Request: /favicon.ico
+[WARNING :             django.server] - 2024-01-15 00:02:16,255 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 400 68761
+[ERROR   : django.security.DisallowedHost] - 2024-01-15 00:02:23,301 : response_for_exception @ 0124: Invalid HTTP_HOST header: '192.168.0.113:8000'. You may need to add '192.168.0.113' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.113:8000'. You may need to add '192.168.0.113' to ALLOWED_HOSTS.
+[WARNING :            django.request] - 2024-01-15 00:02:23,315 : log_response @ 0241: Bad Request: /about
+[WARNING :             django.server] - 2024-01-15 00:02:23,315 : log_message @ 0212: "GET /about HTTP/1.1" 400 68759
+[ERROR   : django.security.DisallowedHost] - 2024-01-15 00:02:23,439 : response_for_exception @ 0124: Invalid HTTP_HOST header: '192.168.0.113:8000'. You may need to add '192.168.0.113' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.113:8000'. You may need to add '192.168.0.113' to ALLOWED_HOSTS.
+[WARNING :            django.request] - 2024-01-15 00:02:23,453 : log_response @ 0241: Bad Request: /favicon.ico
+[WARNING :             django.server] - 2024-01-15 00:02:23,453 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 400 68766
+[INFO    :   django.utils.autoreload] - 2024-01-15 00:03:23,358 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-15 00:03:46,962 : log_message @ 0212: "GET /about HTTP/1.1" 301 0
+[INFO    :            appfirst.views] - 2024-01-15 00:03:46,972 : about @ 0023: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-15 00:03:46,972 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 115
+[WARNING :            django.request] - 2024-01-15 00:03:47,025 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-15 00:03:47,025 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2612
+[INFO    :            appfirst.views] - 2024-01-15 00:03:53,475 : index @ 0013: Главная страница
+[INFO    :             django.server] - 2024-01-15 00:03:53,481 : log_message @ 0212: "GET / HTTP/1.1" 200 1640
+[INFO    :             django.server] - 2024-01-15 00:03:53,555 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 2860
+[INFO    :             django.server] - 2024-01-15 00:03:53,604 : log_message @ 0212: "GET /static/image/appfirst/cat_1.jpg HTTP/1.1" 200 145712
+[INFO    :             django.server] - 2024-01-15 00:03:53,618 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 200 313796
+[INFO    :            appfirst.views] - 2024-01-15 00:04:05,983 : about @ 0023: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-15 00:04:05,984 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 115
+[INFO    :            appfirst.views] - 2024-01-15 00:04:07,643 : about @ 0023: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-15 00:04:07,644 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 115
+[INFO    :             django.server] - 2024-01-15 00:04:26,271 : handle_error @ 0081: - Broken pipe from ('192.168.0.100', 43600)
+[INFO    :             django.server] - 2024-01-15 00:04:26,271 : handle_error @ 0081: - Broken pipe from ('192.168.0.100', 49108)
+[INFO    :             django.server] - 2024-01-15 00:04:26,271 : handle_error @ 0081: - Broken pipe from ('192.168.0.100', 49118)

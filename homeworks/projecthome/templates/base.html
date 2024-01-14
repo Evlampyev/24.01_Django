@@ -12,7 +12,20 @@
 
     <div class="wrapper">
         <header>
-            I'm a 50px tall header
+            <ul>
+                <li><a href="{% url 'index' %}">Главная</a></li>
+                <li><a href="#">Услуги</a>
+                    <ul>
+                        <li><a href="#">Услуга 1</a></li>
+                        <li><a href="#">Длинная услуга 2</a></li>
+                        <li><a href="#">Услуга 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Цены</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="{% url 'about' %}">Обо мне</a></li>
+
+            </ul>
         </header>
 
         <main>

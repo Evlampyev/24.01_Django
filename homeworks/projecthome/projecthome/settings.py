@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-$8)#qn(pn9la(v^me&u@!u@4-o6b4p3u6x^+4w8yl8ee_7o6%-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '192.168.0.113',
+    '127.0.0.1',
+
+]
 
 # Application definition
 
@@ -120,3 +124,42 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LOGGING = {
+    'version'                : 1,
+    'disable_existing_fields': False,
+    # чтобы не перекрывать более верхние уровни логирования
+    'formatters'             : {
+        'verbose': {
+            'format': '[{levelname:<8}: {name:>25}] - {asctime} : {funcName} @ {lineno:04d}: {message}',
+            'style' : '{',
+        },
+        'simple' : {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
+
+    'handlers'               : {
+        'console': {  # выводить ошибки в консоль
+            'class'    : 'logging.StreamHandler',
+            'formatter': 'verbose',
+        },
+        'file'   : {  # выводить ошибки в файл
+            'class'    : 'logging.FileHandler',
+            'filename' : BASE_DIR / 'logs' / 'django.log',  # имя файла
+            'formatter': 'verbose',
+        },
+    },
+    'loggers'                : {
+        'django'   : {  # для всего проекта
+            'handlers': ['console', 'file'],
+            'level'   : 'INFO',
+        },
+        'appfirst': {  # для моего приложения в проекте
+            'handlers' : ['console', 'file'],
+            'level'    : 'DEBUG',
+            'propagate': True,
+            # если есть более высоко стоящие логгеры, то их нужно использовать
+        },
+    },
+}
