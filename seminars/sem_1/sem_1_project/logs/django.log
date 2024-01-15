@@ -27,3 +27,217 @@
 [INFO    :             django.server] - 2024-01-12 00:29:55,993 : log_message @ 0212: "GET /second/random_digits HTTP/1.1" 200 2
 [INFO    :           secondapp.views] - 2024-01-12 00:29:57,089 : random_digits @ 0024: Случайное число от 1 до 100
 [INFO    :             django.server] - 2024-01-12 00:29:57,090 : log_message @ 0212: "GET /second/random_digits HTTP/1.1" 200 2
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:23:38,079 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:24:04,693 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:24:06,712 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-15 23:24:08,456 : log_response @ 0241: Not Found: /
+[WARNING :             django.server] - 2024-01-15 23:24:08,456 : log_message @ 0212: "GET / HTTP/1.1" 404 2277
+[WARNING :            django.request] - 2024-01-15 23:24:16,189 : log_response @ 0241: Not Found: /second
+[WARNING :             django.server] - 2024-01-15 23:24:16,189 : log_message @ 0212: "GET /second HTTP/1.1" 404 2769
+[WARNING :            django.request] - 2024-01-15 23:24:31,889 : log_response @ 0241: Not Found: /second/heads_and_tails
+[WARNING :             django.server] - 2024-01-15 23:24:31,889 : log_message @ 0212: "GET /second/heads_and_tails HTTP/1.1" 404 2817
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:24:46,574 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:24:46,905 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :           secondapp.views] - 2024-01-15 23:24:48,999 : heads_and_tails @ 0014: Орел и решка страница
+[INFO    :             django.server] - 2024-01-15 23:24:49,015 : log_message @ 0212: "GET /second/heads_and_tails HTTP/1.1" 200 8
+[INFO    :           secondapp.views] - 2024-01-15 23:24:52,822 : heads_and_tails @ 0014: Орел и решка страница
+[INFO    :             django.server] - 2024-01-15 23:24:52,828 : log_message @ 0212: "GET /second/heads_and_tails HTTP/1.1" 200 10
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:28:04,088 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:28:04,435 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:28:46,247 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:28:46,571 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:30:12,777 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:30:13,084 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :           secondapp.views] - 2024-01-15 23:30:19,504 : heads_and_tails @ 0014: Орел и решка страница
+[INFO    :             django.server] - 2024-01-15 23:30:19,519 : log_message @ 0212: "GET /second/heads_and_tails HTTP/1.1" 200 8
+[WARNING :            django.request] - 2024-01-15 23:30:26,741 : log_response @ 0241: Not Found: /second/ht_results
+[WARNING :             django.server] - 2024-01-15 23:30:26,742 : log_message @ 0212: "GET /second/ht_results HTTP/1.1" 404 2999
+[ERROR   :            django.request] - 2024-01-15 23:30:46,059 : log_response @ 0241: Internal Server Error: /second/heads_and_tails/result
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py", line 26, in ht_results
+    for item in all:
+TypeError: 'builtin_function_or_method' object is not iterable
+[ERROR   :             django.server] - 2024-01-15 23:30:46,060 : log_message @ 0212: "GET /second/heads_and_tails/result HTTP/1.1" 500 64338
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:32:00,026 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:32:00,355 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-15 23:32:21,305 : log_message @ 0212: "GET /second/heads_and_tails/result HTTP/1.1" 200 173
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:33:27,890 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:33:28,204 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:34:05,793 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:34:06,095 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:34:19,437 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:34:19,758 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:34:21,987 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:34:22,297 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:35:11,086 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:35:11,425 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:35:17,618 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:35:17,940 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:35:24,191 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:35:24,496 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:35:28,746 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:35:29,075 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:36:35,059 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:36:35,379 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:38:02,943 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:38:03,281 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-15 23:38:07,312 : log_message @ 0212: "GET /second/heads_and_tails/result HTTP/1.1" 200 18
+[INFO    :             django.server] - 2024-01-15 23:38:30,982 : log_message @ 0212: "GET /second/heads_and_tails/result HTTP/1.1" 200 18
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:40:33,753 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:40:34,087 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-15 23:40:36,378 : log_message @ 0212: "GET /second/heads_and_tails/result HTTP/1.1" 200 18
+[INFO    :           secondapp.views] - 2024-01-15 23:40:42,432 : heads_and_tails @ 0014: Орел и решка страница
+[INFO    :             django.server] - 2024-01-15 23:40:42,439 : log_message @ 0212: "GET /second/heads_and_tails HTTP/1.1" 200 8
+[INFO    :           secondapp.views] - 2024-01-15 23:40:44,795 : heads_and_tails @ 0014: Орел и решка страница
+[INFO    :             django.server] - 2024-01-15 23:40:44,809 : log_message @ 0212: "GET /second/heads_and_tails HTTP/1.1" 200 8
+[INFO    :           secondapp.views] - 2024-01-15 23:40:45,870 : heads_and_tails @ 0014: Орел и решка страница
+[INFO    :             django.server] - 2024-01-15 23:40:45,877 : log_message @ 0212: "GET /second/heads_and_tails HTTP/1.1" 200 10
+[INFO    :             django.server] - 2024-01-15 23:40:58,394 : log_message @ 0212: "GET /second/heads_and_tails/result HTTP/1.1" 200 18
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:41:59,608 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:41:59,957 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-15 23:42:01,872 : log_message @ 0212: "GET /second/heads_and_tails/result HTTP/1.1" 200 18
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:42:59,098 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:42:59,423 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:43:49,348 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:43:49,678 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-15 23:44:21,921 : log_response @ 0241: Internal Server Error: /second/heads_and_tails/result
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py", line 24, in ht_results
+    result = Money.get_data(5)
+             ^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py", line 15, in get_data
+    last_data = Money.objects.all()[-count:]
+                ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+[ERROR   :             django.server] - 2024-01-15 23:44:21,922 : log_message @ 0212: "GET /second/heads_and_tails/result HTTP/1.1" 500 71823
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:45:01,015 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:45:01,340 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-15 23:46:13,703 : log_message @ 0212: "GET /second/heads_and_tails/result HTTP/1.1" 200 18
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:47:27,756 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:47:28,093 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:47:41,500 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:47:41,826 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-15 23:47:43,611 : log_message @ 0212: "GET /second/heads_and_tails/result HTTP/1.1" 200 68
+[INFO    :           secondapp.views] - 2024-01-15 23:47:58,258 : heads_and_tails @ 0015: Орел и решка страница
+[INFO    :             django.server] - 2024-01-15 23:47:58,265 : log_message @ 0212: "GET /second/heads_and_tails HTTP/1.1" 200 8
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:48:34,902 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:48:35,224 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :           secondapp.views] - 2024-01-15 23:48:36,946 : heads_and_tails @ 0015: Орел и решка страница
+[INFO    :             django.server] - 2024-01-15 23:48:36,962 : log_message @ 0212: "GET /second/heads_and_tails HTTP/1.1" 200 10
+[INFO    :             django.server] - 2024-01-15 23:48:48,692 : log_message @ 0212: "GET /second/heads_and_tails/result HTTP/1.1" 200 32
+[INFO    :             django.server] - 2024-01-15 23:49:36,376 : log_message @ 0212: "GET /second/heads_and_tails/result HTTP/1.1" 200 32
+[INFO    :             django.server] - 2024-01-15 23:49:42,534 : log_message @ 0212: "GET /second/heads_and_tails/result HTTP/1.1" 200 32
+[WARNING :            django.request] - 2024-01-15 23:49:42,568 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-15 23:49:42,569 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2328
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:50:03,839 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:50:04,174 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:50:45,977 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:50:46,314 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-15 23:50:49,829 : log_response @ 0241: Internal Server Error: /second/heads_and_tails/result
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py", line 25, in ht_results
+    result = Money.get_data(5)
+             ^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py", line 15, in get_data
+    last_data = Money.objects.all()[len(Money.objects.all()-count):]
+                                        ~~~~~~~~~~~~~~~~~~~^~~~~~
+TypeError: unsupported operand type(s) for -: 'QuerySet' and 'int'
+[ERROR   :             django.server] - 2024-01-15 23:50:49,831 : log_message @ 0212: "GET /second/heads_and_tails/result HTTP/1.1" 500 67744
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:51:06,929 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:51:07,264 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-15 23:51:07,720 : log_message @ 0212: "GET /second/heads_and_tails/result HTTP/1.1" 200 32
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:53:27,503 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:53:27,850 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:53:46,338 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:53:46,639 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:56:47,032 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:56:47,388 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:57:16,007 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:57:16,335 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:57:31,776 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:57:32,123 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:57:42,514 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:57:42,849 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:59:13,385 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-15 23:59:13,721 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 00:09:57,014 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 00:10:25,633 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 00:10:25,964 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 00:11:01,715 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 00:11:02,033 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 00:15:12,274 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 00:15:12,611 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 00:32:09,029 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-16 00:32:10,937 : log_response @ 0241: Not Found: /
+[WARNING :             django.server] - 2024-01-16 00:32:10,938 : log_message @ 0212: "GET / HTTP/1.1" 404 2279
+[WARNING :            django.request] - 2024-01-16 00:32:22,406 : log_response @ 0241: Not Found: /authors
+[WARNING :             django.server] - 2024-01-16 00:32:22,407 : log_message @ 0212: "GET /authors HTTP/1.1" 404 2318
+[ERROR   :            django.request] - 2024-01-16 00:32:32,085 : log_response @ 0241: Internal Server Error: /second/authors
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py", line 41, in authors_view
+    authors = Author.objects.all()
+              ^^^^^^
+NameError: name 'Author' is not defined
+[ERROR   :             django.server] - 2024-01-16 00:32:32,086 : log_message @ 0212: "GET /second/authors HTTP/1.1" 500 63645
+[INFO    :   django.utils.autoreload] - 2024-01-16 00:33:08,290 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 00:33:08,608 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-16 00:33:08,832 : log_response @ 0241: Internal Server Error: /second/authors
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py", line 42, in authors_view
+    res_str = '\n'.join(author for author in authors)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, Author found
+[ERROR   :             django.server] - 2024-01-16 00:33:08,833 : log_message @ 0212: "GET /second/authors HTTP/1.1" 500 64755
+[INFO    :   django.utils.autoreload] - 2024-01-16 00:35:15,856 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 00:35:16,268 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-16 00:35:18,999 : log_response @ 0241: Internal Server Error: /second/authors
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\secondapp\views.py", line 42, in authors_view
+    res_str = '\n'.join(author for author in authors)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, Author found
+[ERROR   :             django.server] - 2024-01-16 00:35:19,001 : log_message @ 0212: "GET /second/authors HTTP/1.1" 500 64760
+[INFO    :   django.utils.autoreload] - 2024-01-16 00:51:09,462 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-16 00:51:10,653 : log_response @ 0241: Not Found: /
+[WARNING :             django.server] - 2024-01-16 00:51:10,654 : log_message @ 0212: "GET / HTTP/1.1" 404 2279
+[INFO    :             django.server] - 2024-01-16 00:51:29,805 : log_message @ 0212: "GET /second/authors HTTP/1.1" 200 415
+[INFO    :             django.server] - 2024-01-16 00:51:35,860 : log_message @ 0212: "GET /second/posts HTTP/1.1" 200 4161
+[INFO    :             django.server] - 2024-01-16 00:51:43,900 : log_message @ 0212: "GET /second/authors HTTP/1.1" 200 415
