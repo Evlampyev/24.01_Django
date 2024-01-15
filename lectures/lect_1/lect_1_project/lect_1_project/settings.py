@@ -25,7 +25,6 @@ SECRET_KEY = 'django-insecure-*kh$1fn79ju9po%pzhwldo0ki2ctqh5n$1&w8cizedl4drfk96
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '145.255.21.221',
     '127.0.0.1',
 ]
 
@@ -39,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myfirstapp',
+    'my_second_app',
 ]
 
 MIDDLEWARE = [
