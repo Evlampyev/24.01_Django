@@ -59,3 +59,21 @@ INFO 2024-01-15 17:12:53,210 basehttp 1528 14316 "GET / HTTP/1.1" 200 13
 INFO 2024-01-15 17:12:58,384 basehttp 1528 14316 "GET /two/ HTTP/1.1" 200 25
 INFO 2024-01-15 17:13:11,673 views 1528 14316 Index page accessed
 INFO 2024-01-15 17:13:11,675 basehttp 1528 14316 "GET / HTTP/1.1" 200 13
+INFO 2024-01-15 21:13:16,910 autoreload 20068 9432 Watching for file changes with StatReloader
+INFO 2024-01-15 21:13:18,884 views 20068 17224 Index page accessed
+INFO 2024-01-15 21:13:18,885 basehttp 20068 17224 "GET / HTTP/1.1" 200 13
+INFO 2024-01-15 21:13:32,423 basehttp 20068 17224 "GET /two HTTP/1.1" 301 0
+INFO 2024-01-15 21:13:32,428 basehttp 20068 9320 "GET /two/ HTTP/1.1" 200 25
+INFO 2024-01-15 21:18:20,507 autoreload 12296 10040 Watching for file changes with StatReloader
+INFO 2024-01-15 21:18:26,213 views 12296 10364 Index page accessed
+INFO 2024-01-15 21:18:26,214 basehttp 12296 10364 "GET / HTTP/1.1" 200 13
+INFO 2024-01-15 21:18:38,826 autoreload 21024 19872 Watching for file changes with StatReloader
+INFO 2024-01-15 21:20:01,566 autoreload 15184 9040 Watching for file changes with StatReloader
+INFO 2024-01-15 21:43:00,024 autoreload 8948 6484 Watching for file changes with StatReloader
+INFO 2024-01-15 21:43:01,827 views 8948 2732 Index page accessed
+INFO 2024-01-15 21:43:01,828 basehttp 8948 2732 "GET / HTTP/1.1" 200 13
+INFO 2024-01-15 21:44:10,373 autoreload 8948 6484 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_second_app\models.py changed, reloading.
+INFO 2024-01-15 21:44:10,687 autoreload 21540 3000 Watching for file changes with StatReloader
+INFO 2024-01-15 21:53:47,691 autoreload 14372 20152 Watching for file changes with StatReloader
+INFO 2024-01-15 21:53:49,612 views 14372 18620 Index page accessed
+INFO 2024-01-15 21:53:49,612 basehttp 14372 18620 "GET / HTTP/1.1" 200 13
