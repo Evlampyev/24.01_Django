@@ -44,3 +44,8 @@ class Post(models.Model):
 
     def __str__(self):
         return f'Title is {self.title}'
+
+    def get_summary(self) -> str:
+        """Возвращает первые 8 слов поста"""
+        words = self.content.split()
+        return f'{" ".join(words[:8])}...'
