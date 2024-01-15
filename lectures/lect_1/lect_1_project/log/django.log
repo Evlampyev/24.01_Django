@@ -40,3 +40,22 @@ Traceback (most recent call last):
              ~~^~~
 ZeroDivisionError: division by zero
 INFO 2024-01-10 00:00:40,402 basehttp 19240 8700 "GET /about/ HTTP/1.1" 200 27
+INFO 2024-01-15 16:58:41,812 autoreload 12316 9676 Watching for file changes with StatReloader
+INFO 2024-01-15 17:04:32,597 autoreload 13656 12160 Watching for file changes with StatReloader
+INFO 2024-01-15 17:06:12,532 autoreload 14308 4264 Watching for file changes with StatReloader
+INFO 2024-01-15 17:06:14,241 views 14308 7376 Index page accessed
+INFO 2024-01-15 17:06:14,244 basehttp 14308 7376 "GET / HTTP/1.1" 200 13
+WARNING 2024-01-15 17:06:23,889 log 14308 7376 Not Found: /2
+WARNING 2024-01-15 17:06:23,889 basehttp 14308 7376 "GET /2 HTTP/1.1" 404 2520
+INFO 2024-01-15 17:06:30,278 basehttp 14308 7376 "GET /two HTTP/1.1" 301 0
+INFO 2024-01-15 17:06:30,295 basehttp 14308 2828 "GET /two/ HTTP/1.1" 200 6
+INFO 2024-01-15 17:07:06,538 autoreload 14308 4264 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_second_app\views.py changed, reloading.
+INFO 2024-01-15 17:07:07,100 autoreload 2492 9892 Watching for file changes with StatReloader
+INFO 2024-01-15 17:07:07,329 basehttp 2492 7176 "GET /two/ HTTP/1.1" 200 25
+INFO 2024-01-15 17:09:58,433 autoreload 4680 9868 Watching for file changes with StatReloader
+INFO 2024-01-15 17:12:35,985 autoreload 1528 8036 Watching for file changes with StatReloader
+INFO 2024-01-15 17:12:53,209 views 1528 14316 Index page accessed
+INFO 2024-01-15 17:12:53,210 basehttp 1528 14316 "GET / HTTP/1.1" 200 13
+INFO 2024-01-15 17:12:58,384 basehttp 1528 14316 "GET /two/ HTTP/1.1" 200 25
+INFO 2024-01-15 17:13:11,673 views 1528 14316 Index page accessed
+INFO 2024-01-15 17:13:11,675 basehttp 1528 14316 "GET / HTTP/1.1" 200 13

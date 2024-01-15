@@ -123,3 +123,11 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.113:
 [INFO    :             django.server] - 2024-01-15 00:04:26,271 : handle_error @ 0081: - Broken pipe from ('192.168.0.100', 43600)
 [INFO    :             django.server] - 2024-01-15 00:04:26,271 : handle_error @ 0081: - Broken pipe from ('192.168.0.100', 49108)
 [INFO    :             django.server] - 2024-01-15 00:04:26,271 : handle_error @ 0081: - Broken pipe from ('192.168.0.100', 49118)
+[INFO    :   django.utils.autoreload] - 2024-01-15 16:53:27,180 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-15 16:53:29,640 : index @ 0013: Главная страница
+[INFO    :             django.server] - 2024-01-15 16:53:29,657 : log_message @ 0212: "GET / HTTP/1.1" 200 1640
+[INFO    :             django.server] - 2024-01-15 16:53:29,854 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 2745
+[INFO    :             django.server] - 2024-01-15 16:53:29,856 : log_message @ 0212: "GET /static/image/appfirst/cat_1.jpg HTTP/1.1" 200 145712
+[INFO    :             django.server] - 2024-01-15 16:53:29,858 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 200 313796
+[WARNING :            django.request] - 2024-01-15 16:53:29,962 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-15 16:53:29,963 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2608
