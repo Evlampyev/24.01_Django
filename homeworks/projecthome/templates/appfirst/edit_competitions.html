@@ -2,12 +2,12 @@
 {% load static %}
 
 {% block title %}
-<title>Редактирование судей</title>
+<title>Редактирование конкусов</title>
 {% endblock %}
 
 {% block content %}
 <div class="row">
-    <div class="table-caption">Список судей</div>
+    <div class="table-caption">Список конкурсов</div>
     <table id="table">
         <thead>
         <tr>
@@ -18,14 +18,14 @@
         </tr>
         </thead>
         <tbody>
-        {% for judge in judges %}
+        {% for competition in competitions %}
         <tr>
 
-            {% for key, value in judge.items %}
+            {% for key, value in competition.items %}
                 <td data-label="{{key}}">{{value}}</td>
             {% endfor %}
 
-            <td class="actions"><a href="#">Edit</a> | <a href="{% url 'delete_judge' %}">Delete</a></td>
+            <td class="actions"><a href="#">Edit</a> | <a href="#">Delete</a></td>
             <td class="checkbox"><input type="checkbox"/></td>
         </tr>
         {% endfor %}

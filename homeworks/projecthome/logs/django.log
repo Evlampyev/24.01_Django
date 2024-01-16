@@ -864,3 +864,424 @@ ValueError: Need 2 values to unpack in for loop; got 4.
 [INFO    :             django.server] - 2024-01-16 19:06:38,058 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
 [INFO    :             django.server] - 2024-01-16 19:10:48,207 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 4523
 [INFO    :             django.server] - 2024-01-16 19:10:48,242 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-01-16 21:36:39,969 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-16 21:36:51,254 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 21:36:51,274 : log_message @ 0212: "GET / HTTP/1.1" 200 1781
+[INFO    :             django.server] - 2024-01-16 21:36:51,436 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 200 313796
+[INFO    :             django.server] - 2024-01-16 21:36:51,442 : log_message @ 0212: "GET /static/image/appfirst/cat_1.jpg HTTP/1.1" 200 145712
+[INFO    :             django.server] - 2024-01-16 21:36:51,452 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6569
+[WARNING :            django.request] - 2024-01-16 21:36:51,637 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-16 21:36:51,638 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2787
+[INFO    :             django.server] - 2024-01-16 21:36:54,806 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 4523
+[WARNING :            django.request] - 2024-01-16 21:37:26,802 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-16 21:37:26,803 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2787
+[INFO    :   django.utils.autoreload] - 2024-01-16 21:39:23,797 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 21:39:24,972 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 1928
+[INFO    :             django.server] - 2024-01-16 21:39:25,061 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6569
+[WARNING :            django.request] - 2024-01-16 21:39:25,118 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-16 21:39:25,119 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2787
+[INFO    :             django.server] - 2024-01-16 21:39:33,993 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 1928
+[INFO    :             django.server] - 2024-01-16 21:39:34,021 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6569
+[INFO    :   django.utils.autoreload] - 2024-01-16 21:39:34,058 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 21:39:34,834 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-16 21:39:34,974 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-16 21:39:34,974 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2787
+[INFO    :             django.server] - 2024-01-16 21:39:36,927 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 2322
+[INFO    :            appfirst.views] - 2024-01-16 21:45:22,074 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 21:45:22,078 : log_message @ 0212: "GET / HTTP/1.1" 200 1781
+[INFO    :             django.server] - 2024-01-16 21:45:25,420 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 2322
+[INFO    :   django.utils.autoreload] - 2024-01-16 21:46:09,522 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 21:46:10,760 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 21:46:11,112 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3661
+[INFO    :             django.server] - 2024-01-16 21:46:11,366 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6569
+[WARNING :            django.request] - 2024-01-16 21:46:11,482 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-16 21:46:11,482 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2787
+[INFO    :             django.server] - 2024-01-16 21:46:12,852 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3661
+[INFO    :   django.utils.autoreload] - 2024-01-16 21:49:45,844 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 21:49:47,106 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 21:54:07,778 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 21:54:08,876 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 21:58:14,091 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 21:58:15,277 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:00:16,184 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:02:30,094 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-16 22:02:39,993 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 23, in edit_judges
+    print(judge.name)
+          ^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'name'
+[ERROR   :             django.server] - 2024-01-16 22:02:39,996 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 73544
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:03:24,633 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:03:25,826 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 22:03:26,221 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3687
+[INFO    :             django.server] - 2024-01-16 22:03:26,302 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:04:05,942 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:04:07,085 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:04:31,348 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:04:32,705 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 22:04:35,293 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3687
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:07:41,535 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:07:42,988 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:07:57,067 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:07:58,249 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:09:17,265 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:09:18,344 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-16 22:09:21,424 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 24, in edit_judges
+    competition = Judge.competition.throught.filter(judge_id=judge['id']).values_list()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ManyToManyDescriptor' object has no attribute 'throught'
+[ERROR   :             django.server] - 2024-01-16 22:09:21,427 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 73959
+[WARNING :            django.request] - 2024-01-16 22:09:21,599 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-16 22:09:21,601 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2968
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:10:02,940 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:10:03,901 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-16 22:10:05,984 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 24, in edit_judges
+    competition = Judge.competition.throught.objects.filter(judge_id=judge['id']).values_list()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ManyToManyDescriptor' object has no attribute 'throught'
+[ERROR   :             django.server] - 2024-01-16 22:10:05,986 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 73847
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:10:19,871 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:10:21,169 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-16 22:10:21,506 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 24, in edit_judges
+    competition = Judge.competition.objects.filter(judge_id=judge['id']).values_list()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ManyToManyDescriptor' object has no attribute 'objects'
+[ERROR   :             django.server] - 2024-01-16 22:10:21,508 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 73823
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:10:36,211 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:10:37,296 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-16 22:10:37,681 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 24, in edit_judges
+    competition = Judge.competition.filter(judge_id=judge['id']).values_list()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ManyToManyDescriptor' object has no attribute 'filter'
+[ERROR   :             django.server] - 2024-01-16 22:10:37,683 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 73801
+[ERROR   :            django.request] - 2024-01-16 22:10:47,699 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 24, in edit_judges
+    competition = Judge.competition.filter(judge_id=judge['id']).values_list()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ManyToManyDescriptor' object has no attribute 'filter'
+[ERROR   :             django.server] - 2024-01-16 22:10:47,701 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 73513
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:11:14,531 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:11:15,681 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-16 22:11:16,182 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 24, in edit_judges
+    competition = Judge.competition.objects.all()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ManyToManyDescriptor' object has no attribute 'objects'
+[ERROR   :             django.server] - 2024-01-16 22:11:16,185 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 73578
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:12:44,859 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:12:46,503 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-16 22:13:07,645 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 24, in edit_judges
+    competition = Judge.competition.through.objects.all().objects.all()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'objects'
+[ERROR   :             django.server] - 2024-01-16 22:13:07,647 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 73618
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:13:40,065 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:13:41,103 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 22:13:41,363 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3687
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:14:11,882 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:14:12,939 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 22:14:13,125 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3687
+[INFO    :             django.server] - 2024-01-16 22:14:13,205 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:17:02,636 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:17:03,804 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 22:17:06,436 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3687
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:19:53,654 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:19:54,897 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 22:19:56,442 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3687
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:24:08,798 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:24:09,924 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:25:02,981 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:25:04,643 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 22:25:12,286 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3907
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:26:06,638 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:26:07,773 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 22:26:07,998 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 4395
+[INFO    :             django.server] - 2024-01-16 22:26:08,063 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:26:26,595 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:26:27,869 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 22:26:28,191 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 4207
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:26:48,936 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:26:50,294 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 22:26:50,740 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3889
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:30:50,540 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:30:51,700 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 22:31:59,908 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3907
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:49:15,170 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:49:16,608 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:55:02,367 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:55:03,428 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-16 22:55:11,024 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 23, in edit_judges
+    if comp_dict[comp[1]]:
+       ~~~~~~~~~^^^^^^^^^
+KeyError: 1
+[ERROR   :             django.server] - 2024-01-16 22:55:11,026 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 71858
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:56:06,833 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:56:07,798 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-16 22:56:08,375 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 23, in edit_judges
+    if comp_dict[comp[1] is not None]:
+       ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: True
+[ERROR   :             django.server] - 2024-01-16 22:56:08,378 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 71918
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:57:25,951 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 22:57:27,148 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-16 22:57:29,991 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2112, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 33, in edit_judges
+    judge['comp'] = Competition.objects.filter(pk=comp_dict[judge['id']]).values_list('name', flat=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1548, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1378, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\lookups.py", line 362, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2114, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got [1, 2].
+[ERROR   :             django.server] - 2024-01-16 22:57:30,004 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 136559
+[ERROR   :            django.request] - 2024-01-16 22:59:46,618 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2112, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 33, in edit_judges
+    judge['comp'] = Competition.objects.filter(pk=comp_dict[judge['id']]).values_list('name', flat=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1548, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\sql\query.py", line 1378, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\lookups.py", line 362, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2114, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got [1].
+[ERROR   :             django.server] - 2024-01-16 22:59:46,626 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 136504
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:00:23,451 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:00:24,363 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-16 23:00:26,790 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 33, in edit_judges
+    judge['comp'] = Competition.objects.filter(pk=comp_dict[judge['id'][0]]).values_list('name', flat=True)
+                                                            ~~~~~~~~~~~^^^
+TypeError: 'int' object is not subscriptable
+[ERROR   :             django.server] - 2024-01-16 23:00:26,794 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 74278
+[WARNING :            django.request] - 2024-01-16 23:00:27,085 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-16 23:00:27,085 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2968
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:01:28,086 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:01:29,719 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 23:01:30,616 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3889
+[INFO    :             django.server] - 2024-01-16 23:01:30,769 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6569
+[WARNING :            django.request] - 2024-01-16 23:01:30,891 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-16 23:01:30,892 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2968
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:11:38,641 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:11:39,759 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 23:11:40,452 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3827
+[ERROR   :            django.request] - 2024-01-16 23:12:48,139 : log_response @ 0241: Internal Server Error: /delete_judge/
+Traceback (most recent call last):
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Администратор\PycharmProjects\24.01_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view appfirst.views.delete_judge didn't return an HttpResponse object. It returned None instead.
+[ERROR   :             django.server] - 2024-01-16 23:12:48,140 : log_message @ 0212: "GET /delete_judge/ HTTP/1.1" 500 72350
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:13:51,669 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:13:52,740 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 23:13:54,248 : log_message @ 0212: "GET /delete_judge/ HTTP/1.1" 200 52
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:17:33,263 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:17:34,616 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:25:00,796 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:25:02,056 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 23:26:09,401 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3845
+[INFO    :             django.server] - 2024-01-16 23:26:09,442 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :            appfirst.views] - 2024-01-16 23:26:12,542 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 23:26:12,546 : log_message @ 0212: "GET / HTTP/1.1" 200 1799
+[INFO    :             django.server] - 2024-01-16 23:26:12,597 : log_message @ 0212: "GET /static/image/appfirst/cat_1.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-16 23:26:12,598 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-16 23:26:15,165 : log_message @ 0212: "GET /edit_competitions/ HTTP/1.1" 200 1473
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:27:22,285 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:27:23,671 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 23:27:23,969 : log_message @ 0212: "GET /edit_competitions/ HTTP/1.1" 200 1473
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:28:48,716 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:28:49,984 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 23:28:50,281 : log_message @ 0212: "GET /edit_competitions/ HTTP/1.1" 200 2714
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:29:32,379 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:29:33,390 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:30:33,907 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:30:35,119 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:31:55,500 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:31:56,553 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 23:31:56,809 : log_message @ 0212: "GET /edit_competitions/ HTTP/1.1" 200 1769
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:32:49,922 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:32:50,863 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 23:32:51,076 : log_message @ 0212: "GET /edit_competitions/ HTTP/1.1" 200 3010
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:33:12,223 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:33:13,266 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 23:33:13,578 : log_message @ 0212: "GET /edit_competitions/ HTTP/1.1" 200 3065
+[INFO    :             django.server] - 2024-01-16 23:33:20,413 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3845
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:33:51,347 : trigger_reload @ 0266: C:\Users\Администратор\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 23:33:52,430 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 23:33:52,803 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3900
+[INFO    :             django.server] - 2024-01-16 23:33:55,606 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3900
+[INFO    :             django.server] - 2024-01-16 23:34:01,444 : log_message @ 0212: "GET /edit_competitions/ HTTP/1.1" 200 3065
