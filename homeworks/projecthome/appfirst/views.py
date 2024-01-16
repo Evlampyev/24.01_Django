@@ -22,5 +22,5 @@ def base(request):
 def about(request):
     logger.info("Загружена страница обо мне")
     html = ("<p>Эта страница про меня<br>и мой первый сайт</p>"
-            "<a href=''>на главную</a>")
+            "<a href='index'>на главную</a>")
     return HttpResponse(html)

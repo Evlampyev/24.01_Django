@@ -123,6 +123,15 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.113:
 [INFO    :             django.server] - 2024-01-15 00:04:26,271 : handle_error @ 0081: - Broken pipe from ('192.168.0.100', 43600)
 [INFO    :             django.server] - 2024-01-15 00:04:26,271 : handle_error @ 0081: - Broken pipe from ('192.168.0.100', 49108)
 [INFO    :             django.server] - 2024-01-15 00:04:26,271 : handle_error @ 0081: - Broken pipe from ('192.168.0.100', 49118)
+[INFO    :   django.utils.autoreload] - 2024-01-15 21:05:58,666 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-15 21:06:22,263 : index @ 0013: Главная страница
+[INFO    :             django.server] - 2024-01-15 21:06:22,278 : log_message @ 0212: "GET / HTTP/1.1" 200 1640
+[INFO    :             django.server] - 2024-01-15 21:06:22,372 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-15 21:06:22,372 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[WARNING :            django.request] - 2024-01-15 21:06:22,472 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-15 21:06:22,473 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2608
+[INFO    :            appfirst.views] - 2024-01-15 21:06:32,237 : about @ 0023: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-15 21:06:32,237 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 115
 [INFO    :   django.utils.autoreload] - 2024-01-15 16:53:27,180 : run_with_reloader @ 0668: Watching for file changes with StatReloader
 [INFO    :            appfirst.views] - 2024-01-15 16:53:29,640 : index @ 0013: Главная страница
 [INFO    :             django.server] - 2024-01-15 16:53:29,657 : log_message @ 0212: "GET / HTTP/1.1" 200 1640
@@ -131,3 +140,58 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.113:
 [INFO    :             django.server] - 2024-01-15 16:53:29,858 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 200 313796
 [WARNING :            django.request] - 2024-01-15 16:53:29,962 : log_response @ 0241: Not Found: /favicon.ico
 [WARNING :             django.server] - 2024-01-15 16:53:29,963 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2608
+[INFO    :   django.utils.autoreload] - 2024-01-15 21:19:55,383 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-15 21:53:59,681 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 01:07:51,374 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-16 01:07:59,434 : index @ 0013: Главная страница
+[INFO    :             django.server] - 2024-01-16 01:07:59,440 : log_message @ 0212: "GET / HTTP/1.1" 200 1640
+[INFO    :             django.server] - 2024-01-16 01:07:59,468 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-16 01:07:59,470 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 304 0
+[INFO    :            appfirst.views] - 2024-01-16 01:08:01,551 : about @ 0023: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-16 01:08:01,551 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 132
+[WARNING :            django.request] - 2024-01-16 01:08:02,677 : log_response @ 0241: Not Found: /about/{% url
+[WARNING :             django.server] - 2024-01-16 01:08:02,677 : log_message @ 0212: "GET /about/%7B%%20url HTTP/1.1" 404 2617
+[INFO    :   django.utils.autoreload] - 2024-01-16 01:09:58,890 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 01:09:59,227 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-16 01:10:00,043 : log_response @ 0241: Not Found: /about/{% url
+[WARNING :             django.server] - 2024-01-16 01:10:00,043 : log_message @ 0212: "GET /about/%7B%%20url HTTP/1.1" 404 2789
+[INFO    :   django.utils.autoreload] - 2024-01-16 01:10:12,661 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 01:10:12,972 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-16 01:10:13,386 : log_response @ 0241: Not Found: /about/{% url
+[WARNING :             django.server] - 2024-01-16 01:10:13,386 : log_message @ 0212: "GET /about/%7B%%20url HTTP/1.1" 404 2789
+[INFO    :   django.utils.autoreload] - 2024-01-16 01:10:28,443 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 01:10:28,751 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-16 01:10:29,831 : log_response @ 0241: Not Found: /about/{% url
+[WARNING :             django.server] - 2024-01-16 01:10:29,831 : log_message @ 0212: "GET /about/%7B%%20url HTTP/1.1" 404 2789
+[WARNING :            django.request] - 2024-01-16 01:10:34,193 : log_response @ 0241: Not Found: /about/{% url
+[WARNING :             django.server] - 2024-01-16 01:10:34,194 : log_message @ 0212: "GET /about/%7B%%20url HTTP/1.1" 404 2789
+[WARNING :            django.request] - 2024-01-16 01:10:34,240 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-16 01:10:34,240 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2780
+[WARNING :            django.request] - 2024-01-16 01:10:37,222 : log_response @ 0241: Not Found: /about/{% url
+[WARNING :             django.server] - 2024-01-16 01:10:37,222 : log_message @ 0212: "GET /about/%7B%%20url HTTP/1.1" 404 2789
+[INFO    :   django.utils.autoreload] - 2024-01-16 01:10:45,433 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-16 01:10:47,757 : log_response @ 0241: Not Found: /about/{% url
+[WARNING :             django.server] - 2024-01-16 01:10:47,758 : log_message @ 0212: "GET /about/%7B%%20url HTTP/1.1" 404 2789
+[INFO    :            appfirst.views] - 2024-01-16 01:10:51,552 : about @ 0023: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-16 01:10:51,553 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 120
+[INFO    :            appfirst.views] - 2024-01-16 01:10:53,017 : index @ 0013: Главная страница
+[INFO    :             django.server] - 2024-01-16 01:10:53,022 : log_message @ 0212: "GET /about/index HTTP/1.1" 200 1651
+[INFO    :            appfirst.views] - 2024-01-16 01:11:00,699 : about @ 0023: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-16 01:11:00,699 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 120
+[INFO    :            appfirst.views] - 2024-01-16 01:11:04,124 : index @ 0013: Главная страница
+[INFO    :             django.server] - 2024-01-16 01:11:04,125 : log_message @ 0212: "GET /about/index HTTP/1.1" 200 1651
+[INFO    :   django.utils.autoreload] - 2024-01-16 01:12:02,150 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 01:12:02,472 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 01:12:10,531 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 09:06:52,453 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 09:06:59,959 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-16 09:06:59,960 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 304 0
+[WARNING :            django.request] - 2024-01-16 09:07:00,050 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-16 09:07:00,050 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2608
+[INFO    :   django.utils.autoreload] - 2024-01-16 14:53:39,346 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 14:54:37,518 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 14:54:48,385 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-16 14:54:50,745 : index @ 0013: Главная страница
+[INFO    :             django.server] - 2024-01-16 14:54:50,760 : log_message @ 0212: "GET / HTTP/1.1" 200 1640
+[INFO    :             django.server] - 2024-01-16 14:54:50,797 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-16 14:54:50,801 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 304 0
