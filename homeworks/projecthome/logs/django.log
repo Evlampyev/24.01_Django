@@ -195,3 +195,672 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.0.113:
 [INFO    :             django.server] - 2024-01-16 14:54:50,760 : log_message @ 0212: "GET / HTTP/1.1" 200 1640
 [INFO    :             django.server] - 2024-01-16 14:54:50,797 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
 [INFO    :             django.server] - 2024-01-16 14:54:50,801 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:14:46,160 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-16 15:14:50,088 : index @ 0013: Главная страница
+[INFO    :             django.server] - 2024-01-16 15:14:50,093 : log_message @ 0212: "GET / HTTP/1.1" 200 1660
+[INFO    :            appfirst.views] - 2024-01-16 15:14:52,268 : index @ 0013: Главная страница
+[INFO    :             django.server] - 2024-01-16 15:14:52,269 : log_message @ 0212: "GET / HTTP/1.1" 200 1660
+[INFO    :             django.server] - 2024-01-16 15:14:52,346 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 2860
+[INFO    :             django.server] - 2024-01-16 15:14:52,348 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 200 313796
+[INFO    :             django.server] - 2024-01-16 15:14:52,349 : log_message @ 0212: "GET /static/image/appfirst/cat_1.jpg HTTP/1.1" 200 145712
+[WARNING :            django.request] - 2024-01-16 15:14:52,371 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-16 15:14:52,371 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2608
+[INFO    :            appfirst.views] - 2024-01-16 15:15:05,472 : index @ 0013: Главная страница
+[INFO    :             django.server] - 2024-01-16 15:15:05,473 : log_message @ 0212: "GET / HTTP/1.1" 200 1660
+[INFO    :            appfirst.views] - 2024-01-16 15:18:07,614 : index @ 0013: Главная страница
+[INFO    :             django.server] - 2024-01-16 15:18:07,618 : log_message @ 0212: "GET / HTTP/1.1" 200 1694
+[INFO    :            appfirst.views] - 2024-01-16 15:18:55,061 : index @ 0013: Главная страница
+[INFO    :             django.server] - 2024-01-16 15:18:55,066 : log_message @ 0212: "GET / HTTP/1.1" 200 1704
+[INFO    :            appfirst.views] - 2024-01-16 15:25:22,936 : index @ 0013: Главная страница
+[INFO    :             django.server] - 2024-01-16 15:25:22,937 : log_message @ 0212: "GET / HTTP/1.1" 200 1704
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:26:27,802 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:26:28,138 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:41:17,227 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:41:17,570 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-16 15:41:53,620 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 15:41:53,630 : log_message @ 0212: "GET / HTTP/1.1" 200 1704
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:42:39,288 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:42:39,728 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-16 15:42:42,820 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 15:42:42,825 : log_message @ 0212: "GET / HTTP/1.1" 200 1704
+[INFO    :             django.server] - 2024-01-16 15:42:42,901 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 2860
+[INFO    :             django.server] - 2024-01-16 15:42:42,901 : log_message @ 0212: "GET /static/image/appfirst/cat_1.jpg HTTP/1.1" 200 145712
+[INFO    :             django.server] - 2024-01-16 15:42:42,902 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 200 313796
+[WARNING :            django.request] - 2024-01-16 15:42:42,925 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-16 15:42:42,925 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2786
+[INFO    :            appfirst.views] - 2024-01-16 15:43:20,198 : index @ 0014: Главная страница
+[ERROR   :            django.request] - 2024-01-16 15:43:20,241 : log_response @ 0241: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 15, in index
+    return render(request, 'appfirst/index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'edit_judge' not found. 'edit_judge' is not a valid view function or pattern name.
+[ERROR   :             django.server] - 2024-01-16 15:43:20,245 : log_message @ 0212: "GET / HTTP/1.1" 500 144382
+[INFO    :            appfirst.views] - 2024-01-16 15:43:35,962 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 15:43:35,967 : log_message @ 0212: "GET / HTTP/1.1" 200 1715
+[ERROR   :            django.request] - 2024-01-16 15:43:37,708 : log_response @ 0241: Internal Server Error: /edit_judge/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 20, in edit_judges
+    return render(request, 'appfirst/edit_judges.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: appfirst/edit_judges.html
+[ERROR   :             django.server] - 2024-01-16 15:43:37,709 : log_message @ 0212: "GET /edit_judge/ HTTP/1.1" 500 80794
+[ERROR   :            django.request] - 2024-01-16 15:44:03,256 : log_response @ 0241: Internal Server Error: /edit_judge/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 20, in edit_judges
+    return render(request, 'appfirst/edit_judges.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+              ^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\context.py", line 286, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than QuerySet.
+[ERROR   :             django.server] - 2024-01-16 15:44:03,257 : log_message @ 0212: "GET /edit_judge/ HTTP/1.1" 500 82633
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:44:32,057 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:44:32,395 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-16 15:44:32,997 : log_response @ 0241: Not Found: /edit_judge/
+[WARNING :             django.server] - 2024-01-16 15:44:32,997 : log_message @ 0212: "GET /edit_judge/ HTTP/1.1" 404 2787
+[INFO    :            appfirst.views] - 2024-01-16 15:44:40,348 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 15:44:40,352 : log_message @ 0212: "GET / HTTP/1.1" 200 1716
+[ERROR   :            django.request] - 2024-01-16 15:44:41,891 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 20, in edit_judges
+    return render(request, 'appfirst/edit_judges.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+              ^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\context.py", line 286, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than QuerySet.
+[ERROR   :             django.server] - 2024-01-16 15:44:41,892 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 82510
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:44:54,127 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:44:54,483 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 15:44:54,800 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 1187
+[INFO    :             django.server] - 2024-01-16 15:48:50,901 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 1187
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:57:39,212 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:57:39,561 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 15:57:42,049 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 1187
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:57:52,047 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:57:52,380 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 15:57:52,548 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 1187
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:58:24,139 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:58:24,458 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-16 15:58:25,231 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 15:58:25,236 : log_message @ 0212: "GET / HTTP/1.1" 200 1716
+[INFO    :             django.server] - 2024-01-16 15:58:26,884 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 1187
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:58:58,266 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:58:58,592 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 15:58:58,880 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 1187
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:59:19,156 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 15:59:19,476 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 15:59:19,705 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 1187
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:00:20,777 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:00:21,134 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 16:00:22,607 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 1187
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:02:23,587 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:02:23,917 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 16:02:25,231 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 1187
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:08:42,076 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:08:42,424 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 16:08:44,510 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 1187
+[INFO    :             django.server] - 2024-01-16 16:16:04,150 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 1187
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:17:05,670 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:17:06,021 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-16 16:17:08,618 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 21, in edit_judges
+    list_result = {judge for judge in context}
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 21, in <setcomp>
+    list_result = {judge for judge in context}
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unhashable type: 'dict'
+[ERROR   :             django.server] - 2024-01-16 16:17:08,619 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 70841
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:28:16,518 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:28:16,848 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 16:29:01,145 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 1246
+[ERROR   :            django.request] - 2024-01-16 16:29:39,803 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 23, in edit_judges
+    return render(request, 'appfirst/edit_judges.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 859, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '['judges']' from 'context['judges']'
+[ERROR   :             django.server] - 2024-01-16 16:29:39,807 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 182524
+[INFO    :             django.server] - 2024-01-16 16:33:00,841 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 1246
+[ERROR   :            django.request] - 2024-01-16 16:33:44,109 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 23, in edit_judges
+    return render(request, 'appfirst/edit_judges.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[name]' from 'judje[name]'
+[ERROR   :             django.server] - 2024-01-16 16:33:44,113 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 190733
+[ERROR   :            django.request] - 2024-01-16 16:34:03,551 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 23, in edit_judges
+    return render(request, 'appfirst/edit_judges.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '['name']' from 'judje['name']'
+[ERROR   :             django.server] - 2024-01-16 16:34:03,553 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 190997
+[ERROR   :            django.request] - 2024-01-16 16:36:32,759 : log_response @ 0241: Internal Server Error: /edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 23, in edit_judges
+    return render(request, 'appfirst/edit_judges.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\defaulttags.py", line 229, in render
+    raise ValueError(
+ValueError: Need 2 values to unpack in for loop; got 4. 
+[ERROR   :             django.server] - 2024-01-16 16:36:32,766 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 500 183757
+[INFO    :             django.server] - 2024-01-16 16:36:42,459 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 2337
+[INFO    :             django.server] - 2024-01-16 16:37:18,913 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 2337
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:38:14,887 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-16 16:38:21,781 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 16:38:21,786 : log_message @ 0212: "GET / HTTP/1.1" 200 1716
+[INFO    :             django.server] - 2024-01-16 16:38:28,323 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 2337
+[INFO    :             django.server] - 2024-01-16 16:41:40,363 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 2355
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:47:16,027 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:47:16,353 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:47:42,892 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:47:43,206 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:47:51,413 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:47:51,724 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:48:00,959 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:48:01,279 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:48:12,529 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:48:12,838 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:49:32,209 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:49:32,541 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 16:53:47,146 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 2679
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:56:01,751 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:56:02,077 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 16:56:02,446 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 2680
+[INFO    :            appfirst.views] - 2024-01-16 16:56:51,630 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 16:56:51,631 : log_message @ 0212: "GET / HTTP/1.1" 200 1716
+[INFO    :             django.server] - 2024-01-16 16:56:53,094 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 2680
+[INFO    :            appfirst.views] - 2024-01-16 16:56:54,503 : about @ 0036: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-16 16:56:54,504 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 120
+[INFO    :             django.server] - 2024-01-16 16:56:57,429 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 2680
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:59:15,686 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-16 16:59:16,024 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-16 16:59:20,644 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 2739
+[INFO    :             django.server] - 2024-01-16 17:10:01,579 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 2739
+[INFO    :            appfirst.views] - 2024-01-16 17:10:02,830 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 17:10:02,832 : log_message @ 0212: "GET / HTTP/1.1" 200 1716
+[INFO    :            appfirst.views] - 2024-01-16 17:10:03,929 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 17:10:03,930 : log_message @ 0212: "GET / HTTP/1.1" 200 1716
+[INFO    :            appfirst.views] - 2024-01-16 17:17:17,409 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 17:17:17,411 : log_message @ 0212: "GET / HTTP/1.1" 200 1716
+[INFO    :             django.server] - 2024-01-16 17:17:18,984 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 7092
+[INFO    :             django.server] - 2024-01-16 17:19:47,215 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 7367
+[WARNING :            django.request] - 2024-01-16 17:48:47,977 : log_response @ 0241: Not Found: /about/index
+[WARNING :             django.server] - 2024-01-16 17:48:47,977 : log_message @ 0212: "GET /about/index HTTP/1.1" 404 2787
+[INFO    :   django.utils.autoreload] - 2024-01-16 17:48:56,860 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-16 17:49:03,674 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 17:49:03,679 : log_message @ 0212: "GET / HTTP/1.1" 200 1716
+[INFO    :            appfirst.views] - 2024-01-16 17:49:10,005 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 17:49:10,006 : log_message @ 0212: "GET / HTTP/1.1" 200 1716
+[INFO    :             django.server] - 2024-01-16 17:49:12,529 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 9118
+[INFO    :             django.server] - 2024-01-16 17:51:35,950 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 2750
+[INFO    :             django.server] - 2024-01-16 17:53:03,662 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 18097
+[INFO    :             django.server] - 2024-01-16 18:05:42,180 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 5756
+[INFO    :             django.server] - 2024-01-16 18:09:55,820 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 5144
+[INFO    :             django.server] - 2024-01-16 18:20:43,484 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 5144
+[INFO    :             django.server] - 2024-01-16 18:20:46,069 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 5144
+[INFO    :             django.server] - 2024-01-16 18:20:48,862 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 5144
+[INFO    :             django.server] - 2024-01-16 18:20:48,914 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6444
+[WARNING :            django.request] - 2024-01-16 18:20:48,948 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-16 18:20:48,948 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2787
+[INFO    :             django.server] - 2024-01-16 18:23:27,496 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 5144
+[INFO    :             django.server] - 2024-01-16 18:23:27,519 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6490
+[INFO    :             django.server] - 2024-01-16 18:38:06,953 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 5144
+[INFO    :             django.server] - 2024-01-16 18:38:06,972 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6572
+[INFO    :            appfirst.views] - 2024-01-16 18:38:12,011 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 18:38:12,012 : log_message @ 0212: "GET / HTTP/1.1" 200 1716
+[INFO    :             django.server] - 2024-01-16 18:38:12,040 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :            appfirst.views] - 2024-01-16 18:38:27,901 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 18:38:27,902 : log_message @ 0212: "GET / HTTP/1.1" 200 1716
+[INFO    :             django.server] - 2024-01-16 18:38:27,924 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6595
+[INFO    :            appfirst.views] - 2024-01-16 18:39:42,659 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 18:39:42,660 : log_message @ 0212: "GET / HTTP/1.1" 200 1716
+[INFO    :             django.server] - 2024-01-16 18:39:42,684 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6519
+[INFO    :             django.server] - 2024-01-16 18:39:45,126 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 5144
+[INFO    :             django.server] - 2024-01-16 18:39:45,150 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-16 18:42:15,081 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3597
+[INFO    :             django.server] - 2024-01-16 18:42:15,105 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-16 18:46:11,910 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6559
+[INFO    :             django.server] - 2024-01-16 18:48:42,013 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3610
+[INFO    :             django.server] - 2024-01-16 18:48:42,040 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-16 18:49:17,319 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3596
+[INFO    :             django.server] - 2024-01-16 18:49:17,349 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-16 18:49:23,209 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3596
+[INFO    :             django.server] - 2024-01-16 18:49:29,240 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3596
+[INFO    :             django.server] - 2024-01-16 18:51:36,945 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3596
+[INFO    :             django.server] - 2024-01-16 18:51:36,974 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6564
+[INFO    :             django.server] - 2024-01-16 18:51:48,703 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3596
+[INFO    :             django.server] - 2024-01-16 18:51:48,726 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6560
+[INFO    :             django.server] - 2024-01-16 18:53:56,516 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3596
+[INFO    :             django.server] - 2024-01-16 18:53:56,541 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6539
+[INFO    :             django.server] - 2024-01-16 18:54:30,316 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3596
+[INFO    :             django.server] - 2024-01-16 18:54:30,342 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6546
+[INFO    :             django.server] - 2024-01-16 18:54:42,588 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3596
+[INFO    :             django.server] - 2024-01-16 18:54:42,607 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6560
+[INFO    :             django.server] - 2024-01-16 18:54:56,318 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3596
+[INFO    :             django.server] - 2024-01-16 18:54:56,338 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6531
+[INFO    :            appfirst.views] - 2024-01-16 18:55:02,061 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 18:55:02,062 : log_message @ 0212: "GET / HTTP/1.1" 200 1716
+[INFO    :             django.server] - 2024-01-16 18:55:02,084 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :            appfirst.views] - 2024-01-16 18:55:07,116 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 18:55:07,116 : log_message @ 0212: "GET / HTTP/1.1" 200 1716
+[INFO    :             django.server] - 2024-01-16 18:55:07,138 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6560
+[INFO    :             django.server] - 2024-01-16 18:55:09,491 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3596
+[INFO    :             django.server] - 2024-01-16 18:55:09,511 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-16 18:55:37,413 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3596
+[INFO    :             django.server] - 2024-01-16 18:55:37,436 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6452
+[INFO    :             django.server] - 2024-01-16 18:55:57,575 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3596
+[INFO    :             django.server] - 2024-01-16 18:55:57,597 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6560
+[INFO    :             django.server] - 2024-01-16 18:56:14,908 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3596
+[INFO    :             django.server] - 2024-01-16 18:56:14,928 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-16 18:56:22,338 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-16 18:58:02,444 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3626
+[INFO    :             django.server] - 2024-01-16 18:58:02,478 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6565
+[INFO    :             django.server] - 2024-01-16 18:58:20,716 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3626
+[INFO    :             django.server] - 2024-01-16 18:58:20,739 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6566
+[INFO    :             django.server] - 2024-01-16 18:58:45,147 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3716
+[INFO    :             django.server] - 2024-01-16 18:58:45,181 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-16 19:00:07,428 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3596
+[INFO    :             django.server] - 2024-01-16 19:00:07,452 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6560
+[INFO    :             django.server] - 2024-01-16 19:01:31,322 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3683
+[INFO    :             django.server] - 2024-01-16 19:01:31,348 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6566
+[INFO    :            appfirst.views] - 2024-01-16 19:02:14,579 : about @ 0036: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-16 19:02:14,579 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 120
+[INFO    :            appfirst.views] - 2024-01-16 19:02:15,892 : about @ 0036: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-16 19:02:15,892 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 120
+[WARNING :            django.request] - 2024-01-16 19:02:15,928 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-16 19:02:15,928 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2787
+[WARNING :            django.request] - 2024-01-16 19:02:17,497 : log_response @ 0241: Not Found: /about/index
+[WARNING :             django.server] - 2024-01-16 19:02:17,497 : log_message @ 0212: "GET /about/index HTTP/1.1" 404 2787
+[INFO    :            appfirst.views] - 2024-01-16 19:02:22,752 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 19:02:22,754 : log_message @ 0212: "GET / HTTP/1.1" 200 1831
+[INFO    :             django.server] - 2024-01-16 19:02:22,781 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-16 19:02:34,182 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3711
+[INFO    :             django.server] - 2024-01-16 19:02:34,208 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :            appfirst.views] - 2024-01-16 19:04:32,067 : about @ 0036: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-16 19:04:32,067 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 120
+[INFO    :            appfirst.views] - 2024-01-16 19:04:32,902 : about @ 0036: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-16 19:04:32,902 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 120
+[WARNING :            django.request] - 2024-01-16 19:04:32,934 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-16 19:04:32,934 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2787
+[INFO    :            appfirst.views] - 2024-01-16 19:04:36,774 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-16 19:04:36,775 : log_message @ 0212: "GET / HTTP/1.1" 200 1836
+[INFO    :             django.server] - 2024-01-16 19:04:36,801 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-16 19:04:43,900 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3716
+[INFO    :             django.server] - 2024-01-16 19:06:38,032 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3661
+[INFO    :             django.server] - 2024-01-16 19:06:38,058 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-16 19:10:48,207 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 4523
+[INFO    :             django.server] - 2024-01-16 19:10:48,242 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
