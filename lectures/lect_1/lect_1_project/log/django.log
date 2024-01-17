@@ -77,3 +77,84 @@ INFO 2024-01-15 21:44:10,687 autoreload 21540 3000 Watching for file changes wit
 INFO 2024-01-15 21:53:47,691 autoreload 14372 20152 Watching for file changes with StatReloader
 INFO 2024-01-15 21:53:49,612 views 14372 18620 Index page accessed
 INFO 2024-01-15 21:53:49,612 basehttp 14372 18620 "GET / HTTP/1.1" 200 13
+INFO 2024-01-17 09:59:48,563 autoreload 10776 14244 Watching for file changes with StatReloader
+INFO 2024-01-17 10:01:00,367 autoreload 10776 14244 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\lect_1_project\settings.py changed, reloading.
+INFO 2024-01-17 10:01:02,590 autoreload 14760 11280 Watching for file changes with StatReloader
+INFO 2024-01-17 10:04:44,971 autoreload 14760 11280 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_first_app\apps.py changed, reloading.
+INFO 2024-01-17 10:04:45,474 autoreload 7776 8108 Watching for file changes with StatReloader
+INFO 2024-01-17 10:04:47,377 autoreload 14944 4596 Watching for file changes with StatReloader
+INFO 2024-01-17 10:05:06,574 autoreload 14944 4596 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-17 10:05:07,062 autoreload 10956 5500 Watching for file changes with StatReloader
+INFO 2024-01-17 10:05:09,445 autoreload 14108 6292 Watching for file changes with StatReloader
+WARNING 2024-01-17 10:05:15,338 log 14108 4952 Not Found: /edit_judges/
+WARNING 2024-01-17 10:05:15,339 basehttp 14108 4952 "GET /edit_judges/ HTTP/1.1" 404 2659
+INFO 2024-01-17 10:05:31,542 basehttp 14108 4952 "GET /three/hello HTTP/1.1" 301 0
+INFO 2024-01-17 10:05:31,561 basehttp 14108 15088 "GET /three/hello/ HTTP/1.1" 200 26
+WARNING 2024-01-17 10:05:36,636 log 14108 15088 Not Found: /three/hello2/
+WARNING 2024-01-17 10:05:36,638 basehttp 14108 15088 "GET /three/hello2/ HTTP/1.1" 404 2903
+INFO 2024-01-17 10:05:47,206 autoreload 14108 6292 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-17 10:05:47,762 autoreload 6860 12400 Watching for file changes with StatReloader
+INFO 2024-01-17 10:05:48,070 basehttp 6860 14684 "GET /three/hello2/ HTTP/1.1" 200 22
+INFO 2024-01-17 10:07:47,625 views 6860 14852 Index page accessed
+INFO 2024-01-17 10:07:47,627 basehttp 6860 14852 "GET / HTTP/1.1" 200 13
+WARNING 2024-01-17 10:07:56,284 log 6860 14852 Not Found: /three
+WARNING 2024-01-17 10:07:56,284 basehttp 6860 14852 "GET /three HTTP/1.1" 404 2638
+WARNING 2024-01-17 10:08:20,189 log 6860 14852 Not Found: /three/
+WARNING 2024-01-17 10:08:20,189 basehttp 6860 14852 "GET /three/ HTTP/1.1" 404 2883
+INFO 2024-01-17 10:09:16,383 basehttp 6860 14852 "GET /three/hello2 HTTP/1.1" 301 0
+INFO 2024-01-17 10:09:16,396 basehttp 6860 7976 "GET /three/hello2/ HTTP/1.1" 200 22
+INFO 2024-01-17 10:10:24,041 autoreload 6860 12400 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-17 10:10:24,582 autoreload 9248 2460 Watching for file changes with StatReloader
+INFO 2024-01-17 10:11:18,064 autoreload 9248 2460 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-17 10:11:18,590 autoreload 11900 14544 Watching for file changes with StatReloader
+INFO 2024-01-17 10:11:33,583 autoreload 11900 14544 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-17 10:11:34,184 autoreload 3992 3552 Watching for file changes with StatReloader
+INFO 2024-01-17 10:19:41,145 autoreload 3992 3552 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-17 10:19:41,684 autoreload 8956 15272 Watching for file changes with StatReloader
+INFO 2024-01-17 10:21:02,224 autoreload 8956 15272 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-17 10:21:02,859 autoreload 7064 12272 Watching for file changes with StatReloader
+INFO 2024-01-17 10:22:06,377 autoreload 7064 12272 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-17 10:22:06,851 autoreload 12944 9976 Watching for file changes with StatReloader
+INFO 2024-01-17 10:22:39,968 autoreload 12944 9976 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-17 10:22:40,431 autoreload 14900 10276 Watching for file changes with StatReloader
+INFO 2024-01-17 10:24:09,417 autoreload 14900 10276 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-17 10:24:09,918 autoreload 6360 8480 Watching for file changes with StatReloader
+INFO 2024-01-17 10:24:18,546 autoreload 6360 8480 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-17 10:24:19,074 autoreload 14704 14684 Watching for file changes with StatReloader
+INFO 2024-01-17 10:24:55,274 autoreload 14704 14684 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-17 10:24:55,807 autoreload 11612 8776 Watching for file changes with StatReloader
+INFO 2024-01-17 10:25:39,824 autoreload 11612 8776 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-17 10:25:40,339 autoreload 11204 12660 Watching for file changes with StatReloader
+INFO 2024-01-17 10:26:04,839 autoreload 11204 12660 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-17 10:26:05,311 autoreload 1724 8904 Watching for file changes with StatReloader
+INFO 2024-01-17 10:26:33,078 autoreload 1724 8904 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-17 10:26:33,536 autoreload 9820 12976 Watching for file changes with StatReloader
+INFO 2024-01-17 10:27:46,553 autoreload 9820 12976 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-17 10:27:46,998 autoreload 9072 9244 Watching for file changes with StatReloader
+INFO 2024-01-17 10:28:08,118 autoreload 9072 9244 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-17 10:28:08,549 autoreload 12404 10212 Watching for file changes with StatReloader
+INFO 2024-01-17 10:28:13,005 basehttp 12404 14484 "GET /three/hello2/ HTTP/1.1" 200 22
+WARNING 2024-01-17 10:28:20,457 log 12404 14484 Not Found: /posts/
+WARNING 2024-01-17 10:28:20,458 basehttp 12404 14484 "GET /posts/ HTTP/1.1" 404 2641
+WARNING 2024-01-17 10:28:31,101 log 12404 14484 Not Found: /three/posts/
+WARNING 2024-01-17 10:28:31,102 basehttp 12404 14484 "GET /three/posts/ HTTP/1.1" 404 3327
+INFO 2024-01-17 10:28:41,505 basehttp 12404 14484 "GET /three/posts/2024/ HTTP/1.1" 200 19
+WARNING 2024-01-17 10:29:13,188 log 12404 14484 Not Found: /three/posts/2024/3/
+WARNING 2024-01-17 10:29:13,189 basehttp 12404 14484 "GET /three/posts/2024/3/ HTTP/1.1" 404 3348
+INFO 2024-01-17 10:29:48,542 autoreload 12404 10212 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-17 10:29:49,026 autoreload 10260 11416 Watching for file changes with StatReloader
+INFO 2024-01-17 10:29:58,969 autoreload 10260 11416 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-17 10:29:59,522 autoreload 7536 12312 Watching for file changes with StatReloader
+INFO 2024-01-17 10:30:03,877 basehttp 7536 10556 "GET /three/posts/2024/3/ HTTP/1.1" 200 20
+INFO 2024-01-17 10:30:56,970 autoreload 7536 12312 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-17 10:30:57,395 autoreload 4688 7448 Watching for file changes with StatReloader
+INFO 2024-01-17 10:32:49,572 autoreload 4688 7448 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-17 10:32:50,079 autoreload 14952 13968 Watching for file changes with StatReloader
+INFO 2024-01-17 10:33:07,674 autoreload 14952 13968 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-17 10:33:08,191 autoreload 12588 15288 Watching for file changes with StatReloader
+INFO 2024-01-17 10:35:20,429 autoreload 12588 15288 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-17 10:35:20,907 autoreload 8748 12200 Watching for file changes with StatReloader
+INFO 2024-01-17 10:35:55,941 basehttp 8748 12992 "GET /three/posts/2024/3/pyt HTTP/1.1" 301 0
+INFO 2024-01-17 10:35:55,958 basehttp 8748 10280 "GET /three/posts/2024/3/pyt/ HTTP/1.1" 200 357
+INFO 2024-01-17 10:39:08,355 autoreload 8748 12200 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-17 10:39:08,942 autoreload 7064 13284 Watching for file changes with StatReloader
