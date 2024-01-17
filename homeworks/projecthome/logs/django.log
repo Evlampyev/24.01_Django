@@ -1285,3 +1285,16 @@ ValueError: The view appfirst.views.delete_judge didn't return an HttpResponse o
 [INFO    :             django.server] - 2024-01-16 23:33:52,803 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3900
 [INFO    :             django.server] - 2024-01-16 23:33:55,606 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3900
 [INFO    :             django.server] - 2024-01-16 23:34:01,444 : log_message @ 0212: "GET /edit_competitions/ HTTP/1.1" 200 3065
+[INFO    :   django.utils.autoreload] - 2024-01-17 09:37:03,465 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-17 09:37:11,317 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-17 09:37:11,340 : log_message @ 0212: "GET / HTTP/1.1" 200 1799
+[INFO    :             django.server] - 2024-01-17 09:37:11,483 : log_message @ 0212: "GET /static/image/appfirst/cat_1.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-17 09:37:11,485 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-17 09:37:11,589 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6250
+[WARNING :            django.request] - 2024-01-17 09:37:11,716 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-17 09:37:11,717 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 3159
+[INFO    :             django.server] - 2024-01-17 09:37:13,703 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3900
+[INFO    :             django.server] - 2024-01-17 09:37:20,513 : log_message @ 0212: "GET /edit_competitions/ HTTP/1.1" 200 3065
+[INFO    :             django.server] - 2024-01-17 09:37:33,677 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3900
+[INFO    :             django.server] - 2024-01-17 09:37:33,717 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-01-17 09:59:21,026 : run_with_reloader @ 0668: Watching for file changes with StatReloader
