@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Шаблон с ветвлением</title>
+</head>
+<body>
+
+    {% if message %}
+        <p>Вам доступно сообщение: <br> {{ message }}</p>
+    {% endif %}
+
+    <p>К прочтению предлагается {{ number }}
+        {% if number == 1 %}
+            пост
+        {% elif number >= 2 and number <= 4 %}
+            поста
+        {% else %}
+            постов
+        {% endif %}
+    </p>
+
+</body>
+</html>

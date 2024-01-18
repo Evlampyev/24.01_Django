@@ -56,10 +56,12 @@ ROOT_URLCONF = 'lect_1_project.urls'
 
 TEMPLATES = [
     {
-        'BACKEND' : 'django.template.backends.django.DjangoTemplates',
-        'DIRS'    : [],
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [
+            BASE_DIR / 'templates',
+        ],
         'APP_DIRS': True,
-        'OPTIONS' : {
+        'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
@@ -78,7 +80,7 @@ WSGI_APPLICATION = 'lect_1_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME'  : BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
@@ -122,37 +124,37 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGGING = {
-    'version'                 : 1,
+    'version': 1,
     'disable_existing_loggers': False,
-    'formatters'              : {
+    'formatters': {
         'verbose': {
             'format': '{levelname} {asctime} {module} {process} {thread} {message}',
-            'style' : '{',
+            'style': '{',
         },
-        'simple' : {
+        'simple': {
             'format': '%(levelname)s %(message)s'
         },
     },
 
-    'handlers'                : {
+    'handlers': {
         'console': {  # выводить ошибки в консоль
-            'class'    : 'logging.StreamHandler',
+            'class': 'logging.StreamHandler',
             'formatter': 'verbose',
         },
-        'file'   : {  # выводить ошибки в файл
-            'class'   : 'logging.FileHandler',
+        'file': {  # выводить ошибки в файл
+            'class': 'logging.FileHandler',
             'filename': './log/django.log',  # имя файла
             'formatter': 'verbose',
         },
     },
-    'loggers'                 : {
-        'django'    : {  # для всего проекта
+    'loggers': {
+        'django': {  # для всего проекта
             'handlers': ['console', 'file'],
-            'level'   : 'INFO',
+            'level': 'INFO',
         },
         'my_first_app': {  # для моего приложения в проекте
-            'handlers' : ['console', 'file'],
-            'level'    : 'DEBUG',
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
             'propagate': True,
             # если есть более высоко стоящие логгеры, то их нужно использовать
         },

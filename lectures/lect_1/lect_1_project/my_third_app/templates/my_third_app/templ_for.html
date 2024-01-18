@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Шаблон с циклом</title>
+</head>
+<body>
+
+<h2>Элементы списка</h2>
+<ul>
+    {% for item in my_list %}
+    <li>{{ item }}</li>
+    {% endfor %}
+</ul>
+
+<h2>Ключи и значения словаря</h2>
+<table>
+    {% for key, value in my_dict.items %}
+    <tr>
+        <td>{{ key }}</td>
+        <td>{{ value }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+</body>
+</html>

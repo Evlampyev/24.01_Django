@@ -1,5 +1,8 @@
 from django.http import HttpResponse, JsonResponse
 from django.views import View
+from django.shortcuts import render  # для передачи данных в шаблон
+from django.views.generic import \
+    TemplateView  # класс который может создавать представля на основе класса с особенностями
 
 
 # Create your views here.
@@ -42,3 +45,34 @@ def post_detail(request, year, month, slug):
     # возвращаем не http объект, а json объект
     # json_dumps_params={'ensure_ascii': False} - говорит о том, что могут быть любые символы,
     # а не только латиница (ascii)
+
+
+def my_view(request):
+    # request - запрос, приходит от пользователя
+    data = {'name': 'Alex'}
+    return render(request, 'my_third_app/template_from_app.html', context=data)
+
+
+class TemplIf(TemplateView):
+    template_name = "my_third_app/templ_if.html"  # зарезервированное имя
+
+    def get_context_data(self, **kwargs):  # kwargs - распаковка словаря
+        context = super().get_context_data(**kwargs)  # извлечение контекста который пришел свыше
+        context['message'] = 'Привет из TemlateView!'
+        context['number'] = 5
+        return context
+
+
+def view_for(request):
+    my_list = ['apple', 'banana', 'orange']
+    my_dict = {
+        'каждый': 'красный',
+        'охотник': 'оранжевый',
+        'желает': 'жёлтый',
+        'знать': 'зелёный',
+        'где': 'голубой',
+        'сидит': 'синий',
+        'фазан': 'фиолетовый',
+    }
+    context = {'my_list': my_list, 'my_dict': my_dict}
+    return render(request, 'my_third_app/templ_for.html', context)

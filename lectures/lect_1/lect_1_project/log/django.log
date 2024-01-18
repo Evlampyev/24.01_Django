@@ -158,3 +158,311 @@ INFO 2024-01-17 10:35:55,941 basehttp 8748 12992 "GET /three/posts/2024/3/pyt HT
 INFO 2024-01-17 10:35:55,958 basehttp 8748 10280 "GET /three/posts/2024/3/pyt/ HTTP/1.1" 200 357
 INFO 2024-01-17 10:39:08,355 autoreload 8748 12200 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
 INFO 2024-01-17 10:39:08,942 autoreload 7064 13284 Watching for file changes with StatReloader
+INFO 2024-01-18 16:58:20,011 autoreload 2384 9544 Watching for file changes with StatReloader
+INFO 2024-01-18 16:58:22,394 views 2384 5008 Index page accessed
+INFO 2024-01-18 16:58:22,397 basehttp 2384 5008 "GET / HTTP/1.1" 200 13
+WARNING 2024-01-18 16:58:22,919 log 2384 5008 Not Found: /favicon.ico
+WARNING 2024-01-18 16:58:22,930 basehttp 2384 5008 "GET /favicon.ico HTTP/1.1" 404 2656
+WARNING 2024-01-18 16:59:10,909 log 2384 1624 Not Found: /posts
+WARNING 2024-01-18 16:59:10,910 basehttp 2384 1624 "GET /posts HTTP/1.1" 404 2638
+WARNING 2024-01-18 16:59:16,017 log 2384 1624 Not Found: /posts/
+WARNING 2024-01-18 16:59:16,017 basehttp 2384 1624 "GET /posts/ HTTP/1.1" 404 2641
+WARNING 2024-01-18 16:59:31,475 log 2384 15336 Not Found: /three/posts/
+WARNING 2024-01-18 16:59:31,477 basehttp 2384 15336 "GET /three/posts/ HTTP/1.1" 404 3540
+INFO 2024-01-18 16:59:37,920 basehttp 2384 15624 "GET /three/posts/2/5 HTTP/1.1" 301 0
+INFO 2024-01-18 16:59:37,943 basehttp 2384 400 "GET /three/posts/2/5/ HTTP/1.1" 200 17
+INFO 2024-01-18 16:59:43,484 basehttp 2384 400 "GET /three/posts/2/5/pt HTTP/1.1" 301 0
+INFO 2024-01-18 16:59:43,498 basehttp 2384 11476 "GET /three/posts/2/5/pt/ HTTP/1.1" 200 353
+INFO 2024-01-18 17:00:06,216 basehttp 2384 6784 "GET /three/posts/2022 HTTP/1.1" 301 0
+INFO 2024-01-18 17:00:06,227 basehttp 2384 10016 "GET /three/posts/2022/ HTTP/1.1" 200 19
+INFO 2024-01-18 17:02:11,436 basehttp 2384 15264 "GET /three/posts/2022/3/4 HTTP/1.1" 301 0
+INFO 2024-01-18 17:02:11,465 basehttp 2384 11232 "GET /three/posts/2022/3/4/ HTTP/1.1" 200 355
+INFO 2024-01-18 17:03:13,987 basehttp 2384 5944 "GET /three/posts/2022/3/4/ HTTP/1.1" 200 355
+WARNING 2024-01-18 17:03:14,085 log 2384 5944 Not Found: /favicon.ico
+WARNING 2024-01-18 17:03:14,087 basehttp 2384 5944 "GET /favicon.ico HTTP/1.1" 404 2656
+INFO 2024-01-18 17:10:47,772 autoreload 2384 9544 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-18 17:10:48,462 autoreload 6944 12040 Watching for file changes with StatReloader
+INFO 2024-01-18 17:12:55,791 autoreload 6944 12040 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-18 17:12:56,290 autoreload 10128 15524 Watching for file changes with StatReloader
+INFO 2024-01-18 17:13:24,001 autoreload 10128 15524 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-18 17:13:24,511 autoreload 13308 2900 Watching for file changes with StatReloader
+INFO 2024-01-18 17:14:04,894 autoreload 13308 2900 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-18 17:14:05,435 autoreload 4808 4932 Watching for file changes with StatReloader
+INFO 2024-01-18 17:15:02,839 autoreload 4808 4932 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-18 17:15:03,310 autoreload 8544 3172 Watching for file changes with StatReloader
+INFO 2024-01-18 17:15:23,589 autoreload 8544 3172 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-18 17:15:24,067 autoreload 12160 2680 Watching for file changes with StatReloader
+ERROR 2024-01-18 17:15:26,218 log 12160 1072 Internal Server Error: /three/
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py", line 51, in my_view
+    return render(request, 'my_third_app/template_from_app.html', context=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_third_app/template_from_app.html
+ERROR 2024-01-18 17:15:26,221 basehttp 12160 1072 "GET /three/ HTTP/1.1" 500 79234
+INFO 2024-01-18 17:17:37,884 autoreload 12160 2680 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-18 17:17:38,446 autoreload 7660 13964 Watching for file changes with StatReloader
+INFO 2024-01-18 17:17:43,579 views 7660 8460 Index page accessed
+INFO 2024-01-18 17:17:43,581 basehttp 7660 8460 "GET / HTTP/1.1" 200 13
+INFO 2024-01-18 17:18:08,896 autoreload 7660 13964 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-18 17:18:09,363 autoreload 12112 12816 Watching for file changes with StatReloader
+INFO 2024-01-18 17:18:09,523 views 12112 10052 Index page accessed
+INFO 2024-01-18 17:18:09,523 basehttp 12112 10052 "GET / HTTP/1.1" 200 13
+WARNING 2024-01-18 17:18:14,935 log 12112 10052 Not Found: /three/
+WARNING 2024-01-18 17:18:14,936 basehttp 12112 10052 "GET /three/ HTTP/1.1" 404 3690
+INFO 2024-01-18 17:18:26,726 autoreload 12112 12816 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-18 17:18:27,226 autoreload 1780 5068 Watching for file changes with StatReloader
+ERROR 2024-01-18 17:18:27,599 log 1780 11196 Internal Server Error: /three/
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py", line 51, in my_view
+    return render(request, 'my_third_app/template_from_app.html', context=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_third_app/template_from_app.html
+ERROR 2024-01-18 17:18:27,602 basehttp 1780 11196 "GET /three/ HTTP/1.1" 500 79234
+ERROR 2024-01-18 17:18:52,229 log 1780 11196 Internal Server Error: /three/
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py", line 51, in my_view
+    return render(request, 'my_third_app/template_from_app.html', context=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_third_app/template_from_app.html
+ERROR 2024-01-18 17:18:52,232 basehttp 1780 11196 "GET /three/ HTTP/1.1" 500 79234
+ERROR 2024-01-18 17:18:54,593 log 1780 11196 Internal Server Error: /three/
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py", line 51, in my_view
+    return render(request, 'my_third_app/template_from_app.html', context=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_third_app/template_from_app.html
+ERROR 2024-01-18 17:18:54,595 basehttp 1780 11196 "GET /three/ HTTP/1.1" 500 79234
+INFO 2024-01-18 17:20:35,869 autoreload 1780 5068 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-18 17:20:36,374 autoreload 1736 16072 Watching for file changes with StatReloader
+ERROR 2024-01-18 17:20:36,671 log 1736 9836 Internal Server Error: /three/
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py", line 51, in my_view
+    return render(request, 'my_third_app/template_from_app.html', context=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_third_app/template_from_app.html
+ERROR 2024-01-18 17:20:36,674 basehttp 1736 9836 "GET /three/ HTTP/1.1" 500 79234
+INFO 2024-01-18 17:21:25,785 autoreload 1736 16072 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-18 17:21:26,291 autoreload 16368 948 Watching for file changes with StatReloader
+ERROR 2024-01-18 17:22:17,039 log 16368 15796 Internal Server Error: /three/
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py", line 51, in my_view
+    return render(request, 'my_third_app/template_from_app.html', context=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_third_app/template_from_app.html
+ERROR 2024-01-18 17:22:17,042 basehttp 16368 15796 "GET /three/ HTTP/1.1" 500 79234
+ERROR 2024-01-18 17:22:28,048 log 16368 15796 Internal Server Error: /three/
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py", line 51, in my_view
+    return render(request, 'my_third_app/template_from_app.html', context=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_third_app/template_from_app.html
+ERROR 2024-01-18 17:22:28,050 basehttp 16368 15796 "GET /three/ HTTP/1.1" 500 79234
+ERROR 2024-01-18 17:23:52,604 log 16368 15796 Internal Server Error: /three/
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py", line 51, in my_view
+    return render(request, 'my_third_app/template_from_app.html', context=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_third_app/template_from_app.html
+ERROR 2024-01-18 17:23:52,606 basehttp 16368 15796 "GET /three/ HTTP/1.1" 500 79234
+INFO 2024-01-18 17:24:38,674 autoreload 5180 12040 Watching for file changes with StatReloader
+INFO 2024-01-18 17:24:45,392 views 5180 7780 Index page accessed
+INFO 2024-01-18 17:24:45,393 basehttp 5180 7780 "GET / HTTP/1.1" 200 13
+INFO 2024-01-18 17:24:50,449 basehttp 5180 7780 "GET /three/ HTTP/1.1" 200 190
+INFO 2024-01-18 17:25:10,746 basehttp 5180 7780 "GET /three/ HTTP/1.1" 200 190
+INFO 2024-01-18 17:25:29,668 basehttp 5180 7780 "GET /three/ HTTP/1.1" 200 191
+INFO 2024-01-18 17:32:15,311 autoreload 5180 12040 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-18 17:32:15,936 autoreload 10224 6216 Watching for file changes with StatReloader
+INFO 2024-01-18 17:32:49,127 autoreload 10224 6216 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-18 17:32:49,624 autoreload 14400 1884 Watching for file changes with StatReloader
+INFO 2024-01-18 17:35:11,144 autoreload 14400 1884 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-18 17:35:11,785 autoreload 15240 12860 Watching for file changes with StatReloader
+INFO 2024-01-18 17:35:49,636 autoreload 15240 12860 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-18 17:35:50,073 autoreload 7000 500 Watching for file changes with StatReloader
+INFO 2024-01-18 17:36:06,373 autoreload 7000 500 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-18 17:36:06,948 autoreload 6088 6608 Watching for file changes with StatReloader
+INFO 2024-01-18 17:37:05,012 autoreload 6088 6608 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-18 17:37:05,480 autoreload 1836 3036 Watching for file changes with StatReloader
+INFO 2024-01-18 17:37:42,044 autoreload 1836 3036 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-18 17:37:42,618 autoreload 4116 14564 Watching for file changes with StatReloader
+INFO 2024-01-18 17:38:08,085 autoreload 4116 14564 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-18 17:38:08,530 autoreload 5408 6548 Watching for file changes with StatReloader
+INFO 2024-01-18 17:38:37,679 autoreload 5408 6548 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-18 17:38:38,214 autoreload 14916 14700 Watching for file changes with StatReloader
+INFO 2024-01-18 17:38:45,474 basehttp 14916 12780 "GET /three/if HTTP/1.1" 301 0
+ERROR 2024-01-18 17:38:45,530 log 14916 15124 Internal Server Error: /three/if/
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: View.as_view() takes 1 positional argument but 2 were given
+ERROR 2024-01-18 17:38:45,531 basehttp 14916 15124 "GET /three/if/ HTTP/1.1" 500 61188
+INFO 2024-01-18 17:38:55,518 basehttp 14916 15124 "GET /three/ HTTP/1.1" 200 191
+ERROR 2024-01-18 17:39:16,584 log 14916 15124 Internal Server Error: /three/if/
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: View.as_view() takes 1 positional argument but 2 were given
+ERROR 2024-01-18 17:39:16,588 basehttp 14916 15124 "GET /three/if/ HTTP/1.1" 500 61188
+INFO 2024-01-18 17:40:00,116 autoreload 14916 14700 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-18 17:40:00,674 autoreload 2076 14324 Watching for file changes with StatReloader
+INFO 2024-01-18 17:40:01,774 basehttp 2076 2620 "GET /three/if/ HTTP/1.1" 200 369
+INFO 2024-01-18 17:41:37,388 autoreload 2076 14324 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\urls.py changed, reloading.
+INFO 2024-01-18 17:41:37,995 autoreload 13012 15940 Watching for file changes with StatReloader
+INFO 2024-01-18 17:43:37,988 autoreload 13012 15940 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-18 17:43:38,509 autoreload 2456 1200 Watching for file changes with StatReloader
+INFO 2024-01-18 17:43:47,199 autoreload 2456 1200 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-18 17:43:47,719 autoreload 2496 8644 Watching for file changes with StatReloader
+INFO 2024-01-18 17:44:22,209 autoreload 2496 8644 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-18 17:44:22,857 autoreload 10496 10432 Watching for file changes with StatReloader
+INFO 2024-01-18 17:44:24,579 views 10496 1176 Index page accessed
+INFO 2024-01-18 17:44:24,581 basehttp 10496 1176 "GET / HTTP/1.1" 200 13
+INFO 2024-01-18 17:44:32,192 basehttp 10496 1176 "GET /three/for HTTP/1.1" 301 0
+ERROR 2024-01-18 17:44:32,248 log 10496 10748 Internal Server Error: /three/for/
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py", line 78, in view_for
+    return render(request, 'myapp3/templ_for.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/templ_for.html
+ERROR 2024-01-18 17:44:32,254 basehttp 10496 10748 "GET /three/for/ HTTP/1.1" 500 81719
+INFO 2024-01-18 17:44:59,873 autoreload 10496 10432 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\views.py changed, reloading.
+INFO 2024-01-18 17:45:00,467 autoreload 10044 7080 Watching for file changes with StatReloader
+INFO 2024-01-18 17:45:03,639 basehttp 10044 1120 "GET /three/for/ HTTP/1.1" 200 951
+INFO 2024-01-18 18:02:21,733 autoreload 10044 7080 C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\lect_1_project\settings.py changed, reloading.
+INFO 2024-01-18 18:02:22,492 autoreload 5008 6688 Watching for file changes with StatReloader
+INFO 2024-01-18 18:18:17,533 basehttp 5008 13664 "GET /three/for/ HTTP/1.1" 200 951
+INFO 2024-01-18 18:18:20,979 basehttp 5008 13664 "GET /three/ HTTP/1.1" 200 191
+INFO 2024-01-18 18:18:22,418 views 5008 13664 Index page accessed
+INFO 2024-01-18 18:18:22,419 basehttp 5008 13664 "GET / HTTP/1.1" 200 13
