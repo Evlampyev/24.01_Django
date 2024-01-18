@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    title
+{% endblock %}
+
+{% block content %}
+<H2>Результаты  игры "{{title}}"</H2>
+
+<ul>
+    {% for situation in situations %}
+    <li>{{situation}}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

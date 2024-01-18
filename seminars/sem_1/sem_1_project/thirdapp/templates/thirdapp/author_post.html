@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Посты автора {{author}}
+{% endblock %}
+{% block content %}
+<H2>Посты автора {{author}}</H2>
+<ul>
+    {% for post in posts %}
+        {% if post.is_published %}
+            <li><a href="{% url 'post_view' post_id=post.pk %}">{{ post }}</a></li>
+        {% else %}
+            <li>   {{ post }} </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+{% endblock %}

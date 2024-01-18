@@ -47,3 +47,8 @@ def posts_view(request):
     posts = Post.objects.all()
     res_str = '<br>'.join([str(post) for post in posts])
     return HttpResponse(res_str)
+
+
+def index_view(request):
+    context = {'name': 'Alexander'}
+    return render(request, 'secondapp/index.html', context)
