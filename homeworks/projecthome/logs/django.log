@@ -166,3 +166,374 @@ ValueError: too many values to unpack (expected 2)
 [INFO    :             django.server] - 2024-01-19 21:46:07,582 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 2887
 [INFO    :             django.server] - 2024-01-19 21:46:27,441 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 3936
 [INFO    :             django.server] - 2024-01-19 21:46:37,701 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 3936
+[INFO    :   django.utils.autoreload] - 2024-01-19 21:50:19,226 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-19 21:50:20,420 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 4068
+[INFO    :   django.utils.autoreload] - 2024-01-19 21:52:26,804 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 21:52:27,124 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-19 21:55:03,041 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\form.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 21:55:03,360 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-19 21:55:25,422 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-19 21:55:37,273 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3028
+[INFO    :   django.utils.autoreload] - 2024-01-19 21:58:54,674 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-19 21:58:58,030 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3028
+[INFO    :            appfirst.views] - 2024-01-19 21:59:51,552 : add_judge @ 0074: Получили данные name='Надежда', last_name='Евлампьева'.
+[ERROR   :            django.request] - 2024-01-19 21:59:51,575 : log_response @ 0241: Internal Server Error: /first/add_judge/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 75, in add_judge
+    return render(request, 'edit_judges')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: edit_judges
+[ERROR   :             django.server] - 2024-01-19 21:59:51,576 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 500 85478
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:01:20,709 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:01:21,019 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:01:35,501 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:01:35,816 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-19 22:01:39,167 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3028
+[INFO    :            appfirst.views] - 2024-01-19 22:01:56,795 : add_judge @ 0077: Получили данные name='Надежда', last_name='Евлампьева'.
+[INFO    :             django.server] - 2024-01-19 22:01:56,803 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3233
+[INFO    :            appfirst.views] - 2024-01-19 22:02:00,696 : add_judge @ 0077: Получили данные name='Надежда', last_name='Евлампьева'.
+[INFO    :             django.server] - 2024-01-19 22:02:00,703 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3233
+[INFO    :            appfirst.views] - 2024-01-19 22:02:21,816 : add_judge @ 0077: Получили данные name='Надежда', last_name='Евлампьева'.
+[INFO    :             django.server] - 2024-01-19 22:02:21,823 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3233
+[INFO    :            appfirst.views] - 2024-01-19 22:02:22,993 : add_judge @ 0077: Получили данные name='Надежда', last_name='Евлампьева'.
+[INFO    :             django.server] - 2024-01-19 22:02:23,000 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3233
+[INFO    :            appfirst.views] - 2024-01-19 22:02:23,659 : add_judge @ 0077: Получили данные name='Надежда', last_name='Евлампьева'.
+[INFO    :             django.server] - 2024-01-19 22:02:23,665 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3233
+[INFO    :            appfirst.views] - 2024-01-19 22:03:22,185 : add_judge @ 0077: Получили данные name='Надежда', last_name='Евлампьева'.
+[INFO    :             django.server] - 2024-01-19 22:03:22,191 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3233
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:04:57,754 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:04:58,070 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:05:26,782 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:05:27,094 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-19 22:05:29,104 : add_judge @ 0077: Получили данные name='Надежда', last_name='Евлампьева'.
+[INFO    :             django.server] - 2024-01-19 22:05:29,107 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-19 22:05:29,123 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 4068
+[INFO    :             django.server] - 2024-01-19 22:06:32,081 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 2025
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:07:13,297 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:07:13,627 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-19 22:07:14,146 : log_response @ 0241: Internal Server Error: /first/edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 35, in edit_judges
+    Competition.objects.filter(pk=comp_dict[judge['id']][0]).values_list('name',
+                                  ~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 4
+[ERROR   :             django.server] - 2024-01-19 22:07:14,147 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 500 71901
+[ERROR   :            django.request] - 2024-01-19 22:07:49,804 : log_response @ 0241: Internal Server Error: /first/edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 35, in edit_judges
+    Competition.objects.filter(pk=comp_dict[judge['id']][0]).values_list('name',
+                                  ~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 4
+[ERROR   :             django.server] - 2024-01-19 22:07:49,805 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 500 72972
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:08:50,540 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:08:50,853 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-19 22:08:53,367 : log_response @ 0241: Internal Server Error: /first/edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 35, in edit_judges
+    Competition.objects.filter(pk=comp_dict[judge['id']][0]).values_list('name',
+                                  ~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 4
+[ERROR   :             django.server] - 2024-01-19 22:08:53,368 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 500 74033
+[ERROR   :            django.request] - 2024-01-19 22:08:56,333 : log_response @ 0241: Internal Server Error: /first/edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 35, in edit_judges
+    Competition.objects.filter(pk=comp_dict[judge['id']][0]).values_list('name',
+                                  ~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 4
+[ERROR   :             django.server] - 2024-01-19 22:08:56,334 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 500 73866
+[INFO    :            appfirst.views] - 2024-01-19 22:09:03,066 : index @ 0015: Главная страница
+[INFO    :             django.server] - 2024-01-19 22:09:03,071 : log_message @ 0212: "GET / HTTP/1.1" 200 1823
+[ERROR   :            django.request] - 2024-01-19 22:09:05,039 : log_response @ 0241: Internal Server Error: /first/edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 35, in edit_judges
+    Competition.objects.filter(pk=comp_dict[judge['id']][0]).values_list('name',
+                                  ~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 4
+[ERROR   :             django.server] - 2024-01-19 22:09:05,040 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 500 73880
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:09:25,802 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-19 22:09:33,293 : index @ 0015: Главная страница
+[INFO    :             django.server] - 2024-01-19 22:09:33,298 : log_message @ 0212: "GET / HTTP/1.1" 200 1823
+[INFO    :            appfirst.views] - 2024-01-19 22:09:35,047 : about @ 0102: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-19 22:09:35,048 : log_message @ 0212: "GET /first/about/ HTTP/1.1" 200 132
+[WARNING :            django.request] - 2024-01-19 22:09:36,144 : log_response @ 0241: Not Found: /first/about/{% url
+[WARNING :             django.server] - 2024-01-19 22:09:36,145 : log_message @ 0212: "GET /first/about/%7B%%20url HTTP/1.1" 404 3503
+[INFO    :            appfirst.views] - 2024-01-19 22:09:41,281 : index @ 0015: Главная страница
+[INFO    :             django.server] - 2024-01-19 22:09:41,282 : log_message @ 0212: "GET / HTTP/1.1" 200 1823
+[ERROR   :            django.request] - 2024-01-19 22:09:42,821 : log_response @ 0241: Internal Server Error: /first/edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 35, in edit_judges
+    Competition.objects.filter(pk=comp_dict[judge['id']][0]).values_list('name',
+                                  ~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 4
+[ERROR   :             django.server] - 2024-01-19 22:09:42,822 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 500 73880
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:14:05,251 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:14:05,567 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-19 22:14:09,319 : log_response @ 0241: Internal Server Error: /first/edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 35, in edit_judges
+    Competition.objects.filter(pk=comp_dict[judge['id']][0]).values_list('name',
+                                  ~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 4
+[ERROR   :             django.server] - 2024-01-19 22:14:09,320 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 500 72956
+[ERROR   :            django.request] - 2024-01-19 22:14:14,971 : log_response @ 0241: Internal Server Error: /first/edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 35, in edit_judges
+    Competition.objects.filter(pk=comp_dict[judge['id']][0]).values_list('name',
+                                  ~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 4
+[ERROR   :             django.server] - 2024-01-19 22:14:14,972 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 500 72965
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:14:14,994 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:14:15,324 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:14:40,584 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-19 22:14:43,911 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 4074
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:18:01,134 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-19 22:18:10,882 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3028
+[INFO    :            appfirst.views] - 2024-01-19 22:18:28,168 : add_judge @ 0077: Получили данные name='Александр', last_name='Евлампьев'.
+[INFO    :             django.server] - 2024-01-19 22:18:28,168 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-19 22:18:28,179 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 2025
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:19:16,704 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:19:17,033 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-19 22:19:18,826 : log_response @ 0241: Internal Server Error: /first/edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 35, in edit_judges
+    Competition.objects.filter(pk=comp_dict[judge['id']][0]).values_list('name',
+                                  ~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 11
+[ERROR   :             django.server] - 2024-01-19 22:19:18,827 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 500 67917
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:23:15,646 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:23:15,981 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:38:50,637 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:38:50,970 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:38:57,443 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-19 22:39:04,489 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3028
+[INFO    :            appfirst.views] - 2024-01-19 22:39:18,068 : add_judge @ 0089: Получили данные name='Александр', last_name='Евлампьев'.
+[INFO    :             django.server] - 2024-01-19 22:39:18,068 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-19 22:39:18,080 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 2993
+[INFO    :             django.server] - 2024-01-19 22:39:53,242 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 2993
+[INFO    :             django.server] - 2024-01-19 22:39:55,440 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 2993
+[INFO    :             django.server] - 2024-01-19 22:39:55,492 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6569
+[WARNING :            django.request] - 2024-01-19 22:39:55,517 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-19 22:39:55,517 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-19 22:40:56,828 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 2935
+[INFO    :             django.server] - 2024-01-19 22:41:07,721 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3028
+[INFO    :             django.server] - 2024-01-19 22:41:08,330 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3028
+[INFO    :            appfirst.views] - 2024-01-19 22:41:21,495 : add_judge @ 0089: Получили данные name='Надежда', last_name='Евлампьева'.
+[INFO    :             django.server] - 2024-01-19 22:41:21,496 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-19 22:41:21,507 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 3426
+[INFO    :             django.server] - 2024-01-19 22:41:39,795 : log_message @ 0212: "GET /first/delete_judge/ HTTP/1.1" 200 52
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:49:59,711 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:50:00,029 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-19 22:50:09,129 : index @ 0015: Главная страница
+[INFO    :             django.server] - 2024-01-19 22:50:09,134 : log_message @ 0212: "GET / HTTP/1.1" 200 1823
+[INFO    :             django.server] - 2024-01-19 22:50:10,678 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 3432
+[ERROR   :            django.request] - 2024-01-19 22:50:14,393 : log_response @ 0241: Internal Server Error: /first/delete_judge/12
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 67, in delete_judge
+    logger.info(f'{judge.label} deleted')
+                   ^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'label'
+[ERROR   :             django.server] - 2024-01-19 22:50:14,393 : log_message @ 0212: "GET /first/delete_judge/12 HTTP/1.1" 500 66159
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:50:36,023 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:50:36,343 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-19 22:50:41,389 : index @ 0015: Главная страница
+[INFO    :             django.server] - 2024-01-19 22:50:41,394 : log_message @ 0212: "GET / HTTP/1.1" 200 1823
+[INFO    :             django.server] - 2024-01-19 22:50:43,608 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 2975
+[ERROR   :            django.request] - 2024-01-19 22:50:50,605 : log_response @ 0241: Internal Server Error: /first/delete_judge/11
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 67, in delete_judge
+    logger.info(f'{judge.last_name} deleted')
+                   ^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'last_name'
+[ERROR   :             django.server] - 2024-01-19 22:50:50,606 : log_message @ 0212: "GET /first/delete_judge/11 HTTP/1.1" 500 66191
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:51:09,298 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:51:09,620 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-19 22:51:11,674 : delete_judge @ 0067: <QuerySet []> deleted
+[INFO    :             django.server] - 2024-01-19 22:51:11,675 : log_message @ 0212: "GET /first/delete_judge/11 HTTP/1.1" 302 0
+[WARNING :            django.request] - 2024-01-19 22:51:11,688 : log_response @ 0241: Not Found: /edit_judge
+[WARNING :             django.server] - 2024-01-19 22:51:11,688 : log_message @ 0212: "GET /edit_judge HTTP/1.1" 404 2318
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:51:23,146 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:51:23,455 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-19 22:51:24,277 : log_response @ 0241: Not Found: /edit_judge
+[WARNING :             django.server] - 2024-01-19 22:51:24,277 : log_message @ 0212: "GET /edit_judge HTTP/1.1" 404 2318
+[WARNING :            django.request] - 2024-01-19 22:51:26,911 : log_response @ 0241: Not Found: /edit_judge
+[WARNING :             django.server] - 2024-01-19 22:51:26,911 : log_message @ 0212: "GET /edit_judge HTTP/1.1" 404 2318
+[INFO    :            appfirst.views] - 2024-01-19 22:51:30,216 : index @ 0015: Главная страница
+[INFO    :             django.server] - 2024-01-19 22:51:30,220 : log_message @ 0212: "GET / HTTP/1.1" 200 1823
+[INFO    :             django.server] - 2024-01-19 22:51:31,623 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 2518
+[INFO    :            appfirst.views] - 2024-01-19 22:51:33,939 : delete_judge @ 0067: <QuerySet []> deleted
+[INFO    :             django.server] - 2024-01-19 22:51:33,939 : log_message @ 0212: "GET /first/delete_judge/13 HTTP/1.1" 302 0
+[WARNING :            django.request] - 2024-01-19 22:51:33,951 : log_response @ 0241: Not Found: /first/edit_judge
+[WARNING :             django.server] - 2024-01-19 22:51:33,951 : log_message @ 0212: "GET /first/edit_judge HTTP/1.1" 404 3505
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:51:42,088 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:51:42,416 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-19 22:51:47,609 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3028
+[INFO    :            appfirst.views] - 2024-01-19 22:51:58,992 : add_judge @ 0093: Получили данные name='Александр', last_name='Евлампьев'.
+[INFO    :             django.server] - 2024-01-19 22:51:58,993 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-19 22:51:59,004 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 2482
+[INFO    :            appfirst.views] - 2024-01-19 22:52:03,584 : delete_judge @ 0067: <QuerySet []> deleted
+[INFO    :             django.server] - 2024-01-19 22:52:03,585 : log_message @ 0212: "GET /first/delete_judge/14 HTTP/1.1" 302 0
+[WARNING :            django.request] - 2024-01-19 22:52:03,598 : log_response @ 0241: Not Found: /first/edit_judge/
+[WARNING :             django.server] - 2024-01-19 22:52:03,598 : log_message @ 0212: "GET /first/edit_judge/ HTTP/1.1" 404 3508
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:52:16,293 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 22:52:16,615 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-19 22:52:21,061 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3028
+[INFO    :            appfirst.views] - 2024-01-19 22:52:31,174 : add_judge @ 0093: Получили данные name='Александр', last_name='Евлампьев'.
+[INFO    :             django.server] - 2024-01-19 22:52:31,174 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-19 22:52:31,186 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 2482
+[INFO    :            appfirst.views] - 2024-01-19 22:52:36,819 : delete_judge @ 0067: <QuerySet []> deleted
+[INFO    :             django.server] - 2024-01-19 22:52:36,820 : log_message @ 0212: "GET /first/delete_judge/15 HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-19 22:52:36,830 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 2025
+[INFO    :             django.server] - 2024-01-19 22:53:03,560 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 2025
+[INFO    :             django.server] - 2024-01-19 22:54:51,852 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1290
+[INFO    :             django.server] - 2024-01-19 22:56:47,542 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1368
+[INFO    :             django.server] - 2024-01-19 22:59:38,385 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1501
+[INFO    :             django.server] - 2024-01-19 23:08:57,373 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1750
+[WARNING :            django.request] - 2024-01-19 23:08:57,416 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-19 23:08:57,416 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-19 23:09:37,534 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1750
+[INFO    :             django.server] - 2024-01-19 23:09:37,585 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7683
+[WARNING :            django.request] - 2024-01-19 23:09:37,918 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-19 23:09:37,918 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-19 23:11:51,907 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1750
+[INFO    :             django.server] - 2024-01-19 23:11:51,931 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 8001
+[INFO    :             django.server] - 2024-01-19 23:11:53,480 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1750
+[INFO    :             django.server] - 2024-01-19 23:11:53,499 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 8001
+[WARNING :            django.request] - 2024-01-19 23:11:53,617 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-19 23:11:53,617 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-19 23:12:03,122 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1750
+[INFO    :             django.server] - 2024-01-19 23:12:03,154 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7666
+[WARNING :            django.request] - 2024-01-19 23:12:03,280 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-19 23:12:03,280 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-19 23:12:28,462 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1750
+[INFO    :             django.server] - 2024-01-19 23:12:28,487 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7541
+[INFO    :             django.server] - 2024-01-19 23:12:30,353 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1750
+[INFO    :             django.server] - 2024-01-19 23:12:30,371 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7541
+[WARNING :            django.request] - 2024-01-19 23:12:30,393 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-19 23:12:30,393 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-19 23:12:55,106 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1750
+[INFO    :             django.server] - 2024-01-19 23:12:55,132 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7526
+[WARNING :            django.request] - 2024-01-19 23:12:55,157 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-19 23:12:55,157 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-19 23:12:57,078 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1750
+[INFO    :             django.server] - 2024-01-19 23:12:57,095 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-19 23:13:10,370 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1750
+[INFO    :             django.server] - 2024-01-19 23:13:10,394 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7495
+[WARNING :            django.request] - 2024-01-19 23:13:10,418 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-19 23:13:10,418 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-19 23:13:12,324 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1750
+[INFO    :             django.server] - 2024-01-19 23:13:12,344 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-01-19 23:13:25,000 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-19 23:13:30,550 : index @ 0015: Главная страница
+[INFO    :             django.server] - 2024-01-19 23:13:30,555 : log_message @ 0212: "GET / HTTP/1.1" 200 1960
+[INFO    :             django.server] - 2024-01-19 23:13:30,588 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-19 23:13:32,699 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1750
+[INFO    :             django.server] - 2024-01-19 23:13:32,724 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-19 23:13:44,737 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1750
+[INFO    :             django.server] - 2024-01-19 23:13:44,781 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7481
+[INFO    :             django.server] - 2024-01-19 23:13:48,157 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1750
+[INFO    :             django.server] - 2024-01-19 23:13:48,178 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7481
+[WARNING :            django.request] - 2024-01-19 23:13:48,202 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-19 23:13:48,202 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-19 23:13:53,546 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1750
+[INFO    :             django.server] - 2024-01-19 23:13:53,571 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7495
+[WARNING :            django.request] - 2024-01-19 23:13:53,594 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-19 23:13:53,594 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-19 23:14:34,583 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1750
+[INFO    :             django.server] - 2024-01-19 23:14:34,608 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7494
+[INFO    :             django.server] - 2024-01-19 23:15:30,593 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1544
+[INFO    :             django.server] - 2024-01-19 23:15:30,616 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7490
+[INFO    :             django.server] - 2024-01-19 23:16:05,805 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1556
+[INFO    :             django.server] - 2024-01-19 23:16:05,830 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-19 23:16:06,879 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3165
+[INFO    :            appfirst.views] - 2024-01-19 23:16:22,199 : add_judge @ 0093: Получили данные name='Александр', last_name='Евлампьев'.
+[INFO    :             django.server] - 2024-01-19 23:16:22,200 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-19 23:16:22,211 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 2718
+[INFO    :             django.server] - 2024-01-19 23:16:22,237 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-19 23:16:29,617 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3165
+[INFO    :            appfirst.views] - 2024-01-19 23:16:44,375 : add_judge @ 0093: Получили данные name='Надежда', last_name='Евлампьева'.
+[INFO    :             django.server] - 2024-01-19 23:16:44,376 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-19 23:16:44,387 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 3211
+[INFO    :             django.server] - 2024-01-19 23:16:44,407 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :            appfirst.views] - 2024-01-19 23:16:51,881 : delete_judge @ 0067: <QuerySet []> deleted
+[INFO    :             django.server] - 2024-01-19 23:16:51,882 : log_message @ 0212: "GET /first/delete_judge/17 HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-19 23:16:51,891 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 2718

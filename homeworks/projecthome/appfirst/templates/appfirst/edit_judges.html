@@ -7,12 +7,15 @@
 
 {% block content %}
 <div class="row">
+    {% if not judges %}
+    <h4>Список судей пока пуст</h4>
+    {% else %}
     <div class="table-caption">Список судей</div>
     <table id="table">
         <thead>
         <tr>
             {% for value in title %}
-                <th>{{ value }}</th>
+            <th>{{ value }}</th>
             {% endfor %}
             <th><input type="checkbox"/></th>
         </tr>
@@ -21,15 +24,24 @@
         {% for judge in judges %}
         <tr>
 
-            {% for key, value in judge.items %}
-                <td data-label="{{key}}">{{value}}</td>
-            {% endfor %}
-
-            <td class="actions"><a href="#">Edit</a> | <a href="{% url 'delete_judge' %}">Delete</a></td>
+            <td>{{judge.name}}</td>
+            <td>{{judge.patronymic}}</td>
+            <td>{{judge.last_name}}</td>
+            <td>{{judge.post}}</td>
+            <td>{{judge.regalia}}</td>
+            <td>{{judge.organization}}</td>
+            <td>{{judge.status}}</td>
+            <td class="actions"><a href="#">Edit</a> | <a href="{% url 'delete_judge' pk=judge.id %}">Delete</a></td>
             <td class="checkbox"><input type="checkbox"/></td>
         </tr>
         {% endfor %}
         </tbody>
     </table>
+    {% endif %}
+
+
+    <div class="container">
+      <a href="{% url 'add_judge' %}" class="btn a_btn">Добавить красиво</a>
+    </div>
 </div>
 {% endblock %}

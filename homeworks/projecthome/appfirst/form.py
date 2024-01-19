@@ -11,3 +11,4 @@ class UserForm(forms.Form):
     organization = forms.CharField(max_length=100)
     status = forms.ChoiceField(choices=STATUSES)
     competition = forms.ModelChoiceField(queryset=Competition.objects.all())
+    is_active = forms.BooleanField()
