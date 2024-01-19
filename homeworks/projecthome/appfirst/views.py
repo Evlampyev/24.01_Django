@@ -3,6 +3,7 @@ from django.shortcuts import render
 from pathlib import Path
 from logging import getLogger
 from appfirst.models import Judge, Competition
+from .form import UserForm
 
 # Create your views here.
 
@@ -31,7 +32,8 @@ def edit_judges(request):
     for judge in temp:
         # print(judge)
         judge['comp'] = " ".join(
-            Competition.objects.filter(pk=comp_dict[judge['id']][0]).values_list('name', flat=True))
+            Competition.objects.filter(pk=comp_dict[judge['id']][0]).values_list('name',
+                                                                                 flat=True))
         # print(judge)
         # если в списке (comp_dict) у судьи несколько соревнований, то не работает,
         # нужно из списка строку с разделителем сделать
@@ -39,8 +41,8 @@ def edit_judges(request):
         list_result.append(judge)
     # list_result = [judge for judge in temp]
     context = {
-        'title': ["№ п\п", 'Имя', "Отчество", "Фамилия", "Должность", "Заслуги",
-                  "Место работы", "Статус", 'Соревнование', "Редактор"],
+        'title' : ["№ п\п", 'Имя', "Отчество", "Фамилия", "Должность", "Заслуги",
+                   "Место работы", "Статус", 'Соревнование', "Редактор"],
         'judges': list_result
     }
     return render(request, 'appfirst/edit_judges.html', context=context)
@@ -54,11 +56,31 @@ def edit_judge(request):
     pass
 
 
+def add_judge(request):
+    if request.method == 'POST':
+        form = UserForm(request.POST)
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            patronymic = form.cleaned_data['patronymic']
+            last_name = form.cleaned_data['last_name']
+            post = form.cleaned_data['post']
+            regalia = form.cleaned_data['regalia']
+            organization = form.cleaned_data['organization']
+            status = form.cleaned_data['status']
+            competition = form.cleaned_data['competition']
+
+            logger.info(f'Получили данные {name=}, {last_name=}.')
+    else:
+        form = UserForm()
+    return render(request, 'appfirst/add_judge.html', {'form': form})
+
+
 def edit_competitions(request):
     list_competition = Competition.objects.all().values()
     temp = [comp for comp in list_competition]
     comp_dict = {'competitions': temp}
-    comp_dict['title'] = ['№ п/п', 'Краткое название', "Полное наименование", "Сроки", "Активен", "Редактор"]
+    comp_dict['title'] = ['№ п/п', 'Краткое название', "Полное наименование", "Сроки",
+                          "Активен", "Редактор"]
     print(temp)
     return render(request, 'appfirst/edit_competitions.html', context=comp_dict)
 

@@ -1,19 +1,14 @@
 from django.db import models
-# from django.utils.translation import ugettext_lazy as _
 from django.utils.translation import gettext_lazy as _
 
 # Create your models here.
 
-MAIN_JUDGE = 'M'
-JUDGE = 'J'
-SECRETARY = 'S'
-OBSERVER = 'O'
 
 STATUSES = (
-    (MAIN_JUDGE, 'главный судья'),
-    (JUDGE, 'судья'),
-    (SECRETARY, 'секретарь'),
-    (OBSERVER, 'наблюдатель'),
+    ('M', 'главный судья'),
+    ('J', 'судья'),
+    ('S', 'секретарь'),
+    ('O', 'наблюдатель'),
 )
 
 
@@ -53,6 +48,7 @@ class User(models.Model):
     name = models.CharField(_('Имя'), max_length=25)
     patronymic = models.CharField(_('Отчество'), max_length=25, default=None)
     last_name = models.CharField(_('Фамилия'), max_length=25)
+    is_active = models.BooleanField(_('Удалить'), default=True)
 
     def __str__(self):
         return f"{self.last_name} {self.name}"
@@ -66,7 +62,7 @@ class Judge(User):
     regalia = models.TextField(_('Заслуги и регалии'), default=None)
     organization = models.CharField(_('Место работы'), max_length=100)
     status = models.CharField(_('Статус на соревнованиях'), max_length=1,
-                              choices=STATUSES, default=OBSERVER)
+                              choices=STATUSES, default='O')
     competition = models.ManyToManyField(Competition)
 
     def __str__(self):
