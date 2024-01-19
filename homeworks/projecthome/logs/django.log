@@ -1298,3 +1298,65 @@ ValueError: The view appfirst.views.delete_judge didn't return an HttpResponse o
 [INFO    :             django.server] - 2024-01-17 09:37:33,677 : log_message @ 0212: "GET /edit_judges/ HTTP/1.1" 200 3900
 [INFO    :             django.server] - 2024-01-17 09:37:33,717 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
 [INFO    :   django.utils.autoreload] - 2024-01-17 09:59:21,026 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-18 18:18:12,942 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-18 18:18:32,510 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-18 18:18:35,226 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-18 18:18:35,241 : log_message @ 0212: "GET / HTTP/1.1" 200 1823
+[INFO    :             django.server] - 2024-01-18 18:18:35,342 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 6250
+[INFO    :             django.server] - 2024-01-18 18:18:35,344 : log_message @ 0212: "GET /static/image/appfirst/cat_1.jpg HTTP/1.1" 200 145712
+[INFO    :             django.server] - 2024-01-18 18:18:35,345 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 200 313796
+[INFO    :             django.server] - 2024-01-18 18:18:47,969 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 3936
+[INFO    :             django.server] - 2024-01-18 18:18:49,671 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3089
+[INFO    :            appfirst.views] - 2024-01-18 18:18:51,190 : about @ 0072: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-18 18:18:51,191 : log_message @ 0212: "GET /first/about/ HTTP/1.1" 200 120
+[WARNING :            django.request] - 2024-01-18 18:18:52,610 : log_response @ 0241: Not Found: /first/about/index
+[WARNING :             django.server] - 2024-01-18 18:18:52,610 : log_message @ 0212: "GET /first/about/index HTTP/1.1" 404 3313
+[INFO    :   django.utils.autoreload] - 2024-01-18 18:19:31,005 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-18 18:19:43,581 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-18 18:19:43,595 : log_message @ 0212: "GET / HTTP/1.1" 200 1823
+[INFO    :            appfirst.views] - 2024-01-18 18:19:45,611 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-18 18:19:45,613 : log_message @ 0212: "GET /first/ HTTP/1.1" 200 1823
+[INFO    :             django.server] - 2024-01-18 18:19:48,836 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 3936
+[INFO    :             django.server] - 2024-01-18 18:19:51,994 : log_message @ 0212: "GET /first/delete_judge/ HTTP/1.1" 200 52
+[INFO    :            appfirst.views] - 2024-01-18 18:19:56,714 : about @ 0072: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-18 18:19:56,714 : log_message @ 0212: "GET /first/about/ HTTP/1.1" 200 120
+[WARNING :            django.request] - 2024-01-18 18:19:58,403 : log_response @ 0241: Not Found: /first/about/index
+[WARNING :             django.server] - 2024-01-18 18:19:58,404 : log_message @ 0212: "GET /first/about/index HTTP/1.1" 404 3313
+[INFO    :   django.utils.autoreload] - 2024-01-18 18:20:49,676 : trigger_reload @ 0266: C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-18 18:20:50,126 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-18 18:20:50,281 : log_response @ 0241: Not Found: /first/about/index
+[WARNING :             django.server] - 2024-01-18 18:20:50,282 : log_message @ 0212: "GET /first/about/index HTTP/1.1" 404 3313
+[INFO    :            appfirst.views] - 2024-01-18 18:20:54,502 : about @ 0072: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-18 18:20:54,502 : log_message @ 0212: "GET /first/about/ HTTP/1.1" 200 115
+[INFO    :            appfirst.views] - 2024-01-18 18:20:55,777 : about @ 0072: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-18 18:20:55,778 : log_message @ 0212: "GET /first/about/ HTTP/1.1" 200 115
+[INFO    :            appfirst.views] - 2024-01-18 18:20:58,794 : about @ 0072: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-18 18:20:58,794 : log_message @ 0212: "GET /first/about/ HTTP/1.1" 200 115
+[INFO    :   django.utils.autoreload] - 2024-01-18 18:21:17,274 : trigger_reload @ 0266: C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-18 18:21:17,847 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-18 18:21:18,245 : about @ 0072: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-18 18:21:18,245 : log_message @ 0212: "GET /first/about/ HTTP/1.1" 200 132
+[WARNING :            django.request] - 2024-01-18 18:21:18,997 : log_response @ 0241: Not Found: /first/about/{% url
+[WARNING :             django.server] - 2024-01-18 18:21:18,997 : log_message @ 0212: "GET /first/about/%7B%%20url HTTP/1.1" 404 3322
+[INFO    :   django.utils.autoreload] - 2024-01-18 18:24:12,642 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-18 18:24:18,889 : log_response @ 0241: Not Found: /first/about/{% url
+[WARNING :             django.server] - 2024-01-18 18:24:18,889 : log_message @ 0212: "GET /first/about/%7B%%20url HTTP/1.1" 404 3322
+[INFO    :            appfirst.views] - 2024-01-18 18:24:23,669 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-18 18:24:23,685 : log_message @ 0212: "GET / HTTP/1.1" 200 1823
+[INFO    :             django.server] - 2024-01-18 18:24:25,379 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 3936
+[INFO    :             django.server] - 2024-01-18 18:24:26,794 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3089
+[INFO    :   django.utils.autoreload] - 2024-01-19 12:03:37,333 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-19 12:03:50,501 : trigger_reload @ 0266: C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-19 12:03:50,954 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-19 12:05:06,131 : index @ 0014: Главная страница
+[INFO    :             django.server] - 2024-01-19 12:05:06,148 : log_message @ 0212: "GET / HTTP/1.1" 200 1823
+[INFO    :             django.server] - 2024-01-19 12:05:06,402 : log_message @ 0212: "GET /static/image/appfirst/cat_1.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-19 12:05:06,402 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-19 12:05:06,403 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 304 0
+[WARNING :            django.request] - 2024-01-19 12:05:06,515 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-19 12:05:06,516 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-19 12:05:17,172 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 3936
+[INFO    :            appfirst.views] - 2024-01-19 12:05:34,653 : about @ 0072: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-19 12:05:34,654 : log_message @ 0212: "GET /first/about/ HTTP/1.1" 200 132
+[WARNING :            django.request] - 2024-01-19 12:05:36,564 : log_response @ 0241: Not Found: /first/about/{% url
+[WARNING :             django.server] - 2024-01-19 12:05:36,564 : log_message @ 0212: "GET /first/about/%7B%%20url HTTP/1.1" 404 3322
