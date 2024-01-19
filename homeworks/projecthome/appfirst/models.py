@@ -63,7 +63,7 @@ class Judge(User):
     organization = models.CharField(_('Место работы'), max_length=100)
     status = models.CharField(_('Статус на соревнованиях'), max_length=1,
                               choices=STATUSES, default='O')
-    competition = models.ManyToManyField(Competition)
+    competitions = models.ManyToManyField(Competition)
 
     def __str__(self):
         return f"{self.status}: {self.last_name} {self.name[0]}. {self.patronymic[0]}."

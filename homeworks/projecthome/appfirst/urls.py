@@ -1,5 +1,6 @@
 from django.urls import path
-from .views import index, about, base, edit_judges, delete_judge, edit_competitions, add_judge
+from .views import index, about, base, edit_judges, delete_judge, edit_competitions, \
+    add_judge, add_competition
 
 urlpatterns = [
     path('', index, name='index'),
@@ -9,6 +10,7 @@ urlpatterns = [
     path('delete_judge/<int:pk>', delete_judge, name='delete_judge'),
     path('edit_competitions/', edit_competitions, name='edit_competitions'),
     path('add_judge/', add_judge, name='add_judge'),
+    path('add_competition/', add_competition, name='add_competition'),
     # path('about/index', index, name='index'),
 
 ]

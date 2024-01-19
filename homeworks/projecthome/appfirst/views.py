@@ -2,12 +2,19 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from pathlib import Path
 from logging import getLogger
-from appfirst.models import Judge, Competition
 from .form import UserForm
+from appfirst.models import Judge, Competition
 
 # Create your views here.
 
+
 logger = getLogger(__name__)
+
+JUDGE_TABLE_TITLE = ["№ п\п", 'Имя', "Отчество", "Фамилия", "Должность", "Заслуги",
+                     "Место работы", "Статус", 'Соревнование', "Редактор"]
+
+COMPETITIONS_TABLE_TITLE = ['№ п/п', 'Краткое название', "Полное наименование", "Сроки",
+                            "Активен", "Редактор"]
 
 
 def index(request):
@@ -18,46 +25,19 @@ def index(request):
 
 def edit_judges(request):
     judges = Judge.objects.all()
+    competitions_dict = {}
+    for judge in judges:
+        competitions_dict[judge.pk] = [comp for comp in
+                                       judge.competitions.all().values_list('name',
+                                                                            flat=True)]
+    print(f'{competitions_dict=}')
 
-    # list_result = [judge for judge in temp]
     context = {
-        'title' : ["№ п\п", 'Имя', "Отчество", "Фамилия", "Должность", "Заслуги",
-                   "Место работы", "Статус", 'Соревнование', "Редактор"],
-        'judges': judges
+        'title'       : JUDGE_TABLE_TITLE,
+        'judges'      : judges,
+        'competitions': competitions_dict
     }
     return render(request, 'appfirst/edit_judges.html', context=context)
-
-
-# def edit_judges(request):
-#     list_competition = Judge.competition.through.objects.all().values_list()
-#     competition = [comp for comp in list_competition]
-#     comp_dict = {}  # словарь: judge_id:[comp_id]
-#     for comp in competition:
-#         if comp[1] in comp_dict:
-#             comp_dict[comp[1]].append(comp[2])
-#         else:
-#             comp_dict[comp[1]] = [comp[2]]
-#     print(comp_dict)
-#     # temp = Judge.objects.all().values()
-#     temp = Judge.objects.filter(status='J').values()
-#     list_result = []
-#     for judge in temp:
-#         # print(judge)
-#         judge['comp'] = " ".join(
-#             Competition.objects.filter(pk=comp_dict[judge['id']][0]).values_list('name',
-#                                                                                  flat=True))
-#         # print(judge)
-#         # если в списке (comp_dict) у судьи несколько соревнований, то не работает,
-#         # нужно из списка строку с разделителем сделать
-#         # print(comp_dict)
-#         list_result.append(judge)
-#     # list_result = [judge for judge in temp]
-#     context = {
-#         'title' : ["№ п\п", 'Имя', "Отчество", "Фамилия", "Должность", "Заслуги",
-#                    "Место работы", "Статус", 'Соревнование', "Редактор"],
-#         'judges': list_result
-#     }
-#     return render(request, 'appfirst/edit_judges.html', context=context)
 
 
 def delete_judge(request, pk):
@@ -85,11 +65,14 @@ def add_judge(request):
             status = form.cleaned_data['status']
             competition = form.cleaned_data['competition']
             is_active = form.cleaned_data['is_active']
+            comp = Competition.objects.filter(name=competition)
             judge = Judge(name=name, patronymic=patronymic, last_name=last_name,
                           organization=organization, post=post, regalia=regalia,
                           status=status, is_active=is_active)
-            # разобраться с соревнованиеми
             judge.save()
+            competition.judge_set.add(
+                judge)  # добавляет в поле со связью многие ко многим
+
             logger.info(f'Получили данные {name=}, {last_name=}.')
             return redirect('/first/edit_judges/')
 
@@ -102,10 +85,13 @@ def edit_competitions(request):
     list_competition = Competition.objects.all().values()
     temp = [comp for comp in list_competition]
     comp_dict = {'competitions': temp}
-    comp_dict['title'] = ['№ п/п', 'Краткое название', "Полное наименование", "Сроки",
-                          "Активен", "Редактор"]
+    comp_dict['title'] = COMPETITIONS_TABLE_TITLE
     print(temp)
     return render(request, 'appfirst/edit_competitions.html', context=comp_dict)
+
+
+def add_competition(request):
+    return HttpResponse('Добавить')
 
 
 def base(request):

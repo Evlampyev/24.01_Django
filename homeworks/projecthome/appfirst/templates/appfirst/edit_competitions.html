@@ -12,7 +12,7 @@
         <thead>
         <tr>
             {% for value in title %}
-                <th>{{ value }}</th>
+            <th>{{ value }}</th>
             {% endfor %}
             <th><input type="checkbox"/></th>
         </tr>
@@ -31,5 +31,8 @@
         {% endfor %}
         </tbody>
     </table>
+    <div class="container">
+        <a href="{% url 'add_competition' %}" class="btn a_btn">Добавить</a>
+    </div>
 </div>
 {% endblock %}
