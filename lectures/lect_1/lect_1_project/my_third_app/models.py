@@ -20,6 +20,8 @@ class Post(models.Model):
     def __str__(self):
         return f'Title is {self.title}.'
 
+
+
     def get_summary(self):
         """Возвращает начало новости из 12 слов"""
         words = self.content.split()

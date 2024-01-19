@@ -5,34 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d27f7e-6422-4ac6-9009-a8356822e7b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_third_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_third_app/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_third_app/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_third_app/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_third_app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_third_app/temlates/my_third_app/temlate_from_app.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_third_app/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_third_app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_third_app/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/lect_3/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/lect_3/Лекция 3. Методичка.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectures/lect_3/Лекция 3. Презентация.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/24_01_Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/24_01_Django.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/projecthome/appfirst/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/projecthome/appfirst/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homeworks/projecthome/logs/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/projecthome/logs/django.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/lect_1_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/lect_1_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/lect_1_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/lect_1_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/log/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/log/django.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/myfirstapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_first_app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/myfirstapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_first_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/myfirstapp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_first_app/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/myfirstapp/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_first_app/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/myfirstapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_first_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/myfirstapp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_first_app/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/myfirstapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_first_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/myfirstapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_first_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/lect_2/ReadMe_lect_2.md.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/projecthome/projecthome/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/projecthome/projecthome/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/projecthome/projecthome/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/projecthome/projecthome/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_third_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_third_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectures/lect_3/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_3/ReadMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,30 +44,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.HomeProject.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Aevlampev/PycharmProjects/24.01_Django",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.HomeProject.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aevlampev/PycharmProjects/24.01_Django/lectures/lect_1/lect_1_project/my_third_app/templates/my_third_app&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_third_app\templates\my_third_app" />
+      <recent name="C:\Users\Aevlampev\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\temlates" />
       <recent name="C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\temlates" />
       <recent name="C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\projecthome\temlates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\templates" />
       <recent name="C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\static\image\appfirst" />
       <recent name="C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\templates\appfirst" />
       <recent name="C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome" />
       <recent name="C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst" />
-      <recent name="C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\t1emplates" />
     </key>
   </component>
   <component name="RunManager">
@@ -145,5 +127,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/homeworks/projecthome/projecthome/urls.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
