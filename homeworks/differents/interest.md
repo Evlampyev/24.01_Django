@@ -6,3 +6,5 @@
 
 
 Различные анимации и другие [плюшки](https://www.cssportal.com) для html
+
+ManyToMany поля и работа с ними [тут](https://metanit.com/python/django/5.7.php)
