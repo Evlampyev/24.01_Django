@@ -1026,3 +1026,39 @@ INFO 2024-01-22 22:03:39,873 autoreload 9468 5600 C:\GeekBrains\II_quarter\24_01
 INFO 2024-01-22 22:03:40,199 autoreload 3564 3196 Watching for file changes with StatReloader
 INFO 2024-01-22 22:04:20,936 autoreload 3564 3196 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
 INFO 2024-01-22 22:04:21,280 autoreload 3344 21324 Watching for file changes with StatReloader
+INFO 2024-01-22 22:25:48,475 autoreload 22416 396 Watching for file changes with StatReloader
+INFO 2024-01-22 23:35:56,891 autoreload 4312 21132 Watching for file changes with StatReloader
+INFO 2024-01-22 23:36:32,249 views 4312 13736 Index page accessed
+INFO 2024-01-22 23:36:32,249 basehttp 4312 13736 "GET / HTTP/1.1" 200 13
+ERROR 2024-01-22 23:36:51,790 log 4312 13736 Internal Server Error: /four/upload/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py", line 64, in upload_image
+    return render(request, 'my_fourth_app/upload_image.html', {'form': form})
+                                                                       ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-01-22 23:36:51,792 basehttp 4312 13736 "GET /four/upload/ HTTP/1.1" 500 64873
+WARNING 2024-01-22 23:37:16,963 log 4312 13736 Not Found: /four
+WARNING 2024-01-22 23:37:16,963 basehttp 4312 13736 "GET /four HTTP/1.1" 404 2740
+ERROR 2024-01-22 23:37:25,168 log 4312 13736 Internal Server Error: /four/upload/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py", line 64, in upload_image
+    return render(request, 'my_fourth_app/upload_image.html', {'form': form})
+                                                                       ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-01-22 23:37:25,169 basehttp 4312 13736 "GET /four/upload/ HTTP/1.1" 500 64873
+INFO 2024-01-22 23:37:51,218 autoreload 4312 21132 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
+INFO 2024-01-22 23:37:51,559 autoreload 15344 10316 Watching for file changes with StatReloader
+INFO 2024-01-22 23:37:52,273 basehttp 15344 9004 "GET /four/upload/ HTTP/1.1" 200 708
+INFO 2024-01-22 23:38:15,794 basehttp 15344 9004 "POST /four/upload/ HTTP/1.1" 200 708

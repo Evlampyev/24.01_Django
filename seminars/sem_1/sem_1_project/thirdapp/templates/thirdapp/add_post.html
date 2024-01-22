@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Добавление Поста
+{% endblock %}
+
+{% block content %}
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_div }}
+<!--    as_p - каждое поле формы отрисовывается как отдельный абзац-->
+    <input type="submit" value="Отправить">
+</form>
+{% endblock %}

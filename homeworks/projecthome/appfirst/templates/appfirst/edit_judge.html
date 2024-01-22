@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Редактирование судьи
+{% endblock %}
+
+
+{% block content %}
+
+<h2>{% if id %} Изменение {% else %} Новый {% endif %} Пользователь</h2>
+<form method="post" novalidate>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Сохранить"/>
+</form>
+
+{% if messages %}
+<div class="messages">
+    {% for message in messages %}
+    <div class="alert {% if message.tags %}alert-{{ message.tags }}" {% endif %}>
+        {{ message }}
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% endblock content %}

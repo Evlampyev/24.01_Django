@@ -1055,3 +1055,195 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'post_view' with arguments '(
 [INFO    :             django.server] - 2024-01-19 00:42:08,327 : log_message @ 0212: "GET /third/author_post/4/ HTTP/1.1" 200 1196
 [INFO    :             django.server] - 2024-01-19 00:43:37,476 : log_message @ 0212: "GET /third/post/27/ HTTP/1.1" 200 213
 [INFO    :             django.server] - 2024-01-19 00:43:44,131 : log_message @ 0212: "GET /third/post/27/ HTTP/1.1" 200 213
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:26:32,368 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:26:59,843 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:27:00,158 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:27:51,122 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:28:06,192 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-22 22:28:07,906 : log_response @ 0241: Not Found: /
+[WARNING :             django.server] - 2024-01-22 22:28:07,907 : log_message @ 0212: "GET / HTTP/1.1" 404 2385
+[INFO    :             django.server] - 2024-01-22 22:28:15,573 : log_message @ 0212: "GET /third/ HTTP/1.1" 200 269
+[INFO    :             django.server] - 2024-01-22 22:28:21,224 : log_message @ 0212: "GET /third/games HTTP/1.1" 301 0
+[ERROR   :            django.request] - 2024-01-22 22:28:21,250 : log_response @ 0241: Internal Server Error: /third/games/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py", line 65, in games_choose
+    return render(request, 'thirdapp/games_choose.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: thirdapp/games_choose.html
+[ERROR   :             django.server] - 2024-01-22 22:28:21,252 : log_message @ 0212: "GET /third/games/ HTTP/1.1" 500 80245
+[INFO    :             django.server] - 2024-01-22 22:29:51,493 : log_message @ 0212: "GET /third/games/ HTTP/1.1" 200 824
+[ERROR   :            django.request] - 2024-01-22 22:29:58,640 : log_response @ 0241: Internal Server Error: /third/games/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py", line 61, in games_choose
+    random_digits(number)
+TypeError: random_digits() missing 1 required positional argument: 'count'
+[ERROR   :             django.server] - 2024-01-22 22:29:58,641 : log_message @ 0212: "POST /third/games/ HTTP/1.1" 500 66235
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:31:19,713 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:31:20,051 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-22 22:31:56,311 : log_response @ 0241: Internal Server Error: /third/games/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py", line 61, in games_choose
+    random_digits(number)
+TypeError: random_digits() missing 1 required positional argument: 'count'
+[ERROR   :             django.server] - 2024-01-22 22:31:56,312 : log_message @ 0212: "POST /third/games/ HTTP/1.1" 500 66235
+[INFO    :             django.server] - 2024-01-22 22:31:58,740 : log_message @ 0212: "GET /third/games/ HTTP/1.1" 200 841
+[ERROR   :            django.request] - 2024-01-22 22:32:03,686 : log_response @ 0241: Internal Server Error: /third/games/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py", line 61, in games_choose
+    random_digits(number)
+TypeError: random_digits() missing 1 required positional argument: 'count'
+[ERROR   :             django.server] - 2024-01-22 22:32:03,687 : log_message @ 0212: "POST /third/games/ HTTP/1.1" 500 66235
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:32:25,422 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:32:25,749 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-22 22:32:32,880 : log_response @ 0241: Internal Server Error: /third/games/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py", line 61, in games_choose
+    return random_digits(number)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: random_digits() missing 1 required positional argument: 'count'
+[ERROR   :             django.server] - 2024-01-22 22:32:32,881 : log_message @ 0212: "POST /third/games/ HTTP/1.1" 500 66405
+[WARNING :            django.request] - 2024-01-22 22:32:32,967 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-22 22:32:32,968 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2436
+[INFO    :             django.server] - 2024-01-22 22:32:35,398 : log_message @ 0212: "GET /third/games/ HTTP/1.1" 200 841
+[ERROR   :            django.request] - 2024-01-22 22:32:40,575 : log_response @ 0241: Internal Server Error: /third/games/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py", line 61, in games_choose
+    return random_digits(number)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: random_digits() missing 1 required positional argument: 'count'
+[ERROR   :             django.server] - 2024-01-22 22:32:40,577 : log_message @ 0212: "POST /third/games/ HTTP/1.1" 500 66277
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:32:57,616 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:32:57,946 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-22 22:32:59,726 : log_response @ 0241: Internal Server Error: /third/games/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py", line 61, in games_choose
+    return random_digits(number)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: random_digits() missing 1 required positional argument: 'count'
+[ERROR   :             django.server] - 2024-01-22 22:32:59,729 : log_message @ 0212: "POST /third/games/ HTTP/1.1" 500 66283
+[INFO    :             django.server] - 2024-01-22 22:33:01,357 : log_message @ 0212: "GET /third/games/ HTTP/1.1" 200 841
+[ERROR   :            django.request] - 2024-01-22 22:33:04,478 : log_response @ 0241: Internal Server Error: /third/games/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py", line 61, in games_choose
+    return random_digits(number)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: random_digits() missing 1 required positional argument: 'count'
+[ERROR   :             django.server] - 2024-01-22 22:33:04,479 : log_message @ 0212: "POST /third/games/ HTTP/1.1" 500 66283
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:34:01,332 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:34:01,664 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-22 22:34:04,476 : log_message @ 0212: "POST /third/games/ HTTP/1.1" 200 265
+[INFO    :             django.server] - 2024-01-22 22:34:08,828 : log_message @ 0212: "GET /third/games/ HTTP/1.1" 200 841
+[INFO    :             django.server] - 2024-01-22 22:34:11,632 : log_message @ 0212: "POST /third/games/ HTTP/1.1" 200 265
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:36:29,280 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:36:29,614 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:38:05,327 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:38:05,656 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:40:00,665 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:40:00,993 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:41:14,127 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:41:14,452 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:43:57,812 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:43:58,131 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:44:18,694 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:44:19,041 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:45:28,331 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:45:28,655 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:47:30,772 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:47:31,116 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-22 22:47:41,638 : log_message @ 0212: "GET /third/ HTTP/1.1" 200 269
+[INFO    :             django.server] - 2024-01-22 22:47:48,443 : log_message @ 0212: "GET /third/add_author/ HTTP/1.1" 200 1174
+[ERROR   :            django.request] - 2024-01-22 22:48:14,836 : log_response @ 0241: Internal Server Error: /third/add_author/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py", line 77, in add_author
+    biography = form.cleaned_data['biography']
+                ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'biography'
+[ERROR   :             django.server] - 2024-01-22 22:48:14,837 : log_message @ 0212: "POST /third/add_author/ HTTP/1.1" 500 67074
+[INFO    :             django.server] - 2024-01-22 22:48:24,616 : log_message @ 0212: "GET /third/add_author/ HTTP/1.1" 200 1174
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:49:00,981 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:49:01,302 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-22 22:49:01,922 : log_message @ 0212: "GET /third/add_author/ HTTP/1.1" 200 1318
+[INFO    :             django.server] - 2024-01-22 22:49:38,016 : log_message @ 0212: "POST /third/add_author/ HTTP/1.1" 200 1428
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:52:33,948 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:52:34,300 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:52:51,652 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:52:51,967 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-22 22:52:55,067 : log_message @ 0212: "POST /third/add_author/ HTTP/1.1" 200 1421
+[INFO    :             django.server] - 2024-01-22 22:53:08,319 : log_message @ 0212: "POST /third/add_author/ HTTP/1.1" 200 1422
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:53:38,999 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 22:53:39,327 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-22 23:01:14,741 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 23:01:15,102 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-22 23:02:33,252 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 23:02:33,606 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-22 23:08:22,543 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 23:08:22,870 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-22 23:08:54,627 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 23:08:54,980 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-22 23:09:02,001 : log_message @ 0212: "GET /third/add_post/ HTTP/1.1" 200 1626
+[INFO    :   django.utils.autoreload] - 2024-01-22 23:10:00,283 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\seminars\sem_1\sem_1_project\thirdapp\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 23:10:00,603 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-22 23:10:04,669 : log_message @ 0212: "GET /third/add_post/ HTTP/1.1" 200 2558
+[INFO    :             django.server] - 2024-01-22 23:10:24,662 : log_message @ 0212: "POST /third/add_post/ HTTP/1.1" 200 2652

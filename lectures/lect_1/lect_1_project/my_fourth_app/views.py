@@ -52,10 +52,15 @@ def many_fields_form(request):
 def upload_image(request):
     if request.method == 'POST':
         form = ImageForm(request.POST, request.FILES)
+        # POST - нужен для сохранения текстовой информации,
+        # Files - для получения файла
+
         if form.is_valid():
-            image = form.cleaned_data['image']
-            fs = FileSystemStorage()
-            fs.save(image.name, image)
-        else:
-            form = ImageForm()
-    return render(request, 'myapp4/upload_image.html', {'form': form})
+            image = form.cleaned_data['image'] # извлекаем изображение
+            fs = FileSystemStorage() # экземпляр FileSystemStorage, позволяет работать с файлом
+            fs.save(image.name, image) # сохранение файла
+    else:
+        form = ImageForm()
+    return render(request, 'my_fourth_app/upload_image.html', {'form': form})
+
+

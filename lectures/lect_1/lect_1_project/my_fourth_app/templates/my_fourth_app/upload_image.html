@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h2>Загрузите изображение</h2>
+
+<form method="post" enctype="multipart/form-data">
+<!--    enctype="multipart/form-data" - говорит о том, что будет файл-->
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Загрузить</button>
+</form>
+{% endblock %}

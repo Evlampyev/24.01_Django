@@ -1,9 +1,10 @@
 from django.http import HttpResponse
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from pathlib import Path
 from logging import getLogger
-from .form import UserForm
+from .forms import UserForm
 from appfirst.models import Judge, Competition
+from django.contrib import messages
 
 # Create your views here.
 
@@ -34,8 +35,8 @@ def edit_judges(request):
     print(f'{competitions_dict=}')
 
     context = {
-        'title': JUDGE_TABLE_TITLE,
-        'judges': judges,
+        'title'       : JUDGE_TABLE_TITLE,
+        'judges'      : judges,
         'competitions': competitions_dict
     }
     return render(request, 'appfirst/edit_judges.html', context=context)
@@ -50,10 +51,6 @@ def delete_judge(request, pk):
     judge.is_active = False
     judge.save()
     return redirect('/first/edit_judges/')
-
-
-def edit_judge(request):
-    pass
 
 
 def add_judge(request):
@@ -74,15 +71,16 @@ def add_judge(request):
                           organization=organization, post=post, regalia=regalia,
                           status=status, is_active=is_active)
             judge.save()
-            competition.judge_set.add(
-                judge)  # добавляет в поле со связью многие ко многим
+            competition.judge_set.add(judge)
+            # добавляет в поле со связью многие ко многим
+            logger.info(f'Получили данные {"name"} {last_name}.')
 
-            logger.info(f'Получили данные {name=}, {last_name=}.')
+            messages.success(request, 'Судья добавлен')
             return redirect('/first/edit_judges/')
 
     else:
         form = UserForm()
-    return render(request, 'appfirst/add_judge.html', {'form': form})
+    return render(request, 'appfirst/edit_judge.html', {'form': form})
 
 
 def edit_competitions(request):
@@ -109,3 +107,20 @@ def about(request):
     html = ("<p>Эта страница про меня<br>и мой первый сайт</p>"
             "<a href='{% url 'index' %}'>на главную</a>")
     return HttpResponse(html)
+
+
+def edit_judge(request, pk):
+    judge = get_object_or_404(Judge, id=pk)
+
+    if request.method == 'GET':
+        context = {'form': UserForm(instance=judge), 'id': pk}
+        return render(request, 'appfirst/edit_judge.html', context)
+    elif request.method == 'POST':
+        form = UserForm(request.POST, instance=judge)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Изменения сохранены')
+            return redirect('edit_judges')
+        else:
+            messages.error(request, 'Пожалуйста, исправьте следующие ошибки:')
+            return render(request, 'appfirst/edit_judge.html', {'form': form})
