@@ -1715,3 +1715,218 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'add_competition' not found. 
 [INFO    :             django.server] - 2024-01-20 00:48:27,214 : log_message @ 0212: "GET /first/add_competition/ HTTP/1.1" 200 16
 [WARNING :            django.request] - 2024-01-20 00:49:21,430 : log_response @ 0241: Not Found: /favicon.ico
 [WARNING :             django.server] - 2024-01-20 00:49:21,434 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :   django.utils.autoreload] - 2024-01-22 14:47:17,440 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-22 14:47:26,985 : index @ 0022: Главная страница
+[INFO    :             django.server] - 2024-01-22 14:47:27,008 : log_message @ 0212: "GET / HTTP/1.1" 200 1960
+[INFO    :             django.server] - 2024-01-22 14:47:27,166 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-22 14:47:27,167 : log_message @ 0212: "GET /static/image/appfirst/cat_1.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-22 14:47:27,194 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7120
+[WARNING :            django.request] - 2024-01-22 14:47:27,347 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-22 14:47:27,348 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-22 14:47:29,576 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 4619
+[INFO    :             django.server] - 2024-01-22 14:47:29,628 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-22 14:47:32,072 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3165
+[INFO    :             django.server] - 2024-01-22 14:47:32,117 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :            appfirst.views] - 2024-01-22 14:48:37,827 : add_judge @ 0076: Получили данные name='Юлия', last_name='Каширина'.
+[INFO    :             django.server] - 2024-01-22 14:48:37,827 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-22 14:48:37,864 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 5628
+[INFO    :             django.server] - 2024-01-22 14:48:37,922 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-22 14:49:03,845 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3322
+[INFO    :             django.server] - 2024-01-22 14:49:03,894 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-22 14:49:20,135 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 5628
+[INFO    :             django.server] - 2024-01-22 14:49:20,180 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:00:21,080 : trigger_reload @ 0266: C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:00:21,584 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-22 15:00:23,954 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 5628
+[INFO    :             django.server] - 2024-01-22 15:00:23,996 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :            appfirst.views] - 2024-01-22 15:00:30,280 : delete_judge @ 0048: <QuerySet [<Judge: J: Каширина Ю. Н.>]> deleted
+[INFO    :             django.server] - 2024-01-22 15:00:30,281 : log_message @ 0212: "GET /first/delete_judge/25 HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-22 15:00:30,303 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 5628
+[INFO    :             django.server] - 2024-01-22 15:07:08,944 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 5628
+[INFO    :             django.server] - 2024-01-22 15:07:09,053 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7120
+[WARNING :            django.request] - 2024-01-22 15:07:09,092 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-22 15:07:09,092 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :            appfirst.views] - 2024-01-22 15:07:11,646 : delete_judge @ 0048: <QuerySet [<Judge: J: Каширина Ю. Н.>]> deleted
+[INFO    :             django.server] - 2024-01-22 15:07:11,647 : log_message @ 0212: "GET /first/delete_judge/25 HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-22 15:07:11,662 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 5628
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:07:33,378 : trigger_reload @ 0266: C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:07:33,899 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-22 15:07:36,506 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 5628
+[INFO    :            appfirst.views] - 2024-01-22 15:07:38,160 : delete_judge @ 0048: <QuerySet [<Judge: J: Каширина Ю. Н.>]> deleted
+[ERROR   :            django.request] - 2024-01-22 15:07:38,195 : log_response @ 0241: Internal Server Error: /first/delete_judge/25
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 50, in delete_judge
+    judge.save()
+    ^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'save'
+[ERROR   :             django.server] - 2024-01-22 15:07:38,196 : log_message @ 0212: "GET /first/delete_judge/25 HTTP/1.1" 500 67426
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:08:56,167 : trigger_reload @ 0266: C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:08:56,625 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-22 15:09:01,497 : index @ 0022: Главная страница
+[INFO    :             django.server] - 2024-01-22 15:09:01,505 : log_message @ 0212: "GET / HTTP/1.1" 200 1960
+[INFO    :             django.server] - 2024-01-22 15:09:03,272 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 5628
+[INFO    :            appfirst.views] - 2024-01-22 15:09:05,104 : delete_judge @ 0049: <QuerySet [<Judge: J: Каширина Ю. Н.>]> deleted
+[ERROR   :            django.request] - 2024-01-22 15:09:05,132 : log_response @ 0241: Internal Server Error: /first/delete_judge/25
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 51, in delete_judge
+    judge.save()
+    ^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'save'
+[ERROR   :             django.server] - 2024-01-22 15:09:05,133 : log_message @ 0212: "GET /first/delete_judge/25 HTTP/1.1" 500 67472
+[INFO    :            appfirst.views] - 2024-01-22 15:12:03,307 : delete_judge @ 0049: <QuerySet [<Judge: J: Каширина Ю. Н.>]> deleted
+[ERROR   :            django.request] - 2024-01-22 15:12:03,327 : log_response @ 0241: Internal Server Error: /first/delete_judge/25
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 51, in delete_judge
+    judge.save()
+    ^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'save'
+[ERROR   :             django.server] - 2024-01-22 15:12:03,328 : log_message @ 0212: "GET /first/delete_judge/25 HTTP/1.1" 500 67609
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:12:51,348 : trigger_reload @ 0266: C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:12:51,809 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-22 15:12:52,142 : delete_judge @ 0049: J: Каширина Ю. Н. deleted
+[INFO    :             django.server] - 2024-01-22 15:12:52,149 : log_message @ 0212: "GET /first/delete_judge/25 HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-22 15:12:52,175 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 4619
+[INFO    :             django.server] - 2024-01-22 15:12:52,208 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-22 15:13:28,835 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3322
+[INFO    :             django.server] - 2024-01-22 15:14:18,901 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 4619
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:17:37,700 : trigger_reload @ 0266: C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:17:38,223 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-22 15:20:02,490 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3322
+[INFO    :             django.server] - 2024-01-22 15:20:02,530 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-22 15:20:46,591 : log_message @ 0212: "GET /first/add_competition/ HTTP/1.1" 200 16
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:24:33,535 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-22 15:24:36,253 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 2475
+[INFO    :             django.server] - 2024-01-22 15:24:36,295 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:24:48,820 : trigger_reload @ 0266: C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:24:49,336 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-22 15:24:49,707 : log_response @ 0241: Internal Server Error: /first/edit_competitions/
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 92, in edit_competitions
+    context['competitions'] = temp
+                              ^^^^
+NameError: name 'temp' is not defined
+[ERROR   :             django.server] - 2024-01-22 15:24:49,708 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 500 68016
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:25:08,784 : trigger_reload @ 0266: C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:25:09,245 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-22 15:25:09,535 : log_response @ 0241: Internal Server Error: /first/edit_competitions/
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 89, in edit_competitions
+    list_competition = Competition.objects.all().value_list()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'value_list'
+[ERROR   :             django.server] - 2024-01-22 15:25:09,536 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 500 67586
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:25:15,959 : trigger_reload @ 0266: C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:25:16,432 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-22 15:25:16,543 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 2475
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:25:47,452 : trigger_reload @ 0266: C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:25:47,907 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-22 15:25:48,202 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 2475
+[INFO    :             django.server] - 2024-01-22 15:25:56,466 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 2475
+[INFO    :             django.server] - 2024-01-22 15:25:58,174 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 2475
+[INFO    :             django.server] - 2024-01-22 15:25:58,288 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7120
+[WARNING :            django.request] - 2024-01-22 15:25:58,316 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-22 15:25:58,316 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:27:05,943 : trigger_reload @ 0266: C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:27:06,421 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-22 15:27:06,627 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 2475
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:30:21,025 : trigger_reload @ 0266: C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:30:21,541 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-22 15:30:21,684 : log_response @ 0241: Internal Server Error: /first/edit_competitions/
+Traceback (most recent call last):
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py", line 89, in edit_competitions
+    competitions = Competition.objects.all().ordered_by('name')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'ordered_by'
+[ERROR   :             django.server] - 2024-01-22 15:30:21,685 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 500 67429
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:30:32,541 : trigger_reload @ 0266: C:\Users\Aevlampev\PycharmProjects\24.01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-22 15:30:33,020 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-22 15:30:33,306 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 2910
+[INFO    :             django.server] - 2024-01-22 15:30:33,338 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-22 15:30:58,859 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 2910
+[INFO    :             django.server] - 2024-01-22 15:31:00,727 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 2956
+[INFO    :             django.server] - 2024-01-22 15:32:52,083 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 2954
+[INFO    :             django.server] - 2024-01-22 15:33:15,656 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 2975
+[INFO    :             django.server] - 2024-01-22 15:35:47,233 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3205
+[INFO    :             django.server] - 2024-01-22 15:35:47,281 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-22 15:38:55,135 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3205
+[INFO    :             django.server] - 2024-01-22 15:38:57,368 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3205
+[INFO    :             django.server] - 2024-01-22 15:38:57,441 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7119
+[WARNING :            django.request] - 2024-01-22 15:38:57,472 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-22 15:38:57,472 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-22 15:39:10,859 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3205
+[INFO    :             django.server] - 2024-01-22 15:39:10,892 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7119
+[INFO    :             django.server] - 2024-01-22 15:39:12,319 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3205
+[INFO    :             django.server] - 2024-01-22 15:39:12,371 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7119
+[WARNING :            django.request] - 2024-01-22 15:39:12,407 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-22 15:39:12,408 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-22 15:39:14,232 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3205
+[INFO    :             django.server] - 2024-01-22 15:39:14,288 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7119
+[WARNING :            django.request] - 2024-01-22 15:39:14,326 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-22 15:39:14,326 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-22 15:39:20,990 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3205
+[INFO    :             django.server] - 2024-01-22 15:39:21,020 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7119
+[WARNING :            django.request] - 2024-01-22 15:39:21,054 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-22 15:39:21,054 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-22 15:39:35,652 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3205
+[INFO    :             django.server] - 2024-01-22 15:39:35,684 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7119
+[INFO    :             django.server] - 2024-01-22 15:39:37,126 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3205
+[INFO    :             django.server] - 2024-01-22 15:39:37,182 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7119
+[WARNING :            django.request] - 2024-01-22 15:39:37,216 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-22 15:39:37,216 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-22 15:39:40,215 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3205
+[INFO    :             django.server] - 2024-01-22 15:39:40,244 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7119
+[WARNING :            django.request] - 2024-01-22 15:39:40,278 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-22 15:39:40,278 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-22 15:39:51,764 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3205
+[INFO    :             django.server] - 2024-01-22 15:39:51,808 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7119
+[INFO    :             django.server] - 2024-01-22 15:40:25,930 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3205
+[INFO    :             django.server] - 2024-01-22 15:40:25,971 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7120
+[INFO    :             django.server] - 2024-01-22 15:41:30,792 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3205
+[INFO    :             django.server] - 2024-01-22 15:41:30,832 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7119
+[INFO    :             django.server] - 2024-01-22 15:41:36,801 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3205
+[INFO    :             django.server] - 2024-01-22 15:41:36,836 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7119
+[INFO    :             django.server] - 2024-01-22 15:42:58,662 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3219
+[INFO    :             django.server] - 2024-01-22 15:42:58,702 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-22 15:43:09,134 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3207
+[INFO    :             django.server] - 2024-01-22 15:43:09,165 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-22 15:43:25,920 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3217
+[INFO    :             django.server] - 2024-01-22 15:43:25,958 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-22 15:50:47,392 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3445
+[INFO    :             django.server] - 2024-01-22 15:50:47,443 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-22 15:51:22,035 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3447
