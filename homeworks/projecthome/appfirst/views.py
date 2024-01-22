@@ -24,7 +24,8 @@ def index(request):
 
 
 def edit_judges(request):
-    judges = Judge.objects.all()
+    # judges = Judge.objects.all()
+    judges = Judge.objects.filter(is_active=True).order_by('last_name')
     competitions_dict = {}
     for judge in judges:
         competitions_dict[judge.pk] = [comp for comp in
@@ -33,8 +34,8 @@ def edit_judges(request):
     print(f'{competitions_dict=}')
 
     context = {
-        'title'       : JUDGE_TABLE_TITLE,
-        'judges'      : judges,
+        'title': JUDGE_TABLE_TITLE,
+        'judges': judges,
         'competitions': competitions_dict
     }
     return render(request, 'appfirst/edit_judges.html', context=context)
@@ -42,9 +43,12 @@ def edit_judges(request):
 
 def delete_judge(request, pk):
     """Delete judge on pk"""
-    judge = Judge.objects.filter(id=pk)
-    judge.delete()
+    judge = Judge.objects.get(id=pk)
+    print(f" For delete {judge = }")
+    # judge.delete()
     logger.info(f'{judge} deleted')
+    judge.is_active = False
+    judge.save()
     return redirect('/first/edit_judges/')
 
 
@@ -82,12 +86,13 @@ def add_judge(request):
 
 
 def edit_competitions(request):
-    list_competition = Competition.objects.all().values()
-    temp = [comp for comp in list_competition]
-    comp_dict = {'competitions': temp}
-    comp_dict['title'] = COMPETITIONS_TABLE_TITLE
-    print(temp)
-    return render(request, 'appfirst/edit_competitions.html', context=comp_dict)
+    competitions = Competition.objects.all().order_by('name')
+    # temp = [comp for comp in list_competition]
+    context = dict()
+    context['competitions'] = competitions
+    context['title'] = COMPETITIONS_TABLE_TITLE
+    print(competitions)
+    return render(request, 'appfirst/edit_competitions.html', context=context)
 
 
 def add_competition(request):

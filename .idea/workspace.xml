@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d27f7e-6422-4ac6-9009-a8356822e7b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/24_01_Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/24_01_Django.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/projecthome/appfirst/templates/appfirst/edit_competitions.html" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/projecthome/appfirst/templates/appfirst/edit_competitions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homeworks/projecthome/appfirst/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/projecthome/appfirst/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/projecthome/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/projecthome/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homeworks/projecthome/logs/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/projecthome/logs/django.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/projecthome/projecthome/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/projecthome/projecthome/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homeworks/projecthome/projecthome/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/projecthome/projecthome/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_third_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_1/lect_1_project/my_third_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectures/lect_3/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/lectures/lect_3/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworks/projecthome/static/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/homeworks/projecthome/static/css/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

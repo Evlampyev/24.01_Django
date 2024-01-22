@@ -14,19 +14,29 @@
             {% for value in title %}
             <th>{{ value }}</th>
             {% endfor %}
-            <th><input type="checkbox"/></th>
+<!--            <th><input type="checkbox"/></th>-->
         </tr>
         </thead>
         <tbody>
         {% for competition in competitions %}
         <tr>
-
-            {% for key, value in competition.items %}
-                <td data-label="{{key}}">{{value}}</td>
-            {% endfor %}
-
+            <td>{{competition.id}}</td>
+            <td>{{competition.name}}</td>
+            <td>{{competition.fullname}}</td>
+            <td>{{competition.data}}</td>
+            <td>
+                <div class="container">
+                    <a href = "#" class="btn a_btn">
+                        {% if competition.active %}
+                        Деактивировать
+                        {% else %}
+                        Активировать
+                        {% endif %}
+                    </a>
+                </div>
+            </td>>
             <td class="actions"><a href="#">Edit</a> | <a href="#">Delete</a></td>
-            <td class="checkbox"><input type="checkbox"/></td>
+<!--            <td class="checkbox"><input type="checkbox"/></td>-->
         </tr>
         {% endfor %}
         </tbody>
