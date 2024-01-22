@@ -466,3 +466,563 @@ INFO 2024-01-18 18:18:17,533 basehttp 5008 13664 "GET /three/for/ HTTP/1.1" 200 
 INFO 2024-01-18 18:18:20,979 basehttp 5008 13664 "GET /three/ HTTP/1.1" 200 191
 INFO 2024-01-18 18:18:22,418 views 5008 13664 Index page accessed
 INFO 2024-01-18 18:18:22,419 basehttp 5008 13664 "GET / HTTP/1.1" 200 13
+INFO 2024-01-22 19:12:01,314 autoreload 14812 18060 Watching for file changes with StatReloader
+INFO 2024-01-22 19:12:19,818 autoreload 14812 18060 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\urls.py changed, reloading.
+INFO 2024-01-22 19:12:20,125 autoreload 17340 9320 Watching for file changes with StatReloader
+INFO 2024-01-22 19:12:23,888 autoreload 13180 20560 Watching for file changes with StatReloader
+INFO 2024-01-22 19:12:26,115 views 13180 8496 Index page accessed
+INFO 2024-01-22 19:12:26,116 basehttp 13180 8496 "GET / HTTP/1.1" 200 13
+WARNING 2024-01-22 19:12:38,966 log 13180 8496 Not Found: /fourth
+WARNING 2024-01-22 19:12:38,966 basehttp 13180 8496 "GET /fourth HTTP/1.1" 404 2746
+WARNING 2024-01-22 19:12:44,596 log 13180 8496 Not Found: /four/
+WARNING 2024-01-22 19:12:44,596 basehttp 13180 8496 "GET /four/ HTTP/1.1" 404 2817
+ERROR 2024-01-22 19:12:50,798 log 13180 8496 Internal Server Error: /four/user/add/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py", line 21, in user_form
+    return render(request, 'my_fourth_app/user_fom.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_fourth_app/user_fom.html
+ERROR 2024-01-22 19:12:50,800 basehttp 13180 8496 "GET /four/user/add/ HTTP/1.1" 500 80292
+INFO 2024-01-22 19:13:14,239 autoreload 13180 20560 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
+INFO 2024-01-22 19:13:14,556 autoreload 9364 11024 Watching for file changes with StatReloader
+ERROR 2024-01-22 19:13:14,813 log 9364 13160 Internal Server Error: /four/user/add/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'exclude'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py", line 21, in user_form
+    return render(request, 'my_fourth_app/user_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 1: 'exclude'. Did you forget to register or load this tag?
+ERROR 2024-01-22 19:13:14,816 basehttp 9364 13160 "GET /four/user/add/ HTTP/1.1" 500 132975
+ERROR 2024-01-22 19:13:29,656 log 9364 13160 Internal Server Error: /four/user/add/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'excludes'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py", line 21, in user_form
+    return render(request, 'my_fourth_app/user_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 1: 'excludes'. Did you forget to register or load this tag?
+ERROR 2024-01-22 19:13:29,658 basehttp 9364 13160 "GET /four/user/add/ HTTP/1.1" 500 132994
+ERROR 2024-01-22 19:15:34,965 log 9364 13160 Internal Server Error: /four/user/add/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'clock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py", line 21, in user_form
+    return render(request, 'my_fourth_app/user_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'clock'. Did you forget to register or load this tag?
+ERROR 2024-01-22 19:15:34,968 basehttp 9364 13160 "GET /four/user/add/ HTTP/1.1" 500 148020
+INFO 2024-01-22 19:15:47,528 basehttp 9364 13160 "GET /four/user/add/ HTTP/1.1" 200 223
+INFO 2024-01-22 19:16:10,146 basehttp 9364 13160 "GET /four/user/add/ HTTP/1.1" 200 639
+INFO 2024-01-22 20:07:49,176 basehttp 9364 17040 "GET /four/user/add/ HTTP/1.1" 200 1012
+INFO 2024-01-22 20:08:03,344 basehttp 9364 17040 "GET /four/user/add/ HTTP/1.1" 200 1011
+INFO 2024-01-22 20:09:30,307 basehttp 9364 17040 "POST /four/user/add/ HTTP/1.1" 200 1058
+INFO 2024-01-22 20:09:45,736 basehttp 9364 17040 "POST /four/user/add/ HTTP/1.1" 200 1058
+INFO 2024-01-22 20:10:13,413 autoreload 6188 20472 Watching for file changes with StatReloader
+INFO 2024-01-22 20:10:18,591 basehttp 6188 3472 "POST /four/user/add/ HTTP/1.1" 200 1058
+INFO 2024-01-22 20:10:36,373 basehttp 6188 3472 "POST /four/user/add/ HTTP/1.1" 200 1058
+INFO 2024-01-22 20:12:22,161 basehttp 6188 3472 "POST /four/user/add/ HTTP/1.1" 200 1056
+INFO 2024-01-22 20:12:28,037 views 6188 3472 Index page accessed
+INFO 2024-01-22 20:12:28,037 basehttp 6188 3472 "GET / HTTP/1.1" 200 13
+WARNING 2024-01-22 20:12:47,218 log 6188 3472 Not Found: /four/
+WARNING 2024-01-22 20:12:47,218 basehttp 6188 3472 "GET /four/ HTTP/1.1" 404 2817
+INFO 2024-01-22 20:12:52,147 basehttp 6188 3472 "GET /four/user/add/ HTTP/1.1" 200 1011
+INFO 2024-01-22 20:13:06,140 basehttp 6188 3472 "POST /four/user/add/ HTTP/1.1" 200 1062
+INFO 2024-01-22 20:14:07,075 autoreload 6188 20472 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\lect_1_project\settings.py changed, reloading.
+INFO 2024-01-22 20:14:07,418 autoreload 22392 9884 Watching for file changes with StatReloader
+INFO 2024-01-22 20:14:09,426 views 22392 6120 Получили name ='Alex', email ='Bad_Shuriks@mail.ru', age =1.
+INFO 2024-01-22 20:14:09,434 basehttp 22392 6120 "POST /four/user/add/ HTTP/1.1" 200 1062
+INFO 2024-01-22 20:30:56,904 autoreload 11472 11060 Watching for file changes with StatReloader
+INFO 2024-01-22 20:31:31,716 autoreload 11472 11060 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\forms.py changed, reloading.
+INFO 2024-01-22 20:31:32,039 autoreload 3440 1368 Watching for file changes with StatReloader
+INFO 2024-01-22 20:31:39,198 views 3440 21952 Index page accessed
+INFO 2024-01-22 20:31:39,198 basehttp 3440 21952 "GET / HTTP/1.1" 200 13
+WARNING 2024-01-22 20:31:39,265 log 3440 21952 Not Found: /favicon.ico
+WARNING 2024-01-22 20:31:39,266 basehttp 3440 21952 "GET /favicon.ico HTTP/1.1" 404 2761
+ERROR 2024-01-22 20:31:52,678 log 3440 21952 Internal Server Error: /four/forms/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py", line 31, in many_fields_form
+    return render(request, 'my_fourth_app/many_fields_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_fourth_app/many_fields_form.html
+ERROR 2024-01-22 20:31:52,680 basehttp 3440 21952 "GET /four/forms/ HTTP/1.1" 500 81652
+INFO 2024-01-22 20:32:19,315 autoreload 3440 1368 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\forms.py changed, reloading.
+INFO 2024-01-22 20:32:19,640 autoreload 10276 5528 Watching for file changes with StatReloader
+INFO 2024-01-22 20:32:20,317 basehttp 10276 22068 "GET /four/forms/ HTTP/1.1" 200 1471
+INFO 2024-01-22 20:36:15,270 views 10276 22068 Получили form.cleaned_data={'name': 'Александр Владимирович Евлампьев', 'email': 'AEvlampev@1pku.ru', 'age': 23, 'height': 8.4, 'is_active': True, 'birthdate': datetime.date(2024, 1, 22), 'gender': 'F'}.
+INFO 2024-01-22 20:36:15,276 basehttp 10276 22068 "POST /four/forms/ HTTP/1.1" 200 1725
+INFO 2024-01-22 20:41:34,436 autoreload 10276 5528 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\forms.py changed, reloading.
+INFO 2024-01-22 20:41:34,769 autoreload 21676 8308 Watching for file changes with StatReloader
+INFO 2024-01-22 20:53:07,978 autoreload 21676 8308 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\forms.py changed, reloading.
+INFO 2024-01-22 20:53:08,312 autoreload 16668 1332 Watching for file changes with StatReloader
+INFO 2024-01-22 20:53:39,075 autoreload 16668 1332 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\forms.py changed, reloading.
+INFO 2024-01-22 20:53:39,398 autoreload 11152 8172 Watching for file changes with StatReloader
+INFO 2024-01-22 20:53:44,729 autoreload 11152 8172 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\forms.py changed, reloading.
+INFO 2024-01-22 20:53:45,043 autoreload 12924 7152 Watching for file changes with StatReloader
+INFO 2024-01-22 20:56:09,014 autoreload 12924 7152 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
+INFO 2024-01-22 20:56:09,346 autoreload 20000 848 Watching for file changes with StatReloader
+INFO 2024-01-22 20:56:17,343 basehttp 20000 19416 "POST /four/forms/ HTTP/1.1" 200 2424
+WARNING 2024-01-22 20:56:17,404 log 20000 19416 Not Found: /favicon.ico
+WARNING 2024-01-22 20:56:17,404 basehttp 20000 19416 "GET /favicon.ico HTTP/1.1" 404 2761
+INFO 2024-01-22 20:56:51,227 views 20000 19416 Получили form.cleaned_data={'name': 'Александр Владимирович Евлампьев', 'email': 'AEvlampev@1pku.ru', 'age': 24, 'height': 9.4, 'is_active': True, 'birthdate': datetime.date(2024, 1, 22), 'gender': 'F', 'message': 'asfdsdgsga aasdgagweg'}.
+INFO 2024-01-22 20:56:51,230 basehttp 20000 19416 "POST /four/forms/ HTTP/1.1" 200 2366
+INFO 2024-01-22 21:19:07,051 autoreload 20000 848 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\forms.py changed, reloading.
+INFO 2024-01-22 21:19:07,479 autoreload 8304 12392 Watching for file changes with StatReloader
+INFO 2024-01-22 21:21:53,528 autoreload 8304 12392 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\forms.py changed, reloading.
+INFO 2024-01-22 21:21:54,536 autoreload 18744 14352 Watching for file changes with StatReloader
+INFO 2024-01-22 21:22:44,410 autoreload 18744 14352 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\forms.py changed, reloading.
+INFO 2024-01-22 21:22:44,741 autoreload 3728 1920 Watching for file changes with StatReloader
+INFO 2024-01-22 21:23:44,768 autoreload 3728 1920 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\forms.py changed, reloading.
+INFO 2024-01-22 21:23:45,091 autoreload 15488 15616 Watching for file changes with StatReloader
+WARNING 2024-01-22 21:23:56,866 log 15488 11360 Not Found: /four
+WARNING 2024-01-22 21:23:56,866 basehttp 15488 11360 "GET /four HTTP/1.1" 404 2740
+INFO 2024-01-22 21:24:01,207 basehttp 15488 11360 "GET /four/user/add/ HTTP/1.1" 200 1011
+INFO 2024-01-22 21:24:10,640 basehttp 15488 11360 "POST /four/user/add/ HTTP/1.1" 200 1178
+INFO 2024-01-22 21:24:15,734 views 15488 11360 Получили name ='Alex', email ='AEvlampev@1pku.ru', age =32.
+INFO 2024-01-22 21:24:15,736 basehttp 15488 11360 "POST /four/user/add/ HTTP/1.1" 200 1061
+INFO 2024-01-22 21:25:59,893 autoreload 15488 15616 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\forms.py changed, reloading.
+INFO 2024-01-22 21:26:00,226 autoreload 11460 16648 Watching for file changes with StatReloader
+INFO 2024-01-22 21:27:06,384 autoreload 11460 16648 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\forms.py changed, reloading.
+INFO 2024-01-22 21:27:06,736 autoreload 1372 14548 Watching for file changes with StatReloader
+INFO 2024-01-22 21:27:31,397 autoreload 1372 14548 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\forms.py changed, reloading.
+INFO 2024-01-22 21:27:31,762 autoreload 15040 5568 Watching for file changes with StatReloader
+INFO 2024-01-22 21:28:42,188 autoreload 15040 5568 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
+INFO 2024-01-22 21:28:42,553 autoreload 15228 13444 Watching for file changes with StatReloader
+INFO 2024-01-22 21:30:30,662 autoreload 15228 13444 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\models.py changed, reloading.
+INFO 2024-01-22 21:30:31,039 autoreload 21048 10632 Watching for file changes with StatReloader
+INFO 2024-01-22 21:34:00,665 autoreload 19580 18564 Watching for file changes with StatReloader
+ERROR 2024-01-22 21:34:07,699 log 19580 14724 Internal Server Error: /four/user/add/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py", line 19, in user_form
+    user = User
+           ^^^^
+NameError: name 'User' is not defined
+ERROR 2024-01-22 21:34:07,701 basehttp 19580 14724 "POST /four/user/add/ HTTP/1.1" 500 67048
+INFO 2024-01-22 21:34:47,826 autoreload 19580 18564 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
+INFO 2024-01-22 21:34:48,160 autoreload 21064 22196 Watching for file changes with StatReloader
+INFO 2024-01-22 21:35:13,825 autoreload 21064 22196 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
+INFO 2024-01-22 21:35:14,146 autoreload 18176 17028 Watching for file changes with StatReloader
+ERROR 2024-01-22 21:35:22,870 log 18176 10540 Internal Server Error: /four/user/add/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2112, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Alex'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py", line 21, in user_form
+    user.save()
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1036, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1080, in _do_update
+    filtered = base_qs.filter(pk=pk_val)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1548, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1378, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\lookups.py", line 362, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2114, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Alex'.
+ERROR 2024-01-22 21:35:22,874 basehttp 18176 10540 "POST /four/user/add/ HTTP/1.1" 500 146239
+INFO 2024-01-22 21:35:50,039 autoreload 18176 17028 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
+INFO 2024-01-22 21:35:50,357 autoreload 17688 21988 Watching for file changes with StatReloader
+INFO 2024-01-22 21:35:51,434 views 17688 9444 Получили name ='Alex', email ='AEvlampev@1pku.ru', age =32.
+INFO 2024-01-22 21:35:51,445 basehttp 17688 9444 "POST /four/user/add/ HTTP/1.1" 200 1061
+INFO 2024-01-22 21:35:57,548 basehttp 17688 9444 "POST /four/user/add/ HTTP/1.1" 200 1179
+ERROR 2024-01-22 21:36:01,927 log 17688 9444 Internal Server Error: /four/user/add/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: my_fourth_app_user.email
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py", line 21, in user_form
+    user.save()
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1845, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: UNIQUE constraint failed: my_fourth_app_user.email
+ERROR 2024-01-22 21:36:01,932 basehttp 17688 9444 "POST /four/user/add/ HTTP/1.1" 500 147846
+ERROR 2024-01-22 21:37:06,298 log 17688 9444 Internal Server Error: /four/user/add/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: UNIQUE constraint failed: my_fourth_app_user.email
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py", line 21, in user_form
+    user.save()
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1845, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: UNIQUE constraint failed: my_fourth_app_user.email
+ERROR 2024-01-22 21:37:06,301 basehttp 17688 9444 "POST /four/user/add/ HTTP/1.1" 500 147846
+INFO 2024-01-22 21:38:29,272 autoreload 17688 21988 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
+INFO 2024-01-22 21:41:36,301 autoreload 20504 18336 Watching for file changes with StatReloader
+INFO 2024-01-22 21:41:44,253 basehttp 20504 13092 "GET /four/user/add/ HTTP/1.1" 200 1011
+INFO 2024-01-22 21:41:55,904 basehttp 20504 13092 "POST /four/user/add/ HTTP/1.1" 200 1182
+INFO 2024-01-22 21:42:13,739 views 20504 13092 Получили name ='Йцук', email ='Bad_Shuriks@1pku.ru', age =3.
+INFO 2024-01-22 21:42:13,741 basehttp 20504 13092 "POST /four/user/add/ HTTP/1.1" 200 1066
+INFO 2024-01-22 21:42:15,572 basehttp 20504 13092 "POST /four/user/add/ HTTP/1.1" 200 1011
+INFO 2024-01-22 21:43:02,156 basehttp 20504 13092 "POST /four/user/add/ HTTP/1.1" 200 1011
+INFO 2024-01-22 21:43:24,208 basehttp 20504 13092 "POST /four/user/add/ HTTP/1.1" 200 1011
+INFO 2024-01-22 21:44:47,630 basehttp 20504 13092 "POST /four/user/add/ HTTP/1.1" 200 1011
+INFO 2024-01-22 21:44:51,921 basehttp 20504 13092 "POST /four/user/add/ HTTP/1.1" 200 1011
+WARNING 2024-01-22 21:44:51,968 log 20504 13092 Not Found: /favicon.ico
+WARNING 2024-01-22 21:44:51,969 basehttp 20504 13092 "GET /favicon.ico HTTP/1.1" 404 2761
+INFO 2024-01-22 21:44:56,292 basehttp 20504 13092 "POST /four/user/add/ HTTP/1.1" 200 1011
+INFO 2024-01-22 21:48:41,341 autoreload 20504 18336 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
+INFO 2024-01-22 21:48:41,685 autoreload 21544 3036 Watching for file changes with StatReloader
+INFO 2024-01-22 21:49:10,422 autoreload 21544 3036 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
+INFO 2024-01-22 21:49:10,742 autoreload 11748 19096 Watching for file changes with StatReloader
+INFO 2024-01-22 21:49:28,731 basehttp 11748 15368 "POST /four/user/add/ HTTP/1.1" 200 1011
+INFO 2024-01-22 21:52:00,548 views 11748 15368 Получили name ='Alex', email ='AEvlamev@1pku.ru', age =3.
+INFO 2024-01-22 21:52:00,551 basehttp 11748 15368 "POST /four/user/add/ HTTP/1.1" 200 1059
+INFO 2024-01-22 21:52:03,222 basehttp 11748 15368 "POST /four/user/add/ HTTP/1.1" 200 1011
+WARNING 2024-01-22 21:52:03,317 log 11748 15368 Not Found: /favicon.ico
+WARNING 2024-01-22 21:52:03,317 basehttp 11748 15368 "GET /favicon.ico HTTP/1.1" 404 2761
+INFO 2024-01-22 21:52:52,048 basehttp 11748 15368 "POST /four/user/add/ HTTP/1.1" 200 1011
+INFO 2024-01-22 21:52:59,872 views 11748 15368 Получили name ='Александр', email ='AEvlmpev@1pku.ru', age =3.
+INFO 2024-01-22 21:52:59,874 basehttp 11748 15368 "POST /four/user/add/ HTTP/1.1" 200 1073
+INFO 2024-01-22 21:54:10,652 autoreload 11748 19096 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
+INFO 2024-01-22 21:54:10,987 autoreload 21196 13840 Watching for file changes with StatReloader
+INFO 2024-01-22 21:54:17,438 views 21196 1484 Получили name ='Александр', email ='AElmpev@1pku.ru', age =3.
+INFO 2024-01-22 21:54:17,450 basehttp 21196 1484 "POST /four/user/add/ HTTP/1.1" 200 1123
+INFO 2024-01-22 21:54:21,195 basehttp 21196 1484 "POST /four/user/add/ HTTP/1.1" 200 1053
+INFO 2024-01-22 21:55:49,150 autoreload 21196 13840 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
+INFO 2024-01-22 21:55:49,477 autoreload 18608 11364 Watching for file changes with StatReloader
+INFO 2024-01-22 21:55:52,062 basehttp 18608 7224 "POST /four/user/add/ HTTP/1.1" 200 1053
+INFO 2024-01-22 21:55:53,812 basehttp 18608 7224 "POST /four/user/add/ HTTP/1.1" 200 1053
+WARNING 2024-01-22 21:55:53,897 log 18608 7224 Not Found: /favicon.ico
+WARNING 2024-01-22 21:55:53,898 basehttp 18608 7224 "GET /favicon.ico HTTP/1.1" 404 2761
+INFO 2024-01-22 21:56:05,388 views 18608 7224 Получили name ='Александр', email ='Alampev@1pku.ru', age =2.
+INFO 2024-01-22 21:56:05,391 basehttp 18608 7224 "POST /four/user/add/ HTTP/1.1" 200 1123
+INFO 2024-01-22 21:56:10,480 basehttp 18608 7224 "POST /four/user/add/ HTTP/1.1" 200 1053
+INFO 2024-01-22 21:56:52,979 autoreload 18608 11364 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
+INFO 2024-01-22 21:56:53,315 autoreload 14640 13192 Watching for file changes with StatReloader
+INFO 2024-01-22 21:56:57,287 basehttp 14640 1476 "POST /four/user/add/ HTTP/1.1" 200 1116
+INFO 2024-01-22 21:59:59,056 autoreload 14640 13192 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\forms.py changed, reloading.
+INFO 2024-01-22 21:59:59,378 autoreload 12776 2232 Watching for file changes with StatReloader
+INFO 2024-01-22 22:00:27,092 autoreload 12776 2232 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\forms.py changed, reloading.
+INFO 2024-01-22 22:00:27,438 autoreload 7080 12304 Watching for file changes with StatReloader
+INFO 2024-01-22 22:01:35,861 autoreload 7080 12304 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\lect_1_project\settings.py changed, reloading.
+INFO 2024-01-22 22:01:36,191 autoreload 4160 9080 Watching for file changes with StatReloader
+INFO 2024-01-22 22:02:45,610 autoreload 4160 9080 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
+INFO 2024-01-22 22:02:45,935 autoreload 9468 5600 Watching for file changes with StatReloader
+INFO 2024-01-22 22:03:39,873 autoreload 9468 5600 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
+INFO 2024-01-22 22:03:40,199 autoreload 3564 3196 Watching for file changes with StatReloader
+INFO 2024-01-22 22:04:20,936 autoreload 3564 3196 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fourth_app\views.py changed, reloading.
+INFO 2024-01-22 22:04:21,280 autoreload 3344 21324 Watching for file changes with StatReloader

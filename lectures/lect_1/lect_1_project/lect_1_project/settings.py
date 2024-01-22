@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'my_first_app',
     'my_second_app',
     'my_third_app',
+    'my_fourth_app',
 ]
 
 MIDDLEWARE = [
@@ -118,6 +119,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
@@ -155,6 +159,12 @@ LOGGING = {
         'my_first_app': {  # для моего приложения в проекте
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
+            'propagate': True,
+            # если есть более высоко стоящие логгеры, то их нужно использовать
+        },
+        'my_fourth_app': {  # для моего приложения в проекте
+            'handlers' : ['console', 'file'],
+            'level'    : 'DEBUG',
             'propagate': True,
             # если есть более высоко стоящие логгеры, то их нужно использовать
         },
