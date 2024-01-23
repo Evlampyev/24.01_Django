@@ -56,9 +56,9 @@ def add_judge(request):
     if request.method == 'POST':
         form = UserForm(request.POST)
         if form.is_valid():
-            name = form.cleaned_data['name']
-            patronymic = form.cleaned_data['patronymic']
-            last_name = form.cleaned_data['last_name']
+            name = form.cleaned_data['name'].capitalize()
+            patronymic = form.cleaned_data['patronymic'].capitalize()
+            last_name = form.cleaned_data['last_name'].capitalize()
             post = form.cleaned_data['post'].capitalize()
             regalia = form.cleaned_data['regalia']
             organization = form.cleaned_data['organization']
@@ -93,6 +93,8 @@ def edit_judge(request, pk):
     elif request.method == 'POST':
         form = UserForm(request.POST, instance=judge)
         if form.is_valid():
+            temp_date = form.cleaned_data['date']
+            print(temp_date)
             form.save()
             messages.success(request, 'Изменения сохранены')
             return redirect('edit_judges')
@@ -104,7 +106,11 @@ def edit_judge(request, pk):
 def edit_competitions(request):
     competitions = Competition.objects.all().order_by('name')
     context = dict()
-    # print(competitions[0])
+    print(competitions[0])
+    print(f"{competitions[0].date = }")
+
+    for comp in competitions:
+        print(comp.date)
     context['competitions'] = competitions
     context['title'] = COMPETITIONS_TABLE_TITLE
     return render(request, 'appfirst/edit_competitions.html', context=context)
@@ -157,13 +163,11 @@ def edit_competition(request, pk):
     elif request.method == 'POST':
         form = CompetitionForm(request.POST, instance=competition)
         if form.is_valid():
-            # name = form.cleaned_data['name']
-            # full_name = form.cleaned_data['fullname']
-            # date = form.cleaned_data['date']
-            # active = form.cleaned_data['active']
-            # comp = Competition(name=name, fullname=full_name, date=date, active=active)
-            # comp.update()
-            form.save()
+            competition.name = form.cleaned_data['name']
+            competition.fullname = form.cleaned_data['fullname']
+            competition.date = form.cleaned_data['date']
+            competition.active = form.cleaned_data['active']
+            competition.save()
             messages.success(request, f"Изменения сохранены")
             return redirect('edit_competitions')
         else:

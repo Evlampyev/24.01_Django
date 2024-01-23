@@ -23,14 +23,14 @@
             <td>{{competition.id}}</td>
             <td>{{competition.name}}</td>
             <td>{{competition.fullname}}</td>
-            <td>{{competition.data}}</td>
+            <td>{{competition.date}}</td>
             <td>
                 <div class="container">
                     <a href="{% url 'competition_activate' pk=competition.id %}" class="btn a_btn">
                         {% if competition.active %}
-                        Деактивировать
+                            Деактивировать
                         {% else %}
-                        Активировать
+                            Активировать
                         {% endif %}
                     </a>
                 </div>
