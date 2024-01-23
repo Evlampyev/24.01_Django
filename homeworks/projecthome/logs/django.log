@@ -2830,3 +2830,705 @@ TypeError: cannot unpack non-iterable bool object
 [INFO    :             django.server] - 2024-01-23 17:34:46,315 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5169
 [INFO    :             django.server] - 2024-01-23 17:34:46,842 : log_message @ 0212: "GET /first/competition_activate/3 HTTP/1.1" 302 0
 [INFO    :             django.server] - 2024-01-23 17:34:46,852 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5165
+[INFO    :             django.server] - 2024-01-23 17:35:40,836 : log_message @ 0212: "GET /first/add_competition/ HTTP/1.1" 200 2315
+[INFO    :             django.server] - 2024-01-23 17:36:14,880 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 14077
+[INFO    :             django.server] - 2024-01-23 17:36:26,973 : log_message @ 0212: "GET /first/edit_judge/27 HTTP/1.1" 200 3739
+[INFO    :             django.server] - 2024-01-23 17:36:44,184 : log_message @ 0212: "POST /first/edit_judge/27 HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 17:36:44,201 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 14358
+[INFO    :             django.server] - 2024-01-23 17:36:44,228 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-23 17:37:03,358 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 4898
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:44:09,442 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:44:09,778 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:44:16,069 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:45:48,669 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:45:48,978 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:46:19,590 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:46:19,892 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:46:41,328 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:46:41,647 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:47:04,128 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:47:04,445 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:48:00,606 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-23 17:48:04,541 : index @ 0023: Главная страница
+[INFO    :             django.server] - 2024-01-23 17:48:04,547 : log_message @ 0212: "GET / HTTP/1.1" 200 1963
+[INFO    :             django.server] - 2024-01-23 17:48:04,577 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[WARNING :            django.request] - 2024-01-23 17:48:04,643 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-23 17:48:04,644 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-23 17:48:12,778 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 4902
+[INFO    :             django.server] - 2024-01-23 17:48:14,573 : log_message @ 0212: "GET /first/competition_activate/1/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 17:48:14,583 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5173
+[INFO    :             django.server] - 2024-01-23 17:48:26,662 : log_message @ 0212: "GET /first/competition_activate/1/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 17:48:26,673 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5169
+[INFO    :             django.server] - 2024-01-23 17:49:21,460 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 4902
+[INFO    :             django.server] - 2024-01-23 17:49:21,505 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7993
+[WARNING :            django.request] - 2024-01-23 17:49:21,527 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-23 17:49:21,527 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :             django.server] - 2024-01-23 17:50:50,580 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5178
+[INFO    :             django.server] - 2024-01-23 17:50:52,157 : log_message @ 0212: "GET /first/competition_activate/1/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 17:50:52,167 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5449
+[ERROR   :            django.request] - 2024-01-23 17:50:55,470 : log_response @ 0241: Internal Server Error: /first/delete_competition/4/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 134, in delete_competition
+    logger.info(request, f"Соревнование {competition.name} удалено")
+                                         ^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'name'
+[ERROR   :             django.server] - 2024-01-23 17:50:55,471 : log_message @ 0212: "GET /first/delete_competition/4/ HTTP/1.1" 500 66642
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:51:38,972 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:51:39,284 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-23 17:51:39,540 : log_response @ 0241: Internal Server Error: /first/delete_competition/4/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 134, in delete_competition
+    logger.info(request, f"Соревнование {competition['name']} удалено")
+                                         ~~~~~~~~~~~^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 418, in __getitem__
+    raise TypeError(
+TypeError: QuerySet indices must be integers or slices, not str.
+[ERROR   :             django.server] - 2024-01-23 17:51:39,542 : log_message @ 0212: "GET /first/delete_competition/4/ HTTP/1.1" 500 70531
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:52:26,308 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:52:26,631 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-23 17:52:27,001 : log_response @ 0241: Internal Server Error: /first/delete_competition/4/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 133, in delete_competition
+    name = competition.name
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'name'
+[ERROR   :             django.server] - 2024-01-23 17:52:27,002 : log_message @ 0212: "GET /first/delete_competition/4/ HTTP/1.1" 500 66549
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:53:08,579 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:53:08,894 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-23 17:53:10,791 : log_response @ 0241: Internal Server Error: /first/delete_competition/4/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 133, in delete_competition
+    name = competition.name
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'name'
+[ERROR   :             django.server] - 2024-01-23 17:53:10,792 : log_message @ 0212: "GET /first/delete_competition/4/ HTTP/1.1" 500 66553
+[INFO    :            appfirst.views] - 2024-01-23 17:53:15,959 : index @ 0023: Главная страница
+[INFO    :             django.server] - 2024-01-23 17:53:15,965 : log_message @ 0212: "GET / HTTP/1.1" 200 1963
+[INFO    :             django.server] - 2024-01-23 17:53:17,776 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 4456
+[INFO    :             django.server] - 2024-01-23 17:53:21,177 : log_message @ 0212: "GET /first/add_competition/ HTTP/1.1" 200 2315
+[INFO    :            appfirst.views] - 2024-01-23 17:53:44,540 : add_competition @ 0115: Добавили ВсОШ
+[INFO    :             django.server] - 2024-01-23 17:53:44,541 : log_message @ 0212: "POST /first/add_competition/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 17:53:44,555 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5441
+[ERROR   :            django.request] - 2024-01-23 17:53:49,946 : log_response @ 0241: Internal Server Error: /first/delete_competition/5/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 133, in delete_competition
+    name = competition.name
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'name'
+[ERROR   :             django.server] - 2024-01-23 17:53:49,947 : log_message @ 0212: "GET /first/delete_competition/5/ HTTP/1.1" 500 66445
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:54:04,332 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:54:04,646 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 17:54:04,916 : log_message @ 0212: "GET /first/delete_competition/5/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 17:54:04,934 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 4456
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:54:24,189 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:54:24,507 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:55:40,856 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:55:41,159 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 17:55:43,445 : log_message @ 0212: "GET /first/add_competition/ HTTP/1.1" 200 2315
+[INFO    :            appfirst.views] - 2024-01-23 17:56:15,048 : add_competition @ 0115: Добавили КомпБезопасность
+[INFO    :             django.server] - 2024-01-23 17:56:15,050 : log_message @ 0212: "POST /first/add_competition/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 17:56:15,066 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5461
+[ERROR   :            django.request] - 2024-01-23 17:56:18,541 : log_response @ 0241: Internal Server Error: /first/delete_competition/6/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 133, in delete_competition
+    name = competition[0]['name']
+           ~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'Competition' object is not subscriptable
+[ERROR   :             django.server] - 2024-01-23 17:56:18,541 : log_message @ 0212: "GET /first/delete_competition/6/ HTTP/1.1" 500 66439
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:56:46,805 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:56:47,118 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 17:56:50,442 : log_message @ 0212: "GET /first/delete_competition/6/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 17:56:50,457 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5490
+[INFO    :             django.server] - 2024-01-23 17:56:51,982 : log_message @ 0212: "GET /first/delete_competition/6/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 17:56:51,994 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5490
+[INFO    :             django.server] - 2024-01-23 17:56:52,530 : log_message @ 0212: "GET /first/delete_competition/6/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 17:56:52,544 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5490
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:57:57,113 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 17:58:01,516 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5203
+[INFO    :             django.server] - 2024-01-23 17:58:06,675 : log_message @ 0212: "GET /first/competition_activate/6/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 17:58:06,687 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5474
+[INFO    :             django.server] - 2024-01-23 17:58:06,711 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-23 17:58:08,637 : log_message @ 0212: "GET /first/delete_competition/6/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 17:58:08,649 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5494
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:59:10,671 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:59:11,014 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 17:59:15,825 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5207
+[INFO    :             django.server] - 2024-01-23 17:59:17,224 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5207
+[INFO    :             django.server] - 2024-01-23 17:59:17,269 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7993
+[WARNING :            django.request] - 2024-01-23 17:59:17,290 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-23 17:59:17,290 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :            appfirst.views] - 2024-01-23 17:59:21,563 : delete_competition @ 0135: Соревнование КомпБезопасность удалено
+[INFO    :             django.server] - 2024-01-23 17:59:21,564 : log_message @ 0212: "GET /first/delete_competition/6/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 17:59:21,576 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5494
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:59:37,781 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 17:59:38,099 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-23 17:59:43,565 : delete_competition @ 0136: Соревнование КомпБезопасность удалено
+[INFO    :             django.server] - 2024-01-23 17:59:43,568 : log_message @ 0212: "GET /first/delete_competition/6/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 17:59:43,587 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 4743
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:00:10,941 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:00:11,270 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:07:34,944 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:07:35,261 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 18:08:35,429 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 4531
+[INFO    :             django.server] - 2024-01-23 18:08:38,602 : log_message @ 0212: "GET /first/edit_competition/3/ HTTP/1.1" 200 2487
+[ERROR   :            django.request] - 2024-01-23 18:08:45,962 : log_response @ 0241: Internal Server Error: /first/edit_competition/3/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view appfirst.views.edit_competition didn't return an HttpResponse object. It returned None instead.
+[ERROR   :             django.server] - 2024-01-23 18:08:45,963 : log_message @ 0212: "POST /first/edit_competition/3/ HTTP/1.1" 500 68247
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:10:42,945 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:10:43,292 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 18:10:44,878 : log_message @ 0212: "POST /first/edit_competition/3/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 18:10:44,895 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 4943
+[INFO    :             django.server] - 2024-01-23 18:10:44,921 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-23 18:10:49,920 : log_message @ 0212: "GET /first/edit_competition/3/ HTTP/1.1" 200 2487
+[INFO    :             django.server] - 2024-01-23 18:10:55,229 : log_message @ 0212: "POST /first/edit_competition/3/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 18:10:55,243 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 4783
+[INFO    :             django.server] - 2024-01-23 18:11:15,458 : log_message @ 0212: "GET /first/add_competition/ HTTP/1.1" 200 2315
+[INFO    :            appfirst.views] - 2024-01-23 18:11:44,137 : add_competition @ 0116: Добавили Литрболл
+[INFO    :             django.server] - 2024-01-23 18:11:44,138 : log_message @ 0212: "POST /first/add_competition/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 18:11:44,152 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5550
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:14:22,431 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:14:22,768 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:16:18,032 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:16:18,347 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 18:16:19,732 : log_message @ 0212: "GET /first/add_competition/ HTTP/1.1" 200 2315
+[INFO    :             django.server] - 2024-01-23 18:16:29,500 : log_message @ 0212: "POST /first/add_competition/ HTTP/1.1" 200 2498
+[INFO    :             django.server] - 2024-01-23 18:16:42,346 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5292
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:21:51,570 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:21:51,889 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:41:45,289 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-23 18:41:54,984 : index @ 0023: Главная страница
+[INFO    :             django.server] - 2024-01-23 18:41:54,990 : log_message @ 0212: "GET / HTTP/1.1" 200 1963
+[INFO    :             django.server] - 2024-01-23 18:41:55,113 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-23 18:41:57,168 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 5292
+[ERROR   :            django.request] - 2024-01-23 18:42:31,151 : log_response @ 0241: Internal Server Error: /first/competition_activate/7/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: competitions.date
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 127, in competition_activate
+    competition.save()
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1036, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1101, in _do_update
+    return filtered._update(values) > 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1276, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1990, in execute_sql
+    cursor = super().execute_sql(result_type)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: competitions.date
+[ERROR   :             django.server] - 2024-01-23 18:42:31,154 : log_message @ 0212: "GET /first/competition_activate/7/ HTTP/1.1" 500 147710
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:45:45,089 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:45:45,435 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:46:40,404 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:46:40,708 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:46:57,074 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:46:57,378 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:47:29,142 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:47:29,471 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 18:47:32,994 : log_message @ 0212: "GET /first/add_competition/ HTTP/1.1" 200 2315
+[INFO    :             django.server] - 2024-01-23 18:47:57,561 : log_message @ 0212: "POST /first/add_competition/ HTTP/1.1" 200 2496
+[ERROR   :            django.request] - 2024-01-23 18:48:02,661 : log_response @ 0241: Internal Server Error: /first/add_competition/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 117, in add_competition
+    full_name = form.cleaned_data['full_name']
+                ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'full_name'
+[ERROR   :             django.server] - 2024-01-23 18:48:02,662 : log_message @ 0212: "POST /first/add_competition/ HTTP/1.1" 500 67675
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:49:33,119 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:49:33,441 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-23 18:49:35,593 : add_competition @ 0123: Добавили конкурс: яндекс олимп
+[INFO    :             django.server] - 2024-01-23 18:49:35,596 : log_message @ 0212: "POST /first/add_competition/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 18:49:35,616 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 6295
+[INFO    :             django.server] - 2024-01-23 18:50:09,215 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 6049
+[INFO    :             django.server] - 2024-01-23 18:50:35,012 : log_message @ 0212: "GET /first/edit_competition/8/ HTTP/1.1" 200 2408
+[INFO    :             django.server] - 2024-01-23 18:50:46,172 : log_message @ 0212: "POST /first/edit_competition/8/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 18:50:46,184 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 6301
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:52:12,585 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:52:12,902 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 18:52:32,991 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 6049
+[INFO    :             django.server] - 2024-01-23 18:52:35,686 : log_message @ 0212: "GET /first/edit_competition/8/ HTTP/1.1" 200 2408
+[INFO    :             django.server] - 2024-01-23 18:52:42,734 : log_message @ 0212: "POST /first/edit_competition/8/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 18:52:42,752 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 7054
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:54:03,242 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:54:03,551 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:54:40,412 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:54:40,747 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 18:55:43,068 : log_message @ 0212: "GET /first/edit_competition/9/ HTTP/1.1" 200 2408
+[INFO    :             django.server] - 2024-01-23 18:55:53,947 : log_message @ 0212: "POST /first/edit_competition/9/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 18:55:53,961 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 7819
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:56:41,399 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 18:56:41,713 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 18:57:14,572 : log_message @ 0212: "GET /first/edit_competition/10/ HTTP/1.1" 200 2412
+[INFO    :             django.server] - 2024-01-23 18:57:14,593 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[ERROR   :            django.request] - 2024-01-23 18:57:26,619 : log_response @ 0241: Internal Server Error: /first/edit_competition/10/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 163, in edit_competition
+    comp.update()
+    ^^^^^^^^^^^
+AttributeError: 'Competition' object has no attribute 'update'
+[ERROR   :             django.server] - 2024-01-23 18:57:26,620 : log_message @ 0212: "POST /first/edit_competition/10/ HTTP/1.1" 500 69200
+[ERROR   :            django.request] - 2024-01-23 19:03:12,984 : log_response @ 0241: Internal Server Error: /first/edit_competition/10/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 163, in edit_competition
+    comp.update()
+    ^^^^^^^^^^^
+AttributeError: 'Competition' object has no attribute 'update'
+[ERROR   :             django.server] - 2024-01-23 19:03:12,984 : log_message @ 0212: "POST /first/edit_competition/10/ HTTP/1.1" 500 69200
+[INFO    :   django.utils.autoreload] - 2024-01-23 19:07:28,966 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 19:07:29,288 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-23 19:08:16,949 : index @ 0023: Главная страница
+[INFO    :             django.server] - 2024-01-23 19:08:16,954 : log_message @ 0212: "GET / HTTP/1.1" 200 1963
+[INFO    :             django.server] - 2024-01-23 19:08:19,144 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 7567
+[INFO    :   django.utils.autoreload] - 2024-01-23 19:09:18,553 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 19:09:18,862 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 19:09:20,293 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 7567
+[INFO    :   django.utils.autoreload] - 2024-01-23 19:26:21,294 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 19:26:21,613 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 19:26:23,186 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 7567
+[INFO    :             django.server] - 2024-01-23 19:26:23,210 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-23 19:27:26,113 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 7560
+[INFO    :             django.server] - 2024-01-23 19:27:51,682 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 7483
+[INFO    :             django.server] - 2024-01-23 19:27:53,825 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 7483
+[INFO    :             django.server] - 2024-01-23 21:43:21,202 : log_message @ 0212: "GET /first/add_competition/ HTTP/1.1" 200 2315
+[INFO    :             django.server] - 2024-01-23 21:43:21,226 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :            appfirst.views] - 2024-01-23 21:43:32,647 : add_competition @ 0124: Добавили конкурс: привет
+[INFO    :             django.server] - 2024-01-23 21:43:32,648 : log_message @ 0212: "POST /first/add_competition/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 21:43:32,660 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 8432
+[INFO    :             django.server] - 2024-01-23 21:43:38,190 : log_message @ 0212: "GET /first/edit_competition/11/ HTTP/1.1" 200 2370
+[INFO    :             django.server] - 2024-01-23 21:43:49,032 : log_message @ 0212: "POST /first/edit_competition/11/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 21:43:49,045 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 8447
+[ERROR   :            django.request] - 2024-01-23 21:43:58,027 : log_response @ 0241: Internal Server Error: /first/delete_competition/11/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: competition_tasks
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 143, in delete_competition
+    competition.delete()
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1186, in delete
+    deleted, _rows_count = collector.delete()
+                           ^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\deletion.py", line 472, in delete
+    count = qs._raw_delete(using=self.using)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1208, in _raw_delete
+    cursor = query.get_compiler(using).execute_sql(CURSOR)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: competition_tasks
+[ERROR   :             django.server] - 2024-01-23 21:43:58,029 : log_message @ 0212: "GET /first/delete_competition/11/ HTTP/1.1" 500 127948
+[INFO    :   django.utils.autoreload] - 2024-01-23 21:57:06,936 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 21:58:02,474 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-23 21:58:12,451 : index @ 0023: Главная страница
+[INFO    :             django.server] - 2024-01-23 21:58:12,462 : log_message @ 0212: "GET / HTTP/1.1" 200 1963
+[ERROR   :            django.request] - 2024-01-23 21:58:14,755 : log_response @ 0241: Internal Server Error: /first/edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: judges
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 31, in edit_judges
+    for judge in judges:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: judges
+[ERROR   :             django.server] - 2024-01-23 21:58:14,757 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 500 129991
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:00:06,137 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-23 22:00:06,198 : index @ 0023: Главная страница
+[INFO    :             django.server] - 2024-01-23 22:00:06,204 : log_message @ 0212: "GET / HTTP/1.1" 200 1963
+[INFO    :             django.server] - 2024-01-23 22:00:07,828 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1546
+[INFO    :             django.server] - 2024-01-23 22:00:44,373 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1561
+[INFO    :             django.server] - 2024-01-23 22:00:46,045 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3321
+[INFO    :             django.server] - 2024-01-23 22:01:08,446 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3649
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:01:38,906 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:01:39,232 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 22:01:47,807 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3649
+[INFO    :             django.server] - 2024-01-23 22:01:47,857 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7993
+[WARNING :            django.request] - 2024-01-23 22:01:47,887 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-23 22:01:47,888 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :            appfirst.views] - 2024-01-23 22:01:53,175 : index @ 0023: Главная страница
+[INFO    :             django.server] - 2024-01-23 22:01:53,177 : log_message @ 0212: "GET / HTTP/1.1" 200 1963
+[INFO    :             django.server] - 2024-01-23 22:01:54,642 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1561
+[INFO    :             django.server] - 2024-01-23 22:01:55,478 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3321
+[INFO    :             django.server] - 2024-01-23 22:02:10,088 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3649
+[INFO    :             django.server] - 2024-01-23 22:02:13,066 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3649
+[ERROR   :            django.request] - 2024-01-23 22:02:22,856 : log_response @ 0241: Internal Server Error: /first/edit_competitions/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 106, in edit_competitions
+    print(competitions[0])
+          ~~~~~~~~~~~~^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 450, in __getitem__
+    return qs._result_cache[0]
+           ~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+[ERROR   :             django.server] - 2024-01-23 22:02:22,857 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 500 70119
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:02:48,836 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:02:49,207 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 22:02:49,977 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 2090
+[INFO    :             django.server] - 2024-01-23 22:02:57,329 : log_message @ 0212: "GET /first/add_competition/ HTTP/1.1" 200 2315
+[INFO    :            appfirst.views] - 2024-01-23 22:03:29,292 : add_competition @ 0124: Добавили конкурс: БПЛА - 2024
+[INFO    :             django.server] - 2024-01-23 22:03:29,293 : log_message @ 0212: "POST /first/add_competition/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:03:29,306 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3147
+[INFO    :             django.server] - 2024-01-23 22:03:38,865 : log_message @ 0212: "GET /first/competition_activate/1/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:03:38,875 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3164
+[INFO    :             django.server] - 2024-01-23 22:03:44,769 : log_message @ 0212: "GET /first/edit_competition/1/ HTTP/1.1" 200 2475
+[INFO    :             django.server] - 2024-01-23 22:03:54,855 : log_message @ 0212: "POST /first/edit_competition/1/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:03:54,867 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3162
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:04:49,706 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:04:50,038 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:06:50,380 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:06:50,696 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-23 22:07:01,216 : delete_competition @ 0144: Соревнование БПЛА - 2024 удалено
+[INFO    :             django.server] - 2024-01-23 22:07:01,220 : log_message @ 0212: "GET /first/delete_competition/1/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:07:01,233 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 2360
+[INFO    :             django.server] - 2024-01-23 22:07:03,602 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1561
+[INFO    :             django.server] - 2024-01-23 22:07:04,672 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3321
+[INFO    :             django.server] - 2024-01-23 22:07:17,421 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3693
+[INFO    :             django.server] - 2024-01-23 22:07:22,712 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3611
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:11:22,988 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:11:23,320 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 22:11:26,167 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3455
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:20:26,084 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:20:26,409 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 22:20:43,625 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1561
+[INFO    :             django.server] - 2024-01-23 22:20:44,729 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3173
+[INFO    :             django.server] - 2024-01-23 22:20:53,746 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3453
+[INFO    :             django.server] - 2024-01-23 22:20:56,162 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3453
+[INFO    :             django.server] - 2024-01-23 22:20:56,456 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3453
+[INFO    :             django.server] - 2024-01-23 22:20:56,666 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3453
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:23:26,444 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 22:23:31,982 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3453
+[INFO    :             django.server] - 2024-01-23 22:23:32,026 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7993
+[WARNING :            django.request] - 2024-01-23 22:23:32,051 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-23 22:23:32,051 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :            appfirst.views] - 2024-01-23 22:23:36,412 : index @ 0023: Главная страница
+[INFO    :             django.server] - 2024-01-23 22:23:36,413 : log_message @ 0212: "GET / HTTP/1.1" 200 1963
+[INFO    :             django.server] - 2024-01-23 22:23:37,947 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1561
+[INFO    :             django.server] - 2024-01-23 22:23:39,390 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3173
+[INFO    :             django.server] - 2024-01-23 22:23:45,396 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3602
+[INFO    :             django.server] - 2024-01-23 22:23:50,134 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3602
+[INFO    :             django.server] - 2024-01-23 22:23:54,988 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3438
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:24:13,509 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:24:13,854 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 22:24:15,736 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3438
+[INFO    :             django.server] - 2024-01-23 22:24:18,426 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3438
+[INFO    :             django.server] - 2024-01-23 22:24:21,673 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1561
+[INFO    :             django.server] - 2024-01-23 22:24:22,528 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3173
+[INFO    :             django.server] - 2024-01-23 22:24:25,610 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3602
+[INFO    :             django.server] - 2024-01-23 22:24:29,429 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3602
+[INFO    :             django.server] - 2024-01-23 22:24:29,470 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7993
+[WARNING :            django.request] - 2024-01-23 22:24:29,493 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-23 22:24:29,493 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2321
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:24:32,638 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 22:24:35,414 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1561
+[INFO    :             django.server] - 2024-01-23 22:24:36,470 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3173
+[INFO    :             django.server] - 2024-01-23 22:24:40,953 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3438
+[INFO    :             django.server] - 2024-01-23 22:24:46,169 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3438
+[INFO    :             django.server] - 2024-01-23 22:24:47,919 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3438
+[INFO    :             django.server] - 2024-01-23 22:24:49,934 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3438
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:25:19,651 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:25:19,984 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:25:28,652 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:26:02,040 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 22:26:07,363 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1561
+[INFO    :             django.server] - 2024-01-23 22:26:08,585 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3173
+[INFO    :             django.server] - 2024-01-23 22:26:10,761 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3602
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:29:20,532 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:29:20,867 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-23 22:29:33,082 : index @ 0023: Главная страница
+[INFO    :             django.server] - 2024-01-23 22:29:33,089 : log_message @ 0212: "GET /first/ HTTP/1.1" 200 1963
+[INFO    :             django.server] - 2024-01-23 22:29:34,208 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1561
+[INFO    :             django.server] - 2024-01-23 22:29:35,068 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3173
+[INFO    :             django.server] - 2024-01-23 22:29:37,621 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3602
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:32:59,416 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:32:59,769 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 22:33:15,156 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1561
+[INFO    :             django.server] - 2024-01-23 22:33:16,034 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3173
+[INFO    :             django.server] - 2024-01-23 22:33:20,676 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3439
+[INFO    :             django.server] - 2024-01-23 22:33:23,115 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3439
+[INFO    :             django.server] - 2024-01-23 22:33:23,445 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3439
+[INFO    :             django.server] - 2024-01-23 22:33:26,003 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3439
+[INFO    :             django.server] - 2024-01-23 22:33:28,251 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3439
+[INFO    :             django.server] - 2024-01-23 22:33:37,609 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 2090
+[INFO    :             django.server] - 2024-01-23 22:33:38,807 : log_message @ 0212: "GET /first/add_competition/ HTTP/1.1" 200 2315
+[INFO    :            appfirst.views] - 2024-01-23 22:34:00,028 : add_competition @ 0124: Добавили конкурс: БпЛА-2024
+[INFO    :             django.server] - 2024-01-23 22:34:00,029 : log_message @ 0212: "POST /first/add_competition/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:34:00,041 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 3064
+[INFO    :             django.server] - 2024-01-23 22:34:05,413 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 1561
+[INFO    :             django.server] - 2024-01-23 22:34:06,343 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3217
+[INFO    :             django.server] - 2024-01-23 22:34:11,037 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3487
+[ERROR   :            django.request] - 2024-01-23 22:34:13,436 : log_response @ 0241: Internal Server Error: /first/add_judge/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 67, in add_judge
+    is_active = form.cleaned_data['is_active']
+                ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'is_active'
+[ERROR   :             django.server] - 2024-01-23 22:34:13,437 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 500 69671
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:34:31,865 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:34:32,214 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-23 22:34:36,159 : add_judge @ 0075: Получили данные name Евлампьев.
+[INFO    :             django.server] - 2024-01-23 22:34:36,161 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:34:36,179 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 3242
+[INFO    :             django.server] - 2024-01-23 22:34:41,425 : log_message @ 0212: "GET /first/edit_judge/1/ HTTP/1.1" 200 3409
+[INFO    :             django.server] - 2024-01-23 22:34:54,877 : log_message @ 0212: "POST /first/edit_judge/1/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:34:54,889 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 3297
+[INFO    :             django.server] - 2024-01-23 22:35:52,967 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3217
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:36:22,230 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:36:22,559 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 22:36:23,956 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 3045
+[INFO    :             django.server] - 2024-01-23 22:36:24,785 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3217
+[INFO    :             django.server] - 2024-01-23 22:36:47,266 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3464
+[INFO    :            appfirst.views] - 2024-01-23 22:36:49,897 : add_judge @ 0075: Получили данные name Евлампьева.
+[INFO    :             django.server] - 2024-01-23 22:36:49,898 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:36:49,911 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 4062
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:37:26,807 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:37:27,131 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 22:37:27,314 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3217
+[INFO    :            appfirst.views] - 2024-01-23 22:37:43,658 : add_judge @ 0075: Получили данные name Евлампьева.
+[INFO    :             django.server] - 2024-01-23 22:37:43,659 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:37:43,676 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 4896
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:38:14,130 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:38:14,464 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:40:34,743 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:40:35,082 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:41:30,295 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 22:41:34,419 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3208
+[ERROR   :            django.request] - 2024-01-23 22:41:51,833 : log_response @ 0241: Internal Server Error: /first/add_judge/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py", line 73, in add_judge
+    competition.judge_set.add(judge)
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'judge_set'
+[ERROR   :             django.server] - 2024-01-23 22:41:51,834 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 500 69922
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:43:04,056 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:43:04,373 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :            appfirst.views] - 2024-01-23 22:43:06,277 : add_judge @ 0076: Получили данные name Евлампьев.
+[INFO    :             django.server] - 2024-01-23 22:43:06,279 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:43:06,300 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 6718
+[INFO    :            appfirst.views] - 2024-01-23 22:43:10,295 : delete_judge @ 0048: O: Евлампьев И. А. deleted
+[INFO    :             django.server] - 2024-01-23 22:43:10,302 : log_message @ 0212: "GET /first/delete_judge/5/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:43:10,312 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 5783
+[INFO    :             django.server] - 2024-01-23 22:43:11,975 : log_message @ 0212: "GET /first/edit_judge/4/ HTTP/1.1" 200 3390
+[INFO    :             django.server] - 2024-01-23 22:43:15,705 : log_message @ 0212: "POST /first/edit_judge/4/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:43:15,717 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 5783
+[INFO    :             django.server] - 2024-01-23 22:43:21,081 : log_message @ 0212: "GET /first/edit_judge/4/ HTTP/1.1" 200 3390
+[INFO    :             django.server] - 2024-01-23 22:43:24,850 : log_message @ 0212: "POST /first/edit_judge/4/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:43:24,862 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 5783
+[INFO    :            appfirst.views] - 2024-01-23 22:43:41,408 : delete_judge @ 0048: O: Евлампьев И. А. deleted
+[INFO    :             django.server] - 2024-01-23 22:43:41,414 : log_message @ 0212: "GET /first/delete_judge/4/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:43:41,424 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 4906
+[INFO    :             django.server] - 2024-01-23 22:43:42,232 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3208
+[INFO    :            appfirst.views] - 2024-01-23 22:43:51,875 : add_judge @ 0076: Получили данные name Евлампьев.
+[INFO    :             django.server] - 2024-01-23 22:43:51,875 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:43:51,888 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 5719
+[INFO    :             django.server] - 2024-01-23 22:43:57,726 : log_message @ 0212: "GET /first/edit_judge/6/ HTTP/1.1" 200 3336
+[INFO    :             django.server] - 2024-01-23 22:44:15,158 : log_message @ 0212: "POST /first/edit_judge/6/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:44:15,169 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 5729
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:50:39,288 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\appfirst\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-23 22:50:39,607 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-23 22:50:41,331 : log_message @ 0212: "GET /first/add_judge/ HTTP/1.1" 200 3217
+[INFO    :             django.server] - 2024-01-23 22:50:46,258 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 200 3481
+[INFO    :            appfirst.views] - 2024-01-23 22:50:48,198 : add_judge @ 0076: Получили данные name Евлампьев.
+[INFO    :             django.server] - 2024-01-23 22:50:48,198 : log_message @ 0212: "POST /first/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:50:48,215 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 6715
+[INFO    :            appfirst.views] - 2024-01-23 22:51:50,150 : delete_judge @ 0048: M: Евлампьев И. А. deleted
+[INFO    :             django.server] - 2024-01-23 22:51:50,157 : log_message @ 0212: "GET /first/delete_judge/6/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-23 22:51:50,167 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 5834
+[INFO    :             django.server] - 2024-01-23 22:55:23,861 : log_message @ 0212: "GET /first/edit_competitions/ HTTP/1.1" 200 2818

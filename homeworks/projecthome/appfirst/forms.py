@@ -18,8 +18,8 @@ class UserForm(forms.ModelForm):
     # organization = forms.CharField(max_length=100)
     status = forms.ChoiceField(choices=STATUSES)
     competition = forms.ModelChoiceField(
-        queryset=Competition.objects.all().order_by('name'))
-    is_active = forms.BooleanField(required=True)  # по умолчанию галочка на True
+        queryset=Competition.objects.all().order_by('name'), blank=True)
+    # is_active = forms.BooleanField(required=True)  # по умолчанию галочка на True
 
 
 class CompetitionForm(forms.ModelForm):

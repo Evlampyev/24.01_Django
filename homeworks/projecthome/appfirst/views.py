@@ -59,18 +59,19 @@ def add_judge(request):
             name = form.cleaned_data['name']
             patronymic = form.cleaned_data['patronymic']
             last_name = form.cleaned_data['last_name']
-            post = form.cleaned_data['post']
+            post = form.cleaned_data['post'].capitalize()
             regalia = form.cleaned_data['regalia']
             organization = form.cleaned_data['organization']
             status = form.cleaned_data['status']
             competition = form.cleaned_data['competition']
-            is_active = form.cleaned_data['is_active']
+            # is_active = form.cleaned_data['is_active']
             # comp = Competition.objects.filter(name=competition)
             judge = Judge(name=name, patronymic=patronymic, last_name=last_name,
                           organization=organization, post=post, regalia=regalia,
-                          status=status, is_active=is_active)
+                          status=status)
             judge.save()
-            competition.judge_set.add(judge)
+            if competition:
+                competition.judge_set.add(judge)
             # добавляет в поле со связью многие ко многим
             logger.info(f'Получили данные {"name"} {last_name}.')
 
@@ -88,6 +89,7 @@ def edit_judge(request, pk):
     if request.method == 'GET':
         context = {'form': UserForm(instance=judge), 'id': pk}
         return render(request, 'appfirst/edit_judge.html', context)
+
     elif request.method == 'POST':
         form = UserForm(request.POST, instance=judge)
         if form.is_valid():
@@ -102,6 +104,7 @@ def edit_judge(request, pk):
 def edit_competitions(request):
     competitions = Competition.objects.all().order_by('name')
     context = dict()
+    # print(competitions[0])
     context['competitions'] = competitions
     context['title'] = COMPETITIONS_TABLE_TITLE
     return render(request, 'appfirst/edit_competitions.html', context=context)
@@ -111,9 +114,16 @@ def add_competition(request):
     if request.method == 'POST':
         form = CompetitionForm(request.POST)
         if form.is_valid():
-            form.save()
-            logger.info(f'Добавили {form.cleaned_data["name"]}')
-            messages.success(request, "Соревнование добавлено")
+            # form.save()
+            name = form.cleaned_data['name']
+            full_name = form.cleaned_data['fullname']
+            date = form.cleaned_data['date']
+            active = form.cleaned_data['active']
+            comp = Competition(name=name, fullname=full_name, date=date, active=active)
+            comp.save()
+            # logger.info(f'Добавили {form.cleaned_data["name"]}')
+            logger.info(f'Добавили конкурс: {name}')
+            messages.success(request, "Конкурс добавлен")
             return redirect('/first/edit_competitions/')
     else:
         form = CompetitionForm()
@@ -126,6 +136,39 @@ def competition_activate(request, pk):
     competition.save()
     messages.success(request, "Статус соревнования изменён")
     return redirect('edit_competitions')
+
+
+def delete_competition(request, pk):
+    competition = Competition.objects.filter(id=pk)
+    name = competition[0]
+    competition.delete()
+    logger.info(f"Соревнование {name} удалено")
+    messages.success(request, f"Соревнование {name} удалено")
+    return redirect('edit_competitions')
+
+
+def edit_competition(request, pk):
+    competition = get_object_or_404(Competition, id=pk)
+
+    if request.method == 'GET':
+        context = {'form': CompetitionForm(instance=competition), 'id': pk}
+        return render(request, 'appfirst/edit_competition.html', context)
+
+    elif request.method == 'POST':
+        form = CompetitionForm(request.POST, instance=competition)
+        if form.is_valid():
+            # name = form.cleaned_data['name']
+            # full_name = form.cleaned_data['fullname']
+            # date = form.cleaned_data['date']
+            # active = form.cleaned_data['active']
+            # comp = Competition(name=name, fullname=full_name, date=date, active=active)
+            # comp.update()
+            form.save()
+            messages.success(request, f"Изменения сохранены")
+            return redirect('edit_competitions')
+        else:
+            messages.error(request, 'Пожалуйста, исправьте следующие ошибки:')
+            return render(request, 'appfirst/edit_competition.html', {'form': form})
 
 
 def base(request):

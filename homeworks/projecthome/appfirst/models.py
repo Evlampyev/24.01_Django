@@ -1,3 +1,5 @@
+import datetime
+
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
@@ -13,23 +15,24 @@ STATUSES = (
 
 
 class Competition(models.Model):
-    """Соревнования"""
+    """Конкурсы"""
 
     class Meta:
         db_table = 'competitions'
 
     name = models.CharField(_('Сокращенное название'), max_length=50)
     fullname = models.CharField(_('Полное наименование конкурса'), max_length=200,
-                                default=None)
-    date = models.DateField(_('Дата проведения'), default=None, null=True)
-    active = models.BooleanField(_('Активен'), default=False)
+                                 default=None)
+    date = models.DateField(_('Дата проведения'),
+                            help_text="Дата начала соревнований")
+    active = models.BooleanField(_('Активен'), default=True)
 
     def __str__(self):
         return self.name
 
 
 class CompetitionTask(models.Model):
-    """Задания в соревновании"""
+    """Этапы конкурса"""
 
     class Meta:
         db_table = 'competition_tasks'
@@ -64,7 +67,7 @@ class Judge(User):
     organization = models.CharField(_('Место работы'), max_length=100)
     status = models.CharField(_('Статус на соревнованиях'), max_length=1,
                               choices=STATUSES, default='O')
-    competitions = models.ManyToManyField(Competition)
+    competitions = models.ManyToManyField(Competition, blank=True, default='Нет')
 
     def __str__(self):
         return f"{self.status}: {self.last_name} {self.name[0]}. {self.patronymic[0]}."

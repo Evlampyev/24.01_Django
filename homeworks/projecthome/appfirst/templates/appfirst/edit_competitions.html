@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block title %}
-    Редактирование конкурсов
+Редактирование конкурсов
 {% endblock %}
 
 {% block content %}
@@ -26,7 +26,7 @@
             <td>{{competition.data}}</td>
             <td>
                 <div class="container">
-                    <a href = "{% url 'competition_activate' pk=competition.id %}" class="btn a_btn">
+                    <a href="{% url 'competition_activate' pk=competition.id %}" class="btn a_btn">
                         {% if competition.active %}
                         Деактивировать
                         {% else %}
@@ -34,9 +34,11 @@
                         {% endif %}
                     </a>
                 </div>
-            </td>>
-            <td class="actions"><a href="#">Edit</a> | <a href="#">Delete</a></td>
-<!--            <td class="checkbox"><input type="checkbox"/></td>-->
+            </td>
+
+            <td class="actions"><a href="{% url 'edit_competition' pk=competition.id %}">Edit</a> | <a
+                    href="{% url 'delete_competition' pk=competition.id %}">Delete</a></td>
+            <!--            <td class="checkbox"><input type="checkbox"/></td>-->
         </tr>
         {% endfor %}
         </tbody>
