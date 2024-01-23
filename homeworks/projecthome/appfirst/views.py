@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect, get_object_or_404
 from pathlib import Path
 from logging import getLogger
-from .forms import UserForm
+from .forms import UserForm, CompetitionForm
 from appfirst.models import Judge, Competition
 from django.contrib import messages
 
@@ -32,8 +32,6 @@ def edit_judges(request):
         competitions_dict[judge.pk] = [comp for comp in
                                        judge.competitions.all().values_list('name',
                                                                             flat=True)]
-    print(f'{competitions_dict=}')
-
     context = {
         'title'       : JUDGE_TABLE_TITLE,
         'judges'      : judges,
@@ -50,6 +48,7 @@ def delete_judge(request, pk):
     logger.info(f'{judge} deleted')
     judge.is_active = False
     judge.save()
+    messages.success(request, "Пользователь удален")
     return redirect('/first/edit_judges/')
 
 
@@ -66,7 +65,7 @@ def add_judge(request):
             status = form.cleaned_data['status']
             competition = form.cleaned_data['competition']
             is_active = form.cleaned_data['is_active']
-            comp = Competition.objects.filter(name=competition)
+            # comp = Competition.objects.filter(name=competition)
             judge = Judge(name=name, patronymic=patronymic, last_name=last_name,
                           organization=organization, post=post, regalia=regalia,
                           status=status, is_active=is_active)
@@ -81,32 +80,6 @@ def add_judge(request):
     else:
         form = UserForm()
     return render(request, 'appfirst/edit_judge.html', {'form': form})
-
-
-def edit_competitions(request):
-    competitions = Competition.objects.all().order_by('name')
-    # temp = [comp for comp in list_competition]
-    context = dict()
-    context['competitions'] = competitions
-    context['title'] = COMPETITIONS_TABLE_TITLE
-    print(competitions)
-    return render(request, 'appfirst/edit_competitions.html', context=context)
-
-
-def add_competition(request):
-    return HttpResponse('Добавить')
-
-
-def base(request):
-    logger.info('Базовый шаблон. Зачем сюда-то?')
-    return render(request, 'base.html')
-
-
-def about(request):
-    logger.info("Загружена страница обо мне")
-    html = ("<p>Эта страница про меня<br>и мой первый сайт</p>"
-            "<a href='{% url 'index' %}'>на главную</a>")
-    return HttpResponse(html)
 
 
 def edit_judge(request, pk):
@@ -124,3 +97,44 @@ def edit_judge(request, pk):
         else:
             messages.error(request, 'Пожалуйста, исправьте следующие ошибки:')
             return render(request, 'appfirst/edit_judge.html', {'form': form})
+
+
+def edit_competitions(request):
+    competitions = Competition.objects.all().order_by('name')
+    context = dict()
+    context['competitions'] = competitions
+    context['title'] = COMPETITIONS_TABLE_TITLE
+    return render(request, 'appfirst/edit_competitions.html', context=context)
+
+
+def add_competition(request):
+    if request.method == 'POST':
+        form = CompetitionForm(request.POST)
+        if form.is_valid():
+            form.save()
+            logger.info(f'Добавили {form.cleaned_data["name"]}')
+            messages.success(request, "Соревнование добавлено")
+            return redirect('/first/edit_competitions/')
+    else:
+        form = CompetitionForm()
+    return render(request, 'appfirst/edit_competition.html', {'form': form})
+
+
+def competition_activate(request, pk):
+    competition = Competition.objects.filter(id=pk).first()
+    competition.active = not competition.active
+    competition.save()
+    messages.success(request, "Статус соревнования изменён")
+    return redirect('edit_competitions')
+
+
+def base(request):
+    logger.info('Базовый шаблон. Зачем сюда-то?')
+    return render(request, 'base.html')
+
+
+def about(request):
+    logger.info("Загружена страница обо мне")
+    html = ("<p>Эта страница про меня<br>и мой первый сайт</p>"
+            "<a href='{% url 'index' %}'>на главную</a>")
+    return HttpResponse(html)

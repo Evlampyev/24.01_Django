@@ -18,10 +18,11 @@ class Competition(models.Model):
     class Meta:
         db_table = 'competitions'
 
-    name = models.CharField(max_length=50)
-    fullname = models.CharField(max_length=150, default=None)
-    date = models.DateField(default=None, null=True)
-    active = models.BooleanField(default=False)
+    name = models.CharField(_('Сокращенное название'), max_length=50)
+    fullname = models.CharField(_('Полное наименование конкурса'), max_length=200,
+                                default=None)
+    date = models.DateField(_('Дата проведения'), default=None, null=True)
+    active = models.BooleanField(_('Активен'), default=False)
 
     def __str__(self):
         return self.name

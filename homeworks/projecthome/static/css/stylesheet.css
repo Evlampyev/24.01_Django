@@ -22,7 +22,7 @@ header {
 footer {
   background-color:#2c3e50;
   color:white;
-  height: 30px;
+  height: 40px;
 }
 
 * { box-sizing: border-box; }
@@ -374,6 +374,8 @@ span.no {
 
 form {
   max-width: 400px;
+  margin: 0 auto;
+  border:   1px solid #
 }
 label, input, textarea, select {
   display: block;
