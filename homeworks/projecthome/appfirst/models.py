@@ -1,17 +1,8 @@
-import datetime
-
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
+
 # Create your models here.
-
-
-STATUSES = (
-    ('M', 'главный судья'),
-    ('J', 'судья'),
-    ('S', 'секретарь'),
-    ('O', 'наблюдатель'),
-)
 
 
 class Competition(models.Model):
@@ -22,7 +13,7 @@ class Competition(models.Model):
 
     name = models.CharField(_('Сокращенное название'), max_length=50)
     fullname = models.CharField(_('Полное наименование конкурса'), max_length=200,
-                                 default=None)
+                                default=None)
     date = models.DateField(_('Дата проведения'),
                             help_text="Дата начала соревнований")
     active = models.BooleanField(_('Активен'), default=True)
@@ -59,6 +50,13 @@ class User(models.Model):
 
 
 class Judge(User):
+    STATUSES = (
+        ('M', 'главный судья'),
+        ('J', 'судья'),
+        ('S', 'секретарь'),
+        ('O', 'наблюдатель'),
+    )
+
     class Meta:
         db_table = 'judges'
 
@@ -70,4 +68,4 @@ class Judge(User):
     competitions = models.ManyToManyField(Competition, blank=True, default='Нет')
 
     def __str__(self):
-        return f"{self.status}: {self.last_name} {self.name[0]}. {self.patronymic[0]}."
+        return f"{self.status}: {self.last_name} {self.name}. {self.patronymic}."

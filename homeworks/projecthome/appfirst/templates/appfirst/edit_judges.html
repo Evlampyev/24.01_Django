@@ -31,7 +31,8 @@
             <td>{{judge.post}}</td>
             <td>{{judge.regalia}}</td>
             <td>{{judge.organization}}</td>
-            <td>{{judge.status}}</td>
+            <td>{{ judge.get_status_display }}</td>
+<!--            для отображения верной должности-->
             <td>
                 {% for key,item in competitions.items %}
                 {% if key == judge.id %}

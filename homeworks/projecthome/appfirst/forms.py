@@ -1,6 +1,6 @@
 from django import forms
 import datetime
-from .models import Competition, STATUSES, Judge
+from .models import Competition, Judge
 from django.utils.translation import gettext_lazy as _
 
 
@@ -16,7 +16,7 @@ class UserForm(forms.ModelForm):
     # post = forms.CharField(max_length=100)
     # regalia = forms.CharField(empty_value="")
     # organization = forms.CharField(max_length=100)
-    status = forms.ChoiceField(choices=STATUSES)
+    status = forms.ChoiceField(choices=Judge.STATUSES)
     competition = forms.ModelChoiceField(
         queryset=Competition.objects.all().order_by('name'), blank=True)
     # is_active = forms.BooleanField(required=True)  # по умолчанию галочка на True
