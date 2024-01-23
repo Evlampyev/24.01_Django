@@ -3963,3 +3963,39 @@ Traceback (most recent call last):
     raise TemplateSyntaxError(
 django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'judge.get_status_display()'
 [ERROR   :             django.server] - 2024-01-23 23:40:42,146 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 500 238140
+[INFO    :             django.server] - 2024-01-23 23:41:31,294 : log_message @ 0212: "GET /first/edit_judges/ HTTP/1.1" 200 3915
+[INFO    :   django.utils.autoreload] - 2024-01-23 23:58:55,694 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:05:03,207 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:07:25,218 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:08:23,694 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:11:36,016 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:11:46,320 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:11:46,637 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:12:23,201 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:12:23,520 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:12:43,874 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:15:21,897 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:18:46,366 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:18:46,670 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:19:23,284 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:19:23,593 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:19:38,963 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:19:39,278 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:19:58,624 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:19:58,949 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:21:13,256 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:21:28,073 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:21:57,511 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:22:06,750 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:22:15,034 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\models.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:22:15,331 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:25:55,937 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:26:26,552 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:26:56,438 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:30:40,016 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:30:46,266 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\projecthome\__init__.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:30:46,586 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:31:25,927 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:31:35,221 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\manage.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:31:35,532 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 00:32:21,512 : run_with_reloader @ 0668: Watching for file changes with StatReloader

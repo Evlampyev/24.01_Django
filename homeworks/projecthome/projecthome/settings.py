@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'appfirst',
+    'app_for_judges',
+    'app_for_competitions',
 
 ]
 
@@ -155,7 +156,7 @@ LOGGING = {
             'handlers': ['console', 'file'],
             'level': 'INFO',
         },
-        'appfirst': {  # для моего приложения в проекте
+        'app_for_judges': {  # для моего приложения в проекте
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
