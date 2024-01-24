@@ -1,6 +1,4 @@
-from django.http import HttpResponse
 from django.shortcuts import render, redirect, get_object_or_404
-from pathlib import Path
 from logging import getLogger
 from .forms import UserForm
 from .models import Judge
@@ -13,12 +11,6 @@ logger = getLogger(__name__)
 
 JUDGE_TABLE_TITLE = ["№ п\п", 'Имя', "Отчество", "Фамилия", "Должность", "Заслуги",
                      "Место работы", "Статус", 'Соревнование', "Редактор"]
-
-
-def index(request):
-    context = {'info': ['Всем привет!', 'И добро пожаловать!']}
-    logger.info('Главная страница')
-    return render(request, 'app_for_judges/index.html', context=context)
 
 
 def edit_judges(request):
@@ -98,15 +90,3 @@ def edit_judge(request, pk):
         else:
             messages.error(request, 'Пожалуйста, исправьте следующие ошибки:')
             return render(request, 'app_for_judges/edit_judge.html', {'form': form})
-
-
-def base(request):
-    logger.info('Базовый шаблон. Зачем сюда-то?')
-    return render(request, 'base.html')
-
-
-def about(request):
-    logger.info("Загружена страница обо мне")
-    html = ("<p>Эта страница про меня<br>и мой первый сайт</p>"
-            "<a href='{% url 'index' %}'>на главную</a>")
-    return HttpResponse(html)

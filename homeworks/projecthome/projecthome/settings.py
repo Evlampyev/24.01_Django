@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'app_for_judges',
     'app_for_competitions',
+    'app_main',
 
 ]
 
@@ -149,6 +150,7 @@ LOGGING = {
             'class': 'logging.FileHandler',
             'filename': BASE_DIR / 'logs' / 'django.log',  # имя файла
             'formatter': 'verbose',
+            'mode': 'w',
         },
     },
     'loggers': {
@@ -162,11 +164,15 @@ LOGGING = {
             'propagate': True,
             # если есть более высоко стоящие логгеры, то их нужно использовать
         },
-        'app_for_competitions': {  # для моего приложения в проекте
+        'app_for_competitions': {
             'handlers' : ['console', 'file'],
             'level'    : 'DEBUG',
             'propagate': True,
-            # если есть более высоко стоящие логеры, то их нужно использовать
+        },
+        'app_main': {
+            'handlers' : ['console', 'file'],
+            'level'    : 'DEBUG',
+            'propagate': True,
         },
     },
 }
