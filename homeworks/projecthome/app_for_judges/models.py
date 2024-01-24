@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from ..app_for_competitions.models import Competition
+from app_for_competitions.models import Competition
 import sys, os
 sys.path.insert(0, os.path.abspath('..'))
 

@@ -1,8 +1,9 @@
 from django import forms
 import datetime
 from .models import Judge
-from .app_for_competitons.models import Competition
+from app_for_competitions.models import Competition
 from django.utils.translation import gettext_lazy as _
+
 
 
 class UserForm(forms.ModelForm):

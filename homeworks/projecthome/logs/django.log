@@ -3999,3 +3999,1002 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 [INFO    :   django.utils.autoreload] - 2024-01-24 00:31:35,221 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\manage.py changed, reloading.
 [INFO    :   django.utils.autoreload] - 2024-01-24 00:31:35,532 : run_with_reloader @ 0668: Watching for file changes with StatReloader
 [INFO    :   django.utils.autoreload] - 2024-01-24 00:32:21,512 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 18:56:53,785 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 18:58:03,960 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:06:32,650 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:10:03,016 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:10:14,276 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:10:14,587 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:10:26,553 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:10:39,850 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\forms.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:10:40,163 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:10:41,089 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:19:44,831 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:20:08,227 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:20:26,730 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:20:28,856 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\__init__.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:20:29,193 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:20:54,669 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:21:07,586 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:21:13,775 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\apps.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:21:14,092 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:21:54,767 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:22:17,078 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:23:10,867 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:23:20,627 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:23:26,978 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:23:52,247 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:24:32,124 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:25:11,208 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :      app_for_judges.views] - 2024-01-24 19:25:17,918 : index @ 0020: Главная страница
+[ERROR   :            django.request] - 2024-01-24 19:25:17,970 : log_response @ 0241: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\views.py", line 21, in index
+    return render(request, 'judges/index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: judges/index.html
+[ERROR   :             django.server] - 2024-01-24 19:25:17,971 : log_message @ 0212: "GET / HTTP/1.1" 500 82092
+[INFO    :      app_for_judges.views] - 2024-01-24 19:25:19,754 : index @ 0020: Главная страница
+[ERROR   :            django.request] - 2024-01-24 19:25:19,767 : log_response @ 0241: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\views.py", line 21, in index
+    return render(request, 'judges/index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: judges/index.html
+[ERROR   :             django.server] - 2024-01-24 19:25:19,768 : log_message @ 0212: "GET / HTTP/1.1" 500 81818
+[WARNING :            django.request] - 2024-01-24 19:25:19,988 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-24 19:25:19,988 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2435
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:27:02,461 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:27:02,795 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :      app_for_judges.views] - 2024-01-24 19:27:03,839 : index @ 0020: Главная страница
+[ERROR   :            django.request] - 2024-01-24 19:27:03,862 : log_response @ 0241: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\views.py", line 21, in index
+    return render(request, 'app_for_judges/index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: app_for_judges/index.html
+[ERROR   :             django.server] - 2024-01-24 19:27:03,864 : log_message @ 0212: "GET / HTTP/1.1" 500 82115
+[INFO    :      app_for_judges.views] - 2024-01-24 19:27:23,547 : index @ 0020: Главная страница
+[ERROR   :            django.request] - 2024-01-24 19:27:23,559 : log_response @ 0241: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\views.py", line 21, in index
+    return render(request, 'app_for_judges/index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: app_for_judges/index.html
+[ERROR   :             django.server] - 2024-01-24 19:27:23,560 : log_message @ 0212: "GET / HTTP/1.1" 500 82115
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:28:13,415 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :      app_for_judges.views] - 2024-01-24 19:28:16,088 : index @ 0020: Главная страница
+[INFO    :             django.server] - 2024-01-24 19:28:16,110 : log_message @ 0212: "GET / HTTP/1.1" 200 1973
+[INFO    :             django.server] - 2024-01-24 19:28:16,134 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-24 19:28:16,137 : log_message @ 0212: "GET /static/image/appfirst/cat_2.jpg HTTP/1.1" 304 0
+[ERROR   :            django.request] - 2024-01-24 19:28:19,277 : log_response @ 0241: Internal Server Error: /judges/edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: judges
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\views.py", line 28, in edit_judges
+    for judge in judges:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: judges
+[ERROR   :             django.server] - 2024-01-24 19:28:19,279 : log_message @ 0212: "GET /judges/edit_judges/ HTTP/1.1" 500 130166
+[INFO    :      app_for_judges.views] - 2024-01-24 19:29:13,232 : index @ 0020: Главная страница
+[INFO    :             django.server] - 2024-01-24 19:29:13,233 : log_message @ 0212: "GET / HTTP/1.1" 200 1973
+[INFO    :      app_for_judges.views] - 2024-01-24 19:29:36,540 : index @ 0020: Главная страница
+[INFO    :             django.server] - 2024-01-24 19:29:36,545 : log_message @ 0212: "GET / HTTP/1.1" 200 1954
+[ERROR   :            django.request] - 2024-01-24 19:29:45,205 : log_response @ 0241: Internal Server Error: /judges/edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: judges
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\views.py", line 28, in edit_judges
+    for judge in judges:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: judges
+[ERROR   :             django.server] - 2024-01-24 19:29:45,206 : log_message @ 0212: "GET /judges/edit_judges/ HTTP/1.1" 500 130166
+[ERROR   :            django.request] - 2024-01-24 19:29:48,786 : log_response @ 0241: Internal Server Error: /competitions/edit_competitions/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: competitions
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py", line 22, in edit_competitions
+    print(competitions[0])
+          ~~~~~~~~~~~~^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 449, in __getitem__
+    qs._fetch_all()
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: competitions
+[ERROR   :             django.server] - 2024-01-24 19:29:48,788 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 500 128741
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:32:25,863 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :      app_for_judges.views] - 2024-01-24 19:32:28,048 : index @ 0020: Главная страница
+[INFO    :             django.server] - 2024-01-24 19:32:28,055 : log_message @ 0212: "GET / HTTP/1.1" 200 1954
+[ERROR   :            django.request] - 2024-01-24 19:32:31,176 : log_response @ 0241: Internal Server Error: /judges/edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: judges
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\views.py", line 28, in edit_judges
+    for judge in judges:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: judges
+[ERROR   :             django.server] - 2024-01-24 19:32:31,180 : log_message @ 0212: "GET /judges/edit_judges/ HTTP/1.1" 500 129098
+[ERROR   :            django.request] - 2024-01-24 19:32:51,167 : log_response @ 0241: Internal Server Error: /competitions/edit_competitions/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py", line 22, in edit_competitions
+    print(competitions[0])
+          ~~~~~~~~~~~~^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 450, in __getitem__
+    return qs._result_cache[0]
+           ~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+[ERROR   :             django.server] - 2024-01-24 19:32:51,169 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 500 69297
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:34:51,766 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:34:52,078 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-24 19:34:52,569 : log_response @ 0241: Internal Server Error: /competitions/edit_competitions/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py", line 20, in edit_competitions
+    print(competitions[0])
+          ~~~~~~~~~~~~^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 450, in __getitem__
+    return qs._result_cache[0]
+           ~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+[ERROR   :             django.server] - 2024-01-24 19:34:52,570 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 500 69434
+[ERROR   :            django.request] - 2024-01-24 19:35:07,478 : log_response @ 0241: Internal Server Error: /competitions/edit_competitions/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py", line 20, in edit_competitions
+    # print(competitions[0])
+          ^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 450, in __getitem__
+    return qs._result_cache[0]
+           ~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+[ERROR   :             django.server] - 2024-01-24 19:35:07,480 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 500 69438
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:35:07,552 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:35:07,866 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :      app_for_judges.views] - 2024-01-24 19:35:14,881 : index @ 0020: Главная страница
+[INFO    :             django.server] - 2024-01-24 19:35:14,887 : log_message @ 0212: "GET / HTTP/1.1" 200 1954
+[ERROR   :            django.request] - 2024-01-24 19:35:16,615 : log_response @ 0241: Internal Server Error: /competitions/edit_competitions/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py", line 21, in edit_competitions
+    print(f"{competitions[0].date = }")
+             ~~~~~~~~~~~~^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 450, in __getitem__
+    return qs._result_cache[0]
+           ~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+[ERROR   :             django.server] - 2024-01-24 19:35:16,617 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 500 69250
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:35:32,665 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:35:32,972 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-24 19:35:33,353 : log_response @ 0241: Internal Server Error: /competitions/edit_competitions/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py", line 27, in edit_competitions
+    return render(request, 'competitions/edit_competitions.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: competitions/edit_competitions.html
+[ERROR   :             django.server] - 2024-01-24 19:35:33,355 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 500 82849
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:35:49,452 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:35:49,770 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-24 19:35:50,133 : log_response @ 0241: Internal Server Error: /competitions/edit_competitions/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py", line 27, in edit_competitions
+    return render(request, 'app_for_competition/edit_competitions.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: app_for_competition/edit_competitions.html
+[ERROR   :             django.server] - 2024-01-24 19:35:50,135 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 500 83003
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:35:55,064 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:35:55,380 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-24 19:35:56,025 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 2107
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:36:44,475 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:36:44,783 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-24 19:36:44,857 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 2107
+[ERROR   :            django.request] - 2024-01-24 19:36:45,733 : log_response @ 0241: Internal Server Error: /competitions/add_competition/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py", line 47, in add_competition
+    return render(request, 'competitions/edit_competition.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: competitions/edit_competition.html
+[ERROR   :             django.server] - 2024-01-24 19:36:45,735 : log_message @ 0212: "GET /competitions/add_competition/ HTTP/1.1" 500 82013
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:37:03,327 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:37:03,645 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-24 19:37:03,962 : log_response @ 0241: Internal Server Error: /competitions/add_competition/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py", line 47, in add_competition
+    return render(request, 'competitions/edit_competition.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: competitions/edit_competition.html
+[ERROR   :             django.server] - 2024-01-24 19:37:03,964 : log_message @ 0212: "GET /competitions/add_competition/ HTTP/1.1" 500 82158
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:37:23,467 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-24 19:37:26,055 : log_response @ 0241: Internal Server Error: /competitions/add_competition/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py", line 47, in add_competition
+    return render(request, 'competitions/edit_competition.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: competitions/edit_competition.html
+[ERROR   :             django.server] - 2024-01-24 19:37:26,057 : log_message @ 0212: "GET /competitions/add_competition/ HTTP/1.1" 500 82158
+[INFO    :      app_for_judges.views] - 2024-01-24 19:37:30,601 : index @ 0020: Главная страница
+[INFO    :             django.server] - 2024-01-24 19:37:30,606 : log_message @ 0212: "GET / HTTP/1.1" 200 1954
+[INFO    :             django.server] - 2024-01-24 19:37:32,301 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 2107
+[ERROR   :            django.request] - 2024-01-24 19:37:33,307 : log_response @ 0241: Internal Server Error: /competitions/add_competition/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py", line 47, in add_competition
+    return render(request, 'competitions/edit_competition.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: competitions/edit_competition.html
+[ERROR   :             django.server] - 2024-01-24 19:37:33,309 : log_message @ 0212: "GET /competitions/add_competition/ HTTP/1.1" 500 82021
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:39:47,963 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:39:48,287 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:39:48,298 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:39:48,638 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-24 19:39:48,888 : log_response @ 0241: Internal Server Error: /competitions/add_competition/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py", line 47, in add_competition
+    return render(request, '/app_for_competitions/edit_competition.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /app_for_competitions/edit_competition.html
+[ERROR   :             django.server] - 2024-01-24 19:39:48,890 : log_message @ 0212: "GET /competitions/add_competition/ HTTP/1.1" 500 80101
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:40:02,083 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:40:02,403 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-24 19:40:02,717 : log_response @ 0241: Internal Server Error: /competitions/add_competition/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py", line 47, in add_competition
+    return render(request, '/app_for_competitions/edit_competition.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /app_for_competitions/edit_competition.html
+[ERROR   :             django.server] - 2024-01-24 19:40:02,718 : log_message @ 0212: "GET /competitions/add_competition/ HTTP/1.1" 500 80080
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:40:02,753 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:40:03,072 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:40:08,348 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:40:08,699 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:40:08,708 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:40:09,049 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-24 19:40:09,052 : log_message @ 0212: "GET /competitions/add_competition/ HTTP/1.1" 200 2325
+[INFO    :             django.server] - 2024-01-24 19:40:34,536 : log_message @ 0212: "POST /competitions/add_competition/ HTTP/1.1" 302 0
+[WARNING :            django.request] - 2024-01-24 19:40:34,550 : log_response @ 0241: Not Found: /edit_competitions/
+[WARNING :             django.server] - 2024-01-24 19:40:34,551 : log_message @ 0212: "GET /edit_competitions/ HTTP/1.1" 404 2456
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:41:00,221 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:41:00,549 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:41:00,956 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:41:01,263 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-24 19:41:01,461 : log_response @ 0241: Not Found: /edit_competitions/
+[WARNING :             django.server] - 2024-01-24 19:41:01,461 : log_message @ 0212: "GET /edit_competitions/ HTTP/1.1" 404 2456
+[INFO    :             django.server] - 2024-01-24 19:41:05,996 : log_message @ 0212: "GET /competitions/add_competition/ HTTP/1.1" 200 2571
+[INFO    :             django.server] - 2024-01-24 19:41:08,077 : log_message @ 0212: "POST /competitions/add_competition/ HTTP/1.1" 302 0
+[WARNING :            django.request] - 2024-01-24 19:41:08,090 : log_response @ 0241: Not Found: /competitions/add_competition/competitions/edit_competitions/
+[WARNING :             django.server] - 2024-01-24 19:41:08,090 : log_message @ 0212: "GET /competitions/add_competition/competitions/edit_competitions/ HTTP/1.1" 404 3536
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:41:34,525 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:41:34,845 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:41:35,068 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:41:35,378 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-24 19:41:35,750 : log_message @ 0212: "GET /competitions/add_competition/ HTTP/1.1" 200 2571
+[INFO    :             django.server] - 2024-01-24 19:41:36,934 : log_message @ 0212: "POST /competitions/add_competition/ HTTP/1.1" 302 0
+[WARNING :            django.request] - 2024-01-24 19:41:36,949 : log_response @ 0241: Not Found: /competitions/add_competition/edit_competitions/
+[WARNING :             django.server] - 2024-01-24 19:41:36,949 : log_message @ 0212: "GET /competitions/add_competition/edit_competitions/ HTTP/1.1" 404 3497
+[INFO    :             django.server] - 2024-01-24 19:42:16,185 : log_message @ 0212: "GET /competitions/add_competition/ HTTP/1.1" 200 2571
+[INFO    :             django.server] - 2024-01-24 19:42:30,032 : log_message @ 0212: "POST /competitions/add_competition/ HTTP/1.1" 302 0
+[WARNING :            django.request] - 2024-01-24 19:42:30,045 : log_response @ 0241: Not Found: /competitions/add_competition/edit_competitions/
+[WARNING :             django.server] - 2024-01-24 19:42:30,045 : log_message @ 0212: "GET /competitions/add_competition/edit_competitions/ HTTP/1.1" 404 3497
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:43:51,586 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\projecthome\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:43:51,917 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:43:52,005 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\projecthome\settings.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:43:52,323 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-24 19:43:52,880 : log_response @ 0241: Not Found: /competitions/add_competition/edit_competitions/
+[WARNING :             django.server] - 2024-01-24 19:43:52,880 : log_message @ 0212: "GET /competitions/add_competition/edit_competitions/ HTTP/1.1" 404 3497
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:44:12,491 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:44:12,811 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:44:12,841 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:44:13,159 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-24 19:44:13,539 : log_response @ 0241: Not Found: /competitions/add_competition/edit_competitions/
+[WARNING :             django.server] - 2024-01-24 19:44:13,539 : log_message @ 0212: "GET /competitions/add_competition/edit_competitions/ HTTP/1.1" 404 3497
+[INFO    :      app_for_judges.views] - 2024-01-24 19:44:19,097 : index @ 0020: Главная страница
+[INFO    :             django.server] - 2024-01-24 19:44:19,103 : log_message @ 0212: "GET / HTTP/1.1" 200 2200
+[INFO    :             django.server] - 2024-01-24 19:44:20,667 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 5303
+[INFO    :             django.server] - 2024-01-24 19:44:23,818 : log_message @ 0212: "GET /competitions/competition_activate/1/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-24 19:44:23,829 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 5574
+[INFO    :             django.server] - 2024-01-24 19:44:24,819 : log_message @ 0212: "GET /competitions/competition_activate/1/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-24 19:44:24,829 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 5570
+[INFO    :             django.server] - 2024-01-24 19:44:26,971 : log_message @ 0212: "GET /competitions/add_competition/ HTTP/1.1" 200 2325
+[INFO    : app_for_competitions.views] - 2024-01-24 19:44:39,935 : add_competition @ 0042: Добавили конкурс: Скоростной набор
+[INFO    :             django.server] - 2024-01-24 19:44:39,936 : log_message @ 0212: "POST /competitions/add_competition/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-24 19:44:39,951 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 6308
+[ERROR   :            django.request] - 2024-01-24 19:44:43,936 : log_response @ 0241: Internal Server Error: /competitions/edit_competition/1/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py", line 72, in edit_competition
+    return render(request, 'competitions/edit_competition.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: competitions/edit_competition.html
+[ERROR   :             django.server] - 2024-01-24 19:44:43,937 : log_message @ 0212: "GET /competitions/edit_competition/1/ HTTP/1.1" 500 83729
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:45:32,860 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:45:32,860 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:45:33,199 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:45:33,201 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-24 19:45:33,754 : log_message @ 0212: "GET /competitions/edit_competition/1/ HTTP/1.1" 200 2429
+[INFO    :             django.server] - 2024-01-24 19:45:33,807 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 7993
+[WARNING :            django.request] - 2024-01-24 19:45:33,837 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-24 19:45:33,838 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2435
+[INFO    :             django.server] - 2024-01-24 19:45:41,068 : log_message @ 0212: "POST /competitions/edit_competition/1/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-24 19:45:41,082 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 6316
+[ERROR   :            django.request] - 2024-01-24 19:45:44,122 : log_response @ 0241: Internal Server Error: /competitions/delete_competition/1/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: judges_competitions
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_competitions\views.py", line 61, in delete_competition
+    competition.delete()
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1186, in delete
+    deleted, _rows_count = collector.delete()
+                           ^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\deletion.py", line 472, in delete
+    count = qs._raw_delete(using=self.using)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1208, in _raw_delete
+    cursor = query.get_compiler(using).execute_sql(CURSOR)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: judges_competitions
+[ERROR   :             django.server] - 2024-01-24 19:45:44,125 : log_message @ 0212: "GET /competitions/delete_competition/1/ HTTP/1.1" 500 127454
+[INFO    :      app_for_judges.views] - 2024-01-24 19:46:11,268 : about @ 0109: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-24 19:46:11,269 : log_message @ 0212: "GET /judges/about/ HTTP/1.1" 200 132
+[WARNING :            django.request] - 2024-01-24 19:46:12,545 : log_response @ 0241: Not Found: /judges/about/{% url
+[WARNING :             django.server] - 2024-01-24 19:46:12,545 : log_message @ 0212: "GET /judges/about/%7B%%20url HTTP/1.1" 404 3642
+[INFO    :      app_for_judges.views] - 2024-01-24 19:46:18,812 : index @ 0020: Главная страница
+[INFO    :             django.server] - 2024-01-24 19:46:18,813 : log_message @ 0212: "GET /judges/ HTTP/1.1" 200 1954
+[ERROR   :            django.request] - 2024-01-24 19:46:20,903 : log_response @ 0241: Internal Server Error: /judges/edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: judges
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\views.py", line 28, in edit_judges
+    for judge in judges:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: judges
+[ERROR   :             django.server] - 2024-01-24 19:46:20,906 : log_message @ 0212: "GET /judges/edit_judges/ HTTP/1.1" 500 129360
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:46:39,751 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[ERROR   :            django.request] - 2024-01-24 19:46:43,643 : log_response @ 0241: Internal Server Error: /judges/edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: judges
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\views.py", line 28, in edit_judges
+    for judge in judges:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: judges
+[ERROR   :             django.server] - 2024-01-24 19:46:43,645 : log_message @ 0212: "GET /judges/edit_judges/ HTTP/1.1" 500 130565
+[INFO    :      app_for_judges.views] - 2024-01-24 19:46:47,445 : index @ 0020: Главная страница
+[INFO    :             django.server] - 2024-01-24 19:46:47,450 : log_message @ 0212: "GET / HTTP/1.1" 200 1954
+[ERROR   :            django.request] - 2024-01-24 19:46:50,297 : log_response @ 0241: Internal Server Error: /judges/edit_judges/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: judges
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\views.py", line 28, in edit_judges
+    for judge in judges:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1926, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: judges
+[ERROR   :             django.server] - 2024-01-24 19:46:50,298 : log_message @ 0212: "GET /judges/edit_judges/ HTTP/1.1" 500 130421
+[INFO    :   django.utils.autoreload] - 2024-01-24 19:47:48,822 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :      app_for_judges.views] - 2024-01-24 19:47:54,096 : index @ 0020: Главная страница
+[INFO    :             django.server] - 2024-01-24 19:47:54,102 : log_message @ 0212: "GET / HTTP/1.1" 200 1954
+[INFO    :             django.server] - 2024-01-24 19:47:55,771 : log_message @ 0212: "GET /judges/edit_judges/ HTTP/1.1" 200 1572
+[ERROR   :            django.request] - 2024-01-24 19:47:57,241 : log_response @ 0241: Internal Server Error: /judges/add_judge/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\views.py", line 80, in add_judge
+    return render(request, 'judges/edit_judge.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: judges/edit_judge.html
+[ERROR   :             django.server] - 2024-01-24 19:47:57,243 : log_message @ 0212: "GET /judges/add_judge/ HTTP/1.1" 500 82810
+[INFO    :   django.utils.autoreload] - 2024-01-24 20:27:41,332 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-24 20:27:43,608 : log_message @ 0212: "GET /judges/add_judge/ HTTP/1.1" 200 3429
+[INFO    :      app_for_judges.views] - 2024-01-24 20:27:45,455 : index @ 0020: Главная страница
+[INFO    :             django.server] - 2024-01-24 20:27:45,456 : log_message @ 0212: "GET /judges/ HTTP/1.1" 200 1954
+[INFO    :             django.server] - 2024-01-24 20:27:47,270 : log_message @ 0212: "GET /judges/edit_judges/ HTTP/1.1" 200 1572
+[INFO    :             django.server] - 2024-01-24 20:27:48,591 : log_message @ 0212: "GET /judges/add_judge/ HTTP/1.1" 200 3429
+[INFO    :      app_for_judges.views] - 2024-01-24 20:28:43,811 : add_judge @ 0073: Получили данные name Евлампьев.
+[INFO    :             django.server] - 2024-01-24 20:28:43,812 : log_message @ 0212: "POST /judges/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-24 20:28:43,825 : log_message @ 0212: "GET /judges/edit_judges/ HTTP/1.1" 200 3530
+[INFO    :             django.server] - 2024-01-24 20:29:00,466 : log_message @ 0212: "GET /judges/edit_judge/1/ HTTP/1.1" 200 3788
+[ERROR   :            django.request] - 2024-01-24 20:29:13,594 : log_response @ 0241: Internal Server Error: /judges/edit_judge/1/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\views.py", line 93, in edit_judge
+    temp_date = form.cleaned_data['date']
+                ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'date'
+[ERROR   :             django.server] - 2024-01-24 20:29:13,595 : log_message @ 0212: "POST /judges/edit_judge/1/ HTTP/1.1" 500 69041
+[ERROR   :            django.request] - 2024-01-24 20:30:26,636 : log_response @ 0241: Internal Server Error: /judges/edit_judge/1/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\views.py", line 93, in edit_judge
+    temp_date = form.cleaned_data['date']
+                ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'date'
+[ERROR   :             django.server] - 2024-01-24 20:30:26,637 : log_message @ 0212: "POST /judges/edit_judge/1/ HTTP/1.1" 500 69041
+[INFO    :   django.utils.autoreload] - 2024-01-24 20:30:56,289 : trigger_reload @ 0266: C:\GeekBrains\II_quarter\24_01_Django\homeworks\projecthome\app_for_judges\views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-24 20:30:56,634 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-24 20:30:58,085 : log_message @ 0212: "POST /judges/edit_judge/1/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-24 20:30:58,103 : log_message @ 0212: "GET /judges/edit_judges/ HTTP/1.1" 200 3540
+[INFO    :             django.server] - 2024-01-24 20:31:03,165 : log_message @ 0212: "GET /judges/add_judge/ HTTP/1.1" 200 3429
+[INFO    :      app_for_judges.views] - 2024-01-24 20:31:26,713 : add_judge @ 0073: Получили данные name Евлампьева.
+[INFO    :             django.server] - 2024-01-24 20:31:26,714 : log_message @ 0212: "POST /judges/add_judge/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-24 20:31:26,727 : log_message @ 0212: "GET /judges/edit_judges/ HTTP/1.1" 200 4434
+[INFO    :      app_for_judges.views] - 2024-01-24 20:31:31,198 : delete_judge @ 0045: S: Евлампьева Надежда. Александровна. deleted
+[INFO    :             django.server] - 2024-01-24 20:31:31,205 : log_message @ 0212: "GET /judges/delete_judge/2/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-24 20:31:31,216 : log_message @ 0212: "GET /judges/edit_judges/ HTTP/1.1" 200 3540
+[INFO    :             django.server] - 2024-01-24 20:31:36,470 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 6064
+[INFO    : app_for_competitions.views] - 2024-01-24 20:31:39,290 : delete_competition @ 0062: Соревнование БПЛА - 2024 удалено
+[INFO    :             django.server] - 2024-01-24 20:31:39,291 : log_message @ 0212: "GET /competitions/delete_competition/1/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-24 20:31:39,302 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 5533
+[INFO    : app_for_competitions.views] - 2024-01-24 20:31:40,308 : delete_competition @ 0062: Соревнование БПЛА - 2024 удалено
+[INFO    :             django.server] - 2024-01-24 20:31:40,309 : log_message @ 0212: "GET /competitions/delete_competition/2/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-24 20:31:40,320 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 4734
+[INFO    : app_for_competitions.views] - 2024-01-24 20:31:42,782 : delete_competition @ 0062: Соревнование БПЛА - 2024 удалено
+[INFO    :             django.server] - 2024-01-24 20:31:42,783 : log_message @ 0212: "GET /competitions/delete_competition/3/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-24 20:31:42,792 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 3935
+[INFO    :             django.server] - 2024-01-24 20:31:43,894 : log_message @ 0212: "GET /competitions/edit_competition/4/ HTTP/1.1" 200 2429
+[INFO    :             django.server] - 2024-01-24 20:31:53,095 : log_message @ 0212: "POST /competitions/edit_competition/4/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-24 20:31:53,107 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 3917
+[INFO    :             django.server] - 2024-01-24 20:31:56,654 : log_message @ 0212: "GET /competitions/edit_competition/5/ HTTP/1.1" 200 2384
+[INFO    :             django.server] - 2024-01-24 20:32:16,618 : log_message @ 0212: "POST /competitions/edit_competition/5/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-24 20:32:16,630 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 3968
+[INFO    :             django.server] - 2024-01-24 20:32:27,864 : log_message @ 0212: "GET /judges/edit_judges/ HTTP/1.1" 200 3288
+[INFO    :             django.server] - 2024-01-24 20:33:00,137 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 3716
+[INFO    :             django.server] - 2024-01-24 20:33:01,635 : log_message @ 0212: "GET /competitions/competition_activate/4/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-24 20:33:01,645 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 3987
+[INFO    :             django.server] - 2024-01-24 20:33:44,345 : log_message @ 0212: "GET /competitions/edit_competitions/ HTTP/1.1" 200 3720
+[INFO    :             django.server] - 2024-01-24 20:33:46,673 : log_message @ 0212: "GET /judges/edit_judges/ HTTP/1.1" 200 3288
+[INFO    :             django.server] - 2024-01-24 20:33:48,970 : log_message @ 0212: "GET /judges/edit_judges/ HTTP/1.1" 200 3288

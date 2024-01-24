@@ -2,8 +2,8 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect, get_object_or_404
 from pathlib import Path
 from logging import getLogger
-from .forms import UserForm, CompetitionForm
-from appfirst.models import Judge, Competition
+from .forms import CompetitionForm
+from .models import Competition
 from django.contrib import messages
 
 # Create your views here.
@@ -17,14 +17,14 @@ COMPETITIONS_TABLE_TITLE = ['№ п/п', 'Краткое название', "П�
 def edit_competitions(request):
     competitions = Competition.objects.all().order_by('name')
     context = dict()
-    print(competitions[0])
-    print(f"{competitions[0].date = }")
+    # print(competitions[0])
+    # print(f"{competitions[0].date = }")
 
-    for comp in competitions:
-        print(comp.date)
+    # for comp in competitions:
+    #     print(comp.date)
     context['competitions'] = competitions
     context['title'] = COMPETITIONS_TABLE_TITLE
-    return render(request, 'competitions/edit_competitions.html', context=context)
+    return render(request, 'app_for_competitions/edit_competitions.html', context=context)
 
 
 def add_competition(request):
@@ -41,10 +41,10 @@ def add_competition(request):
             # logger.info(f'Добавили {form.cleaned_data["name"]}')
             logger.info(f'Добавили конкурс: {name}')
             messages.success(request, "Конкурс добавлен")
-            return redirect('/first/edit_competitions/')
+            return redirect('edit_competitions')
     else:
         form = CompetitionForm()
-    return render(request, 'competitions/edit_competition.html', {'form': form})
+    return render(request, 'app_for_competitions/edit_competition.html', {'form': form})
 
 
 def competition_activate(request, pk):
@@ -69,7 +69,7 @@ def edit_competition(request, pk):
 
     if request.method == 'GET':
         context = {'form': CompetitionForm(instance=competition), 'id': pk}
-        return render(request, 'competitions/edit_competition.html', context)
+        return render(request, 'app_for_competitions/edit_competition.html', context)
 
     elif request.method == 'POST':
         form = CompetitionForm(request.POST, instance=competition)
@@ -83,4 +83,4 @@ def edit_competition(request, pk):
             return redirect('edit_competitions')
         else:
             messages.error(request, 'Пожалуйста, исправьте следующие ошибки:')
-            return render(request, 'competitions/edit_competition.html', {'form': form})
+            return render(request, 'app_for_competitions/edit_competition.html', {'form': form})

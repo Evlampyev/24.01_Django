@@ -1,6 +1,5 @@
 from django.urls import path
-from .views import index, about, base, edit_judges, delete_judge, edit_competitions, \
-    add_judge, add_competition, edit_judge, competition_activate, delete_competition, \
+from .views import edit_competitions, add_competition, competition_activate, delete_competition, \
     edit_competition
 
 urlpatterns = [

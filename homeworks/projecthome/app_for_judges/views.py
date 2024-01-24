@@ -2,8 +2,8 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect, get_object_or_404
 from pathlib import Path
 from logging import getLogger
-from .forms import UserForm, CompetitionForm
-from appfirst.models import Judge, Competition
+from .forms import UserForm
+from .models import Judge
 from django.contrib import messages
 
 # Create your views here.
@@ -18,7 +18,7 @@ JUDGE_TABLE_TITLE = ["№ п\п", 'Имя', "Отчество", "Фамилия"
 def index(request):
     context = {'info': ['Всем привет!', 'И добро пожаловать!']}
     logger.info('Главная страница')
-    return render(request, 'judges/index.html', context=context)
+    return render(request, 'app_for_judges/index.html', context=context)
 
 
 def edit_judges(request):
@@ -34,7 +34,7 @@ def edit_judges(request):
         'judges'      : judges,
         'competitions': competitions_dict
     }
-    return render(request, 'judges/edit_judges.html', context=context)
+    return render(request, 'app_for_judges/edit_judges.html', context=context)
 
 
 def delete_judge(request, pk):
@@ -46,7 +46,7 @@ def delete_judge(request, pk):
     judge.is_active = False
     judge.save()
     messages.success(request, "Пользователь удален")
-    return redirect('/first/edit_judges/')
+    return redirect('edit_judges')
 
 
 def add_judge(request):
@@ -73,11 +73,11 @@ def add_judge(request):
             logger.info(f'Получили данные {"name"} {last_name}.')
 
             messages.success(request, 'Судья добавлен')
-            return redirect('/first/edit_judges/')
+            return redirect('edit_judges')
 
     else:
         form = UserForm()
-    return render(request, 'judges/edit_judge.html', {'form': form})
+    return render(request, 'app_for_judges/edit_judge.html', {'form': form})
 
 
 def edit_judge(request, pk):
@@ -85,19 +85,19 @@ def edit_judge(request, pk):
 
     if request.method == 'GET':
         context = {'form': UserForm(instance=judge), 'id': pk}
-        return render(request, 'judges/edit_judge.html', context)
+        return render(request, 'app_for_judges/edit_judge.html', context)
 
     elif request.method == 'POST':
         form = UserForm(request.POST, instance=judge)
         if form.is_valid():
-            temp_date = form.cleaned_data['date']
-            print(temp_date)
+            # temp_date = form.cleaned_data['date']
+            # print(temp_date)
             form.save()
             messages.success(request, 'Изменения сохранены')
             return redirect('edit_judges')
         else:
             messages.error(request, 'Пожалуйста, исправьте следующие ошибки:')
-            return render(request, 'judges/edit_judge.html', {'form': form})
+            return render(request, 'app_for_judges/edit_judge.html', {'form': form})
 
 
 def base(request):
