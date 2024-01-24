@@ -41,7 +41,7 @@ def add_competition(request):
             # logger.info(f'Добавили {form.cleaned_data["name"]}')
             logger.info(f'Добавили конкурс: {name}')
             messages.success(request, "Конкурс добавлен")
-            return redirect('edit_competitions')
+            return redirect('all_competitions')
     else:
         form = CompetitionForm()
     return render(request, 'app_for_competitions/edit_competition.html', {'form': form})
@@ -52,7 +52,7 @@ def competition_activate(request, pk):
     competition.active = not competition.active
     competition.save()
     messages.success(request, "Статус соревнования изменён")
-    return redirect('edit_competitions')
+    return redirect('all_competitions')
 
 
 def delete_competition(request, pk):
@@ -61,7 +61,7 @@ def delete_competition(request, pk):
     competition.delete()
     logger.info(f"Соревнование {name} удалено")
     messages.success(request, f"Соревнование {name} удалено")
-    return redirect('edit_competitions')
+    return redirect('all_competitions')
 
 
 def edit_competition(request, pk):
@@ -80,7 +80,7 @@ def edit_competition(request, pk):
             competition.active = form.cleaned_data['active']
             competition.save()
             messages.success(request, f"Изменения сохранены")
-            return redirect('edit_competitions')
+            return redirect('all_competitions')
         else:
             messages.error(request, 'Пожалуйста, исправьте следующие ошибки:')
             return render(request, 'app_for_competitions/edit_competition.html', {'form': form})

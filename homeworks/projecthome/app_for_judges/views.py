@@ -38,7 +38,7 @@ def delete_judge(request, pk):
     judge.is_active = False
     judge.save()
     messages.success(request, "Пользователь удален")
-    return redirect('edit_judges')
+    return redirect('all_judges')
 
 
 def add_judge(request):
@@ -48,7 +48,7 @@ def add_judge(request):
             name = form.cleaned_data['name'].capitalize()
             patronymic = form.cleaned_data['patronymic'].capitalize()
             last_name = form.cleaned_data['last_name'].capitalize()
-            post = form.cleaned_data['post'].capitalize()
+            post = form.cleaned_data['post']
             regalia = form.cleaned_data['regalia']
             organization = form.cleaned_data['organization']
             status = form.cleaned_data['status']
@@ -65,7 +65,7 @@ def add_judge(request):
             logger.info(f'Получили данные {"name"} {last_name}.')
 
             messages.success(request, 'Судья добавлен')
-            return redirect('edit_judges')
+            return redirect('all_judges')
 
     else:
         form = UserForm()
@@ -84,9 +84,23 @@ def edit_judge(request, pk):
         if form.is_valid():
             # temp_date = form.cleaned_data['date']
             # print(temp_date)
-            form.save()
+            # form.save()
+            judge.name = form.cleaned_data['name'].capitalize()
+            judge.patronymic = form.cleaned_data['patronymic'].capitalize()
+            judge.last_name = form.cleaned_data['last_name'].capitalize()
+            judge.post = form.cleaned_data['post']
+            judge.regalia = form.cleaned_data['regalia']
+            judge.organization = form.cleaned_data['organization']
+            judge.status = form.cleaned_data['status']
+            competition = form.cleaned_data['competition']
+            # is_active = form.cleaned_data['is_active']
+            judge.save()
+            if competition:
+                judge.competitions.add(competition)
+                # competition.judge_set.save(judge)
+
             messages.success(request, 'Изменения сохранены')
-            return redirect('edit_judges')
+            return redirect('all_judges')
         else:
             messages.error(request, 'Пожалуйста, исправьте следующие ошибки:')
             return render(request, 'app_for_judges/edit_judge.html', {'form': form})

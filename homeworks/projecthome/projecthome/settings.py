@@ -150,7 +150,7 @@ LOGGING = {
             'class': 'logging.FileHandler',
             'filename': BASE_DIR / 'logs' / 'django.log',  # имя файла
             'formatter': 'verbose',
-            'mode': 'w',
+            'mode': 'w',  # для перезаписи файла логирования каждый раз при старте сервера
         },
     },
     'loggers': {

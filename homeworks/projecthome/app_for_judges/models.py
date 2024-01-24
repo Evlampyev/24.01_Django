@@ -1,8 +1,10 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from app_for_competitions.models import Competition
+from app_for_competitions.models import Competition # не обращать внимание на красноту
 import sys, os
+
 sys.path.insert(0, os.path.abspath('..'))
+
 
 # Create your models here.
 
@@ -41,3 +43,7 @@ class Judge(User):
 
     def __str__(self):
         return f"{self.status}: {self.last_name} {self.name}. {self.patronymic}."
+
+    def __eq__(self, other):
+        return (self.name == other.name and self.patronymic == other.patronymic
+                and self.last_name == other.last_name)
