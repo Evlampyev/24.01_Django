@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from app_for_competitions.models import Competition # не обращать внимание на красноту
+from app_for_competitions.models import Competition  # не обращать внимание на красноту
 import sys, os
 
 sys.path.insert(0, os.path.abspath('..'))
@@ -33,6 +33,7 @@ class Judge(User):
 
     class Meta:
         db_table = 'judges'
+        verbose_name = _('Судьи')
 
     post = models.CharField(_('Занимаемая должность'), max_length=100)
     regalia = models.TextField(_('Заслуги и регалии'), default=None)
