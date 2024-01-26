@@ -1251,3 +1251,667 @@ INFO 2024-01-25 00:05:45,582 autoreload 20828 1364 Watching for file changes wit
 INFO 2024-01-25 00:06:23,490 autoreload 20828 1364 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\models.py changed, reloading.
 INFO 2024-01-25 00:06:23,842 autoreload 19512 17108 Watching for file changes with StatReloader
 INFO 2024-01-25 00:08:12,523 autoreload 21248 18644 Watching for file changes with StatReloader
+INFO 2024-01-26 20:18:06,902 autoreload 18088 23368 Watching for file changes with StatReloader
+INFO 2024-01-26 20:18:08,398 views 18088 1888 Index page accessed
+INFO 2024-01-26 20:18:08,399 basehttp 18088 1888 "GET / HTTP/1.1" 200 13
+WARNING 2024-01-26 20:18:08,554 log 18088 1888 Not Found: /favicon.ico
+WARNING 2024-01-26 20:18:08,555 basehttp 18088 1888 "GET /favicon.ico HTTP/1.1" 404 2866
+INFO 2024-01-26 20:18:16,369 basehttp 18088 1888 "GET /admin/ HTTP/1.1" 200 11029
+INFO 2024-01-26 20:18:16,402 basehttp 18088 1888 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:16,404 basehttp 18088 17064 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:16,405 basehttp 18088 22876 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:16,406 basehttp 18088 23252 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:16,406 basehttp 18088 24180 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:16,423 basehttp 18088 24180 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:16,423 basehttp 18088 23252 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:16,432 basehttp 18088 23252 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:16,432 basehttp 18088 24180 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:24,446 basehttp 18088 24180 "GET /admin/my_second_app/author/ HTTP/1.1" 200 15199
+INFO 2024-01-26 20:18:24,480 basehttp 18088 1888 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:24,480 basehttp 18088 17060 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:24,480 basehttp 18088 23252 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:24,482 basehttp 18088 17064 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:24,483 basehttp 18088 24180 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:24,488 basehttp 18088 1888 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:24,488 basehttp 18088 23252 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:24,489 basehttp 18088 17060 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:24,489 basehttp 18088 17064 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:24,492 basehttp 18088 22876 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 20:18:24,529 basehttp 18088 22876 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:24,546 basehttp 18088 22876 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-01-26 20:18:28,752 basehttp 18088 22876 "GET /admin/my_third_app/author/ HTTP/1.1" 200 10125
+INFO 2024-01-26 20:18:28,781 basehttp 18088 17064 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 20:18:44,053 autoreload 18088 23368 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_third_app\admin.py changed, reloading.
+INFO 2024-01-26 20:18:44,372 autoreload 15504 3752 Watching for file changes with StatReloader
+WARNING 2024-01-26 20:18:44,534 log 15504 18808 Not Found: /admin/my_third_app/author/
+WARNING 2024-01-26 20:18:44,534 basehttp 15504 18808 "GET /admin/my_third_app/author/ HTTP/1.1" 404 5085
+INFO 2024-01-26 20:18:50,112 basehttp 15504 18808 "GET /admin/ HTTP/1.1" 200 9854
+INFO 2024-01-26 20:18:50,575 basehttp 15504 18808 "GET /admin/ HTTP/1.1" 200 9854
+INFO 2024-01-26 20:19:00,064 basehttp 15504 18808 "GET /admin/my_fifth_app/category/ HTTP/1.1" 200 9304
+INFO 2024-01-26 20:19:00,092 basehttp 15504 19688 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 20:19:02,362 basehttp 15504 19688 "GET /admin/my_fifth_app/category/add/ HTTP/1.1" 200 10147
+INFO 2024-01-26 20:19:02,392 basehttp 15504 18808 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-01-26 20:19:02,393 basehttp 15504 15528 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-01-26 20:19:02,395 basehttp 15504 6116 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 20:19:02,404 basehttp 15504 6116 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-01-26 20:19:02,404 basehttp 15504 15528 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-01-26 20:19:10,290 basehttp 15504 15528 "POST /admin/my_fifth_app/category/add/ HTTP/1.1" 302 0
+INFO 2024-01-26 20:19:10,308 basehttp 15504 15528 "GET /admin/my_fifth_app/category/ HTTP/1.1" 200 11106
+INFO 2024-01-26 20:19:10,334 basehttp 15504 6116 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 20:19:10,351 basehttp 15504 6116 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2024-01-26 20:19:13,285 basehttp 15504 6116 "GET /admin/my_fifth_app/category/1/change/ HTTP/1.1" 200 10431
+INFO 2024-01-26 20:19:13,313 basehttp 15504 15528 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 20:21:49,224 autoreload 15504 3752 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\models.py changed, reloading.
+INFO 2024-01-26 20:21:49,573 autoreload 6648 18612 Watching for file changes with StatReloader
+INFO 2024-01-26 20:21:52,936 basehttp 6648 23052 "GET /admin/my_fifth_app/category/1/change/ HTTP/1.1" 200 10473
+INFO 2024-01-26 20:21:52,963 basehttp 6648 23960 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 20:21:59,918 basehttp 6648 23960 "POST /admin/my_fifth_app/category/1/change/ HTTP/1.1" 302 0
+INFO 2024-01-26 20:21:59,933 basehttp 6648 23960 "GET /admin/my_fifth_app/category/add/ HTTP/1.1" 200 10467
+INFO 2024-01-26 20:21:59,957 basehttp 6648 23052 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 20:22:05,562 basehttp 6648 23052 "POST /admin/my_fifth_app/category/add/ HTTP/1.1" 302 0
+INFO 2024-01-26 20:22:05,578 basehttp 6648 23052 "GET /admin/my_fifth_app/category/add/ HTTP/1.1" 200 10480
+INFO 2024-01-26 20:22:05,611 basehttp 6648 23960 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 20:22:11,613 basehttp 6648 23960 "POST /admin/my_fifth_app/category/add/ HTTP/1.1" 302 0
+INFO 2024-01-26 20:22:11,636 basehttp 6648 23960 "GET /admin/my_fifth_app/category/ HTTP/1.1" 200 11864
+INFO 2024-01-26 20:22:11,661 basehttp 6648 23052 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 20:22:17,431 basehttp 6648 23052 "GET /admin/my_fifth_app/product/add/ HTTP/1.1" 200 14049
+INFO 2024-01-26 20:22:17,459 basehttp 6648 23960 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 20:22:17,468 basehttp 6648 23960 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2024-01-26 20:25:51,562 autoreload 6648 18612 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\models.py changed, reloading.
+INFO 2024-01-26 20:25:51,899 autoreload 16468 12608 Watching for file changes with StatReloader
+INFO 2024-01-26 20:33:52,217 autoreload 22288 13560 Watching for file changes with StatReloader
+INFO 2024-01-26 20:33:57,125 basehttp 22288 16720 "GET /admin/my_fifth_app/category/ HTTP/1.1" 200 11628
+INFO 2024-01-26 20:33:57,230 basehttp 22288 3616 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+ERROR 2024-01-26 20:34:25,556 log 22288 3616 Internal Server Error: /admin/my_fifth_app/product/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: my_fifth_app_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1981, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\options.py", line 862, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 145, in __init__
+    self.get_results(request)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 312, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+           ^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 618, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 618, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 604, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: my_fifth_app_product
+ERROR 2024-01-26 20:34:25,561 basehttp 22288 3616 "GET /admin/my_fifth_app/product/ HTTP/1.1" 500 193675
+INFO 2024-01-26 20:46:05,082 autoreload 2960 14444 Watching for file changes with StatReloader
+INFO 2024-01-26 20:46:16,260 basehttp 2960 23524 "GET /admin/ HTTP/1.1" 200 11424
+INFO 2024-01-26 20:46:17,037 views 2960 23524 Index page accessed
+INFO 2024-01-26 20:46:17,038 basehttp 2960 23524 "GET / HTTP/1.1" 200 13
+INFO 2024-01-26 20:46:23,648 basehttp 2960 23524 "GET /admin/ HTTP/1.1" 200 11424
+ERROR 2024-01-26 20:46:27,176 log 2960 23524 Internal Server Error: /admin/my_fifth_app/category/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: my_fifth_app_category
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1981, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\options.py", line 862, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 145, in __init__
+    self.get_results(request)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 312, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+           ^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 618, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 618, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 604, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: my_fifth_app_category
+ERROR 2024-01-26 20:46:27,183 basehttp 2960 23524 "GET /admin/my_fifth_app/category/ HTTP/1.1" 500 193707
+INFO 2024-01-26 20:46:28,651 basehttp 2960 23524 "GET /admin/ HTTP/1.1" 200 11424
+INFO 2024-01-26 20:46:29,872 basehttp 2960 23524 "GET /admin/ HTTP/1.1" 200 11424
+INFO 2024-01-26 20:46:29,975 basehttp 2960 14272 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-01-26 20:46:29,977 basehttp 2960 13736 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-01-26 20:46:29,977 basehttp 2960 23524 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-01-26 20:46:29,978 basehttp 2960 6936 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-01-26 20:46:29,978 basehttp 2960 16244 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-01-26 20:46:29,992 basehttp 2960 6936 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-01-26 20:46:29,994 basehttp 2960 23524 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-01-26 20:46:30,003 basehttp 2960 16244 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-01-26 20:46:30,003 basehttp 2960 6936 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+WARNING 2024-01-26 20:46:30,017 log 2960 6936 Not Found: /favicon.ico
+WARNING 2024-01-26 20:46:30,018 basehttp 2960 6936 "GET /favicon.ico HTTP/1.1" 404 2866
+INFO 2024-01-26 20:59:49,708 autoreload 7356 7304 Watching for file changes with StatReloader
+INFO 2024-01-26 20:59:51,022 views 7356 15828 Index page accessed
+INFO 2024-01-26 20:59:51,023 basehttp 7356 15828 "GET / HTTP/1.1" 200 13
+ERROR 2024-01-26 20:59:56,549 log 7356 15828 Internal Server Error: /admin/my_fifth_app/category/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: my_fifth_app_category
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1981, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\options.py", line 862, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 145, in __init__
+    self.get_results(request)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 312, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+           ^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 618, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 618, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 604, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: my_fifth_app_category
+ERROR 2024-01-26 20:59:56,555 basehttp 7356 15828 "GET /admin/my_fifth_app/category/ HTTP/1.1" 500 193844
+INFO 2024-01-26 21:00:00,725 basehttp 7356 15828 "GET /admin/ HTTP/1.1" 200 11424
+INFO 2024-01-26 21:00:01,078 basehttp 7356 15828 "GET /admin/ HTTP/1.1" 200 11424
+ERROR 2024-01-26 21:00:02,944 log 7356 15828 Internal Server Error: /admin/my_fifth_app/category/
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: my_fifth_app_category
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1981, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\options.py", line 862, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 145, in __init__
+    self.get_results(request)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\contrib\admin\views\main.py", line 312, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+           ^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\query.py", line 618, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 618, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\query.py", line 604, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GeekBrains\II_quarter\24_01_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: my_fifth_app_category
+ERROR 2024-01-26 21:00:02,948 basehttp 7356 15828 "GET /admin/my_fifth_app/category/ HTTP/1.1" 500 193707
+INFO 2024-01-26 22:04:25,657 autoreload 14308 22944 Watching for file changes with StatReloader
+INFO 2024-01-26 22:04:27,232 views 14308 8556 Index page accessed
+INFO 2024-01-26 22:04:27,233 basehttp 14308 8556 "GET / HTTP/1.1" 200 13
+WARNING 2024-01-26 22:04:27,331 log 14308 8556 Not Found: /favicon.ico
+WARNING 2024-01-26 22:04:27,332 basehttp 14308 8556 "GET /favicon.ico HTTP/1.1" 404 2866
+INFO 2024-01-26 22:04:38,023 basehttp 14308 8556 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-01-26 22:04:38,056 basehttp 14308 8556 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-01-26 22:04:38,214 basehttp 14308 8556 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2024-01-26 22:04:39,187 basehttp 14308 8556 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-01-26 22:04:39,197 basehttp 14308 8556 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-01-26 22:04:49,616 basehttp 14308 8556 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO 2024-01-26 22:05:00,442 basehttp 14308 8556 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO 2024-01-26 22:05:11,792 basehttp 14308 8556 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4625
+INFO 2024-01-26 22:07:08,944 autoreload 13744 13452 Watching for file changes with StatReloader
+INFO 2024-01-26 22:07:14,250 basehttp 13744 2756 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-01-26 22:07:14,287 basehttp 13744 2756 "GET /admin/ HTTP/1.1" 200 8347
+INFO 2024-01-26 22:07:18,253 basehttp 13744 2756 "GET /admin/my_fifth_app/category/ HTTP/1.1" 200 9304
+INFO 2024-01-26 22:07:18,289 basehttp 13744 23568 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:07:20,042 basehttp 13744 23568 "GET /admin/my_fifth_app/category/add/ HTTP/1.1" 200 10147
+INFO 2024-01-26 22:07:20,077 basehttp 13744 2756 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:07:25,430 basehttp 13744 2756 "POST /admin/my_fifth_app/category/add/ HTTP/1.1" 302 0
+INFO 2024-01-26 22:07:25,445 basehttp 13744 2756 "GET /admin/my_fifth_app/category/add/ HTTP/1.1" 200 10484
+INFO 2024-01-26 22:07:25,481 basehttp 13744 23568 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:07:32,533 basehttp 13744 23568 "POST /admin/my_fifth_app/category/add/ HTTP/1.1" 302 0
+INFO 2024-01-26 22:07:32,553 basehttp 13744 23568 "GET /admin/my_fifth_app/category/ HTTP/1.1" 200 11524
+INFO 2024-01-26 22:07:32,584 basehttp 13744 2756 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:07:35,179 basehttp 13744 2756 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 9292
+INFO 2024-01-26 22:07:35,211 basehttp 13744 23568 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:07:36,820 basehttp 13744 23568 "GET /admin/my_fifth_app/product/add/ HTTP/1.1" 200 14671
+INFO 2024-01-26 22:07:36,847 basehttp 13744 2756 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:07:55,248 basehttp 13744 2756 "POST /admin/my_fifth_app/product/add/ HTTP/1.1" 302 0
+INFO 2024-01-26 22:07:55,265 basehttp 13744 2756 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 11059
+INFO 2024-01-26 22:07:55,296 basehttp 13744 23568 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:07:59,138 basehttp 13744 23568 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 10832
+INFO 2024-01-26 22:07:59,180 basehttp 13744 2756 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:08:00,804 basehttp 13744 2756 "GET /admin/my_fifth_app/product/1/change/ HTTP/1.1" 200 14905
+INFO 2024-01-26 22:08:00,835 basehttp 13744 23568 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:08:04,071 basehttp 13744 23568 "POST /admin/my_fifth_app/product/1/change/ HTTP/1.1" 302 0
+INFO 2024-01-26 22:08:04,086 basehttp 13744 23568 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 11061
+INFO 2024-01-26 22:08:04,137 basehttp 13744 2756 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:26:18,094 basehttp 13744 3588 "GET /admin/my_fifth_app/product/add/ HTTP/1.1" 200 14671
+INFO 2024-01-26 22:26:18,137 basehttp 13744 3444 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:26:42,503 basehttp 13744 3444 "POST /admin/my_fifth_app/product/add/ HTTP/1.1" 302 0
+INFO 2024-01-26 22:26:42,519 basehttp 13744 3444 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 11418
+INFO 2024-01-26 22:26:42,550 basehttp 13744 3588 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:27:25,480 basehttp 13744 3588 "GET /admin/my_fifth_app/category/ HTTP/1.1" 200 11275
+INFO 2024-01-26 22:27:25,512 basehttp 13744 3444 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:27:27,842 basehttp 13744 3444 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 11185
+INFO 2024-01-26 22:27:27,872 basehttp 13744 3588 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:27:29,736 basehttp 13744 3588 "GET /admin/my_fifth_app/product/2/change/ HTTP/1.1" 200 14951
+INFO 2024-01-26 22:27:29,768 basehttp 13744 3444 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:28:09,369 autoreload 13744 13452 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\models.py changed, reloading.
+INFO 2024-01-26 22:28:09,697 autoreload 15940 21320 Watching for file changes with StatReloader
+INFO 2024-01-26 22:29:48,301 autoreload 15940 21320 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\models.py changed, reloading.
+INFO 2024-01-26 22:29:48,638 autoreload 12104 24476 Watching for file changes with StatReloader
+INFO 2024-01-26 22:31:17,498 autoreload 12104 24476 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:31:17,811 autoreload 3252 20632 Watching for file changes with StatReloader
+INFO 2024-01-26 22:31:24,101 autoreload 3252 20632 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:31:24,416 autoreload 19796 6244 Watching for file changes with StatReloader
+INFO 2024-01-26 22:31:27,655 autoreload 19796 6244 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:31:27,960 autoreload 19000 9436 Watching for file changes with StatReloader
+INFO 2024-01-26 22:31:36,298 autoreload 19000 9436 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:31:36,632 autoreload 7244 23288 Watching for file changes with StatReloader
+INFO 2024-01-26 22:31:40,909 autoreload 7244 23288 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:31:41,226 autoreload 21680 7164 Watching for file changes with StatReloader
+INFO 2024-01-26 22:31:59,715 autoreload 21680 7164 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:32:00,053 autoreload 16356 6932 Watching for file changes with StatReloader
+INFO 2024-01-26 22:32:07,387 autoreload 16356 6932 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:32:07,731 autoreload 22032 13124 Watching for file changes with StatReloader
+INFO 2024-01-26 22:32:10,998 autoreload 22032 13124 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:32:11,351 autoreload 24252 17372 Watching for file changes with StatReloader
+INFO 2024-01-26 22:32:18,773 basehttp 24252 8492 "POST /admin/my_fifth_app/product/2/change/ HTTP/1.1" 302 0
+INFO 2024-01-26 22:32:18,813 basehttp 24252 8492 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 11420
+INFO 2024-01-26 22:32:18,841 basehttp 24252 16784 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:32:20,535 basehttp 24252 16784 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 11185
+INFO 2024-01-26 22:32:20,560 basehttp 24252 8492 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:32:23,168 basehttp 24252 8492 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 11185
+INFO 2024-01-26 22:32:23,202 basehttp 24252 7312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:32:23,286 basehttp 24252 8492 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-01-26 22:32:23,287 basehttp 24252 16784 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-01-26 22:32:23,288 basehttp 24252 22848 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-01-26 22:32:23,289 basehttp 24252 3756 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-01-26 22:32:23,292 basehttp 24252 16412 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-01-26 22:32:23,299 basehttp 24252 16784 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-01-26 22:32:23,303 basehttp 24252 22848 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-01-26 22:32:23,306 basehttp 24252 3756 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-01-26 22:32:23,306 basehttp 24252 8492 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-01-26 22:32:23,307 basehttp 24252 16412 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-01-26 22:32:23,310 basehttp 24252 16784 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-01-26 22:32:23,316 basehttp 24252 7312 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-01-26 22:32:23,332 basehttp 24252 22848 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-01-26 22:32:23,365 basehttp 24252 7312 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-01-26 22:32:23,375 basehttp 24252 7312 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-01-26 22:32:23,385 basehttp 24252 22848 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-01-26 22:32:23,386 basehttp 24252 7312 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-01-26 22:32:23,387 basehttp 24252 16784 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+WARNING 2024-01-26 22:32:23,407 log 24252 16784 Not Found: /favicon.ico
+WARNING 2024-01-26 22:32:23,407 basehttp 24252 16784 "GET /favicon.ico HTTP/1.1" 404 2866
+INFO 2024-01-26 22:32:39,826 autoreload 3004 3880 Watching for file changes with StatReloader
+INFO 2024-01-26 22:32:41,718 basehttp 3004 16988 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 11185
+INFO 2024-01-26 22:32:41,748 basehttp 3004 12608 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:32:45,673 basehttp 3004 12608 "GET /admin/my_fifth_app/category/ HTTP/1.1" 200 11275
+INFO 2024-01-26 22:32:45,704 basehttp 3004 16988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:32:47,261 basehttp 3004 16988 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 11185
+INFO 2024-01-26 22:32:47,288 basehttp 3004 12608 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:32:48,988 basehttp 3004 12608 "GET /admin/my_fifth_app/product/2/change/ HTTP/1.1" 200 14951
+INFO 2024-01-26 22:32:49,016 basehttp 3004 16988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:32:51,163 basehttp 3004 16988 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 11185
+INFO 2024-01-26 22:34:05,802 autoreload 3004 3880 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:34:06,135 autoreload 7472 22720 Watching for file changes with StatReloader
+INFO 2024-01-26 22:34:08,471 basehttp 7472 20668 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 11709
+INFO 2024-01-26 22:34:08,504 basehttp 7472 18236 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:34:35,351 basehttp 7472 18236 "GET /admin/my_fifth_app/product/?o=1 HTTP/1.1" 200 12091
+INFO 2024-01-26 22:34:35,384 basehttp 7472 20668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:34:35,403 basehttp 7472 20668 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2024-01-26 22:34:36,790 basehttp 7472 20668 "GET /admin/my_fifth_app/product/?o=2.1 HTTP/1.1" 200 12579
+INFO 2024-01-26 22:34:36,826 basehttp 7472 18236 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:34:38,221 basehttp 7472 18236 "GET /admin/my_fifth_app/product/?o=3.2.1 HTTP/1.1" 200 12990
+INFO 2024-01-26 22:34:38,254 basehttp 7472 20668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:34:38,988 basehttp 7472 20668 "GET /admin/my_fifth_app/product/?o=-3.2.1 HTTP/1.1" 200 12999
+INFO 2024-01-26 22:34:39,016 basehttp 7472 18236 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:34:55,737 basehttp 7472 18236 "GET /admin/my_fifth_app/product/?o=-3.2 HTTP/1.1" 200 12586
+INFO 2024-01-26 22:34:55,780 basehttp 7472 20668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:34:57,361 basehttp 7472 20668 "GET /admin/my_fifth_app/product/?o=-3 HTTP/1.1" 200 12096
+INFO 2024-01-26 22:34:57,391 basehttp 7472 18236 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:34:59,424 basehttp 7472 18236 "GET /admin/my_fifth_app/product/?o= HTTP/1.1" 200 11784
+INFO 2024-01-26 22:34:59,453 basehttp 7472 20668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:35:01,202 basehttp 7472 20668 "GET /admin/my_fifth_app/product/?o=1 HTTP/1.1" 200 12091
+INFO 2024-01-26 22:35:01,229 basehttp 7472 18236 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:35:39,264 autoreload 7472 22720 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:35:39,639 autoreload 7732 2752 Watching for file changes with StatReloader
+INFO 2024-01-26 22:35:43,465 basehttp 7732 18340 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 12499
+INFO 2024-01-26 22:35:43,503 basehttp 7732 11520 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:35:55,907 basehttp 7732 11520 "GET /admin/my_fifth_app/product/add/ HTTP/1.1" 200 14671
+INFO 2024-01-26 22:35:55,944 basehttp 7732 18340 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:36:03,448 basehttp 7732 18340 "GET /admin/my_fifth_app/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4482
+INFO 2024-01-26 22:36:03,475 basehttp 7732 11520 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:36:07,432 basehttp 7732 11520 "POST /admin/my_fifth_app/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 409
+INFO 2024-01-26 22:36:07,501 basehttp 7732 18340 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+INFO 2024-01-26 22:36:15,549 basehttp 7732 18340 "POST /admin/my_fifth_app/product/add/ HTTP/1.1" 302 0
+INFO 2024-01-26 22:36:15,568 basehttp 7732 18340 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 13163
+INFO 2024-01-26 22:36:15,646 basehttp 7732 11520 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:37:34,212 autoreload 7732 2752 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:37:34,532 autoreload 10928 17452 Watching for file changes with StatReloader
+INFO 2024-01-26 22:37:56,138 autoreload 10928 17452 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:37:56,473 autoreload 23332 21324 Watching for file changes with StatReloader
+INFO 2024-01-26 22:38:00,618 basehttp 23332 9968 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 12932
+INFO 2024-01-26 22:38:00,696 basehttp 23332 19408 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:38:19,208 autoreload 23332 21324 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:38:19,546 autoreload 22832 20980 Watching for file changes with StatReloader
+INFO 2024-01-26 22:38:20,174 basehttp 22832 19824 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 14440
+INFO 2024-01-26 22:38:20,202 basehttp 22832 22868 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:39:56,642 autoreload 22832 20980 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:39:56,999 autoreload 15228 11976 Watching for file changes with StatReloader
+INFO 2024-01-26 22:39:58,240 basehttp 15228 3224 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 14948
+INFO 2024-01-26 22:39:58,271 basehttp 15228 20568 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2024-01-26 22:39:58,274 basehttp 15228 280 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:40:50,364 autoreload 15228 11976 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:40:50,708 autoreload 20868 10100 Watching for file changes with StatReloader
+INFO 2024-01-26 22:43:45,305 autoreload 20868 10100 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:43:45,651 autoreload 23828 3580 Watching for file changes with StatReloader
+INFO 2024-01-26 22:44:17,259 basehttp 23828 24564 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 14948
+INFO 2024-01-26 22:44:17,291 basehttp 23828 13652 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:44:33,871 autoreload 20492 22032 Watching for file changes with StatReloader
+INFO 2024-01-26 22:44:35,990 basehttp 20492 20668 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 14948
+INFO 2024-01-26 22:44:36,021 basehttp 20492 15024 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:45:00,649 autoreload 20492 22032 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:45:00,985 autoreload 20040 20168 Watching for file changes with StatReloader
+INFO 2024-01-26 22:45:01,423 basehttp 20040 24156 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 15041
+INFO 2024-01-26 22:45:01,455 basehttp 20040 13368 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:45:07,938 basehttp 20040 13368 "POST /admin/my_fifth_app/product/ HTTP/1.1" 302 0
+INFO 2024-01-26 22:45:07,958 basehttp 20040 13368 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 15039
+INFO 2024-01-26 22:45:07,988 basehttp 20040 24156 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:47:45,356 autoreload 20040 20168 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:47:45,711 autoreload 12244 16212 Watching for file changes with StatReloader
+INFO 2024-01-26 22:49:35,037 autoreload 12244 16212 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:49:35,383 autoreload 22904 14064 Watching for file changes with StatReloader
+INFO 2024-01-26 22:53:35,148 autoreload 22904 14064 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:53:35,487 autoreload 20896 16596 Watching for file changes with StatReloader
+INFO 2024-01-26 22:53:37,571 basehttp 20896 20076 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 15039
+INFO 2024-01-26 22:53:37,604 basehttp 20896 19952 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:53:40,421 basehttp 20896 19952 "GET /admin/my_fifth_app/product/ HTTP/1.1" 200 15039
+INFO 2024-01-26 22:53:40,450 basehttp 20896 20076 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:53:41,636 basehttp 20896 20076 "GET /admin/my_fifth_app/product/1/change/ HTTP/1.1" 200 14158
+INFO 2024-01-26 22:53:41,666 basehttp 20896 19952 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:56:11,781 autoreload 20896 16596 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:56:12,118 autoreload 8168 20908 Watching for file changes with StatReloader
+INFO 2024-01-26 22:56:17,425 autoreload 8168 20908 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:56:17,756 autoreload 23364 15428 Watching for file changes with StatReloader
+INFO 2024-01-26 22:56:22,153 basehttp 23364 9628 "GET /admin/my_fifth_app/product/1/change/ HTTP/1.1" 200 16083
+INFO 2024-01-26 22:56:22,191 basehttp 23364 21420 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:56:22,220 basehttp 23364 15484 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2024-01-26 22:57:16,205 autoreload 23364 15428 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:57:16,543 autoreload 24472 23980 Watching for file changes with StatReloader
+INFO 2024-01-26 22:57:36,099 autoreload 24472 23980 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:57:36,430 autoreload 8228 21816 Watching for file changes with StatReloader
+INFO 2024-01-26 22:57:50,905 autoreload 8228 21816 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:57:51,231 autoreload 17832 21964 Watching for file changes with StatReloader
+INFO 2024-01-26 22:58:24,371 basehttp 17832 15828 "GET /admin/my_fifth_app/product/1/change/ HTTP/1.1" 200 16083
+INFO 2024-01-26 22:58:24,404 basehttp 17832 22564 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-26 22:58:45,534 autoreload 17832 21964 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
+INFO 2024-01-26 22:58:45,866 autoreload 18320 24252 Watching for file changes with StatReloader

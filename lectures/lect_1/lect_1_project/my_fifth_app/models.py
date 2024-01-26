@@ -10,13 +10,16 @@ class Category(models.Model):
 
     name = models.CharField(_('Название'), max_length=50, unique=True)
 
-
-def __str__(self):
-    return self.name
+    def __str__(self):
+        return self.name
 
 
 class Product(models.Model):
-    name = models.ForeignKey(Category, on_delete=models.CASCADE)
+    class Meta:
+        verbose_name = _('Продукты')
+
+    name = models.CharField(_('Наименование'), max_length=50)
+    category = models.ForeignKey(Category, on_delete=models.CASCADE)
     # если удалим категорию, то удалятся все продукты
     description = models.TextField(_('Описание'), default='', blank=True)
     # blank=True -поле обязательное для заполнения
@@ -27,9 +30,6 @@ class Product(models.Model):
     # поле заполняется автоматически, текущее время
     rating = models.DecimalField(_('Рейтинг'), default=5.0, max_digits=3,
                                  decimal_places=2)
-
-    class Meta:
-        verbose_name = _('Продукты')
 
     def __str__(self):
         return self.name
