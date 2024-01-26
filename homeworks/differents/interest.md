@@ -8,3 +8,8 @@
 Различные анимации и другие [плюшки](https://www.cssportal.com) для html
 
 ManyToMany поля и работа с ними [тут](https://metanit.com/python/django/5.7.php)
+
+Аутентификация и авторизация пользователя в джанго [тут](https://habr.com/ru/articles/787040/)
+
+Связывание [абстрактного класса User](https://proproprogs.ru/django4/django4-rasshirenie-modeli-user-klass-abstractuser) 
+(вcтроенного) со своей моделью для авторизации и всего остального
