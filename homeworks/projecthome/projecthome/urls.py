@@ -22,5 +22,6 @@ urlpatterns = [
     path('', include('app_main.urls')),
     path('judges/', include('app_for_judges.urls')),
     path('competitions/', include('app_for_competitions.urls')),
+    path('users/', include('users.urls', namespace="users")),
 
 ]

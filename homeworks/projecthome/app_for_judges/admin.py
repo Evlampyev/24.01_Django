@@ -9,7 +9,7 @@ def reset_status(modeladmin, request, queryset):
 
 # Register your models here.
 class JudgeAdmin(admin.ModelAdmin):
-    list_display = ['last_name', 'name', 'patronymic', 'status']
+    list_display = ['last_name', 'name', 'patronymic', 'status', 'is_active']
     ordering = ['last_name', 'name']
     list_filter = ['last_name', 'status', 'organization']
     search_fields = ['last_name']
@@ -22,7 +22,8 @@ class JudgeAdmin(admin.ModelAdmin):
             None,
             {
                 'classes': ['wide'],
-                'fields' : ['status', 'last_name', 'name', 'patronymic']
+                'fields' : ['status', 'last_name', 'name', 'patronymic', 'is_active']
+
             },
         ),
         (

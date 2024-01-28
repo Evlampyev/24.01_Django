@@ -1,12 +1,9 @@
-[INFO    :             django.server] - 2024-01-27 00:54:00,805 : log_message @ 0212: "POST /admin/app_for_judges/judge/ HTTP/1.1" 302 0
-[INFO    :             django.server] - 2024-01-27 00:54:00,866 : log_message @ 0212: "GET /admin/app_for_judges/judge/ HTTP/1.1" 200 18019
-[INFO    :             django.server] - 2024-01-27 00:54:00,899 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[INFO    :             django.server] - 2024-01-27 00:54:06,358 : log_message @ 0212: "POST /admin/app_for_judges/judge/ HTTP/1.1" 302 0
-[INFO    :             django.server] - 2024-01-27 00:54:06,383 : log_message @ 0212: "GET /admin/app_for_judges/judge/ HTTP/1.1" 200 18023
-[INFO    :             django.server] - 2024-01-27 00:54:06,414 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[INFO    :             django.server] - 2024-01-27 01:03:55,917 : log_message @ 0212: "GET /admin/auth/group/ HTTP/1.1" 200 11268
-[INFO    :             django.server] - 2024-01-27 01:03:55,954 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[INFO    :             django.server] - 2024-01-27 01:03:57,197 : log_message @ 0212: "GET /admin/auth/user/ HTTP/1.1" 200 14750
-[INFO    :             django.server] - 2024-01-27 01:03:57,228 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[INFO    :            app_main.views] - 2024-01-27 01:04:15,496 : index @ 0012: Главная страница
-[INFO    :             django.server] - 2024-01-27 01:04:15,499 : log_message @ 0212: "GET / HTTP/1.1" 200 2074
+[WARNING :            django.request] - 2024-01-28 23:05:13,323 : http_method_not_allowed @ 0146: Method Not Allowed (GET): /users/logout/
+[WARNING :            django.request] - 2024-01-28 23:05:13,324 : log_response @ 0241: Method Not Allowed: /users/logout/
+[WARNING :             django.server] - 2024-01-28 23:05:13,324 : log_message @ 0212: "GET /users/logout/ HTTP/1.1" 405 0
+[INFO    :            app_main.views] - 2024-01-28 23:06:15,144 : index @ 0012: Главная страница
+[INFO    :             django.server] - 2024-01-28 23:06:15,154 : log_message @ 0212: "GET / HTTP/1.1" 200 2284
+[INFO    :            app_main.views] - 2024-01-28 23:06:15,598 : index @ 0012: Главная страница
+[INFO    :             django.server] - 2024-01-28 23:06:15,601 : log_message @ 0212: "GET / HTTP/1.1" 200 2284
+[WARNING :            django.request] - 2024-01-28 23:07:23,974 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-28 23:07:23,975 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2933

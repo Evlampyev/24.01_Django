@@ -88,6 +88,10 @@ a:hover {
   background:#D43737;/*добавляем эффект при наведении*/
 }
 
+.enter {
+    float: right;
+}
+
 li {
   float:left; /*Размещаем список горизонтально для реализации меню*/
   position:relative; /*задаем позицию для позиционирования*/
@@ -407,3 +411,7 @@ input[type='submit'] {
   background-color: #ba2121;
   color: #fff;
 }
+
+.user_name {
+    color: red;
+    margin: 6px}

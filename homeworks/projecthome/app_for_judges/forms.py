@@ -5,7 +5,6 @@ from app_for_competitions.models import Competition
 from django.utils.translation import gettext_lazy as _
 
 
-
 class UserForm(forms.ModelForm):
     class Meta:
         model = Judge
@@ -22,5 +21,3 @@ class UserForm(forms.ModelForm):
     competition = forms.ModelChoiceField(
         queryset=Competition.objects.all().order_by('name'), blank=True)
     # is_active = forms.BooleanField(required=True)  # по умолчанию галочка на True
-
-

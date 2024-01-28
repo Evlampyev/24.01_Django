@@ -15,7 +15,7 @@
 <div class="wrapper">
     <header>
         <ul>
-            <li><a class="a_menu" href="{% url 'index' %}">Общие итоги</a></li>
+            <li><a class="a_menu" href="{% url 'home' %}">Общие итоги</a></li>
             <li><a class="a_menu" href="#">Главный судья</a>
                 <ul>
                     <li><a class="a_menu" href="{% url 'all_judges' %}">Судьи</a></li>
@@ -32,7 +32,15 @@
             </li>
             <li><a class="a_menu" href="#">Контакты</a></li>
             <li><a class="a_menu" href="{% url 'about' %}">Обо мне</a></li>
+            <div class="container enter">
+            {% if user.is_authenticated %}
+                <div class="user_name">{{user.username}}</div>  <a href="{% url 'users:logout' %}" class="btn a_btn">Выйти</a>
+            {% else %}
+                <a href="{% url 'users:login' %}" class="btn a_btn">Войти</a>
+                <a href="#" class="btn a_btn">Регистрация</a>
+            {% endif %}
 
+            </div>
         </ul>
     </header>
 

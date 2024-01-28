@@ -1,8 +1,13 @@
+from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.forms import AuthenticationForm
+from django.contrib.auth.views import LoginView
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect, get_object_or_404
 from logging import getLogger
 from .forms import UserForm
 from .models import Judge
 from django.contrib import messages
+from django.urls import reverse
 
 # Create your views here.
 

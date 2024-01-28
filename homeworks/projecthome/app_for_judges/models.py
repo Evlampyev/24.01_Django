@@ -17,7 +17,7 @@ class User(models.Model):
     name = models.CharField(_('Имя'), max_length=25)
     patronymic = models.CharField(_('Отчество'), max_length=25, default=None)
     last_name = models.CharField(_('Фамилия'), max_length=25)
-    is_active = models.BooleanField(_('Удалить'), default=True)
+    is_active = models.BooleanField(_('Активировать'), default=True)
 
     def __str__(self):
         return f"{self.last_name} {self.name}"
