@@ -1,9 +1,23 @@
-[WARNING :            django.request] - 2024-01-28 23:05:13,323 : http_method_not_allowed @ 0146: Method Not Allowed (GET): /users/logout/
-[WARNING :            django.request] - 2024-01-28 23:05:13,324 : log_response @ 0241: Method Not Allowed: /users/logout/
-[WARNING :             django.server] - 2024-01-28 23:05:13,324 : log_message @ 0212: "GET /users/logout/ HTTP/1.1" 405 0
-[INFO    :            app_main.views] - 2024-01-28 23:06:15,144 : index @ 0012: Главная страница
-[INFO    :             django.server] - 2024-01-28 23:06:15,154 : log_message @ 0212: "GET / HTTP/1.1" 200 2284
-[INFO    :            app_main.views] - 2024-01-28 23:06:15,598 : index @ 0012: Главная страница
-[INFO    :             django.server] - 2024-01-28 23:06:15,601 : log_message @ 0212: "GET / HTTP/1.1" 200 2284
-[WARNING :            django.request] - 2024-01-28 23:07:23,974 : log_response @ 0241: Not Found: /favicon.ico
-[WARNING :             django.server] - 2024-01-28 23:07:23,975 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2933
+[INFO    :             django.server] - 2024-01-29 10:40:38,146 : log_message @ 0212: "GET /users/login/ HTTP/1.1" 200 2429
+[INFO    :             django.server] - 2024-01-29 10:40:40,315 : log_message @ 0212: "POST /users/login/ HTTP/1.1" 302 0
+[INFO    :            app_main.views] - 2024-01-29 10:40:40,328 : index @ 0012: Главная страница
+[INFO    :             django.server] - 2024-01-29 10:40:40,332 : log_message @ 0212: "GET / HTTP/1.1" 200 2284
+[INFO    :             django.server] - 2024-01-29 10:40:41,845 : log_message @ 0212: "GET /users/logout/ HTTP/1.1" 302 0
+[INFO    :            app_main.views] - 2024-01-29 10:40:41,855 : about @ 0022: Загружена страница обо мне
+[INFO    :             django.server] - 2024-01-29 10:40:41,857 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 1801
+[WARNING :            django.request] - 2024-01-29 17:24:35,524 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-29 17:24:35,531 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2933
+[INFO    :             django.server] - 2024-01-29 17:24:40,210 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[WARNING :            django.request] - 2024-01-29 17:24:40,310 : log_response @ 0241: Not Found: /favicon.ico
+[WARNING :             django.server] - 2024-01-29 17:24:40,311 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2933
+[INFO    :            app_main.views] - 2024-01-29 17:24:41,432 : index @ 0012: Главная страница
+[INFO    :             django.server] - 2024-01-29 17:24:41,436 : log_message @ 0212: "GET / HTTP/1.1" 200 2307
+[INFO    :             django.server] - 2024-01-29 17:24:44,861 : log_message @ 0212: "GET /judges/all/ HTTP/1.1" 200 10581
+[INFO    :             django.server] - 2024-01-29 17:24:47,954 : log_message @ 0212: "GET /judges/all/ HTTP/1.1" 200 10581
+[INFO    :             django.server] - 2024-01-29 17:24:50,338 : log_message @ 0212: "GET /judges/add/ HTTP/1.1" 200 3697
+[INFO    :      app_for_judges.views] - 2024-01-29 17:24:55,968 : delete_judge @ 0042: M: Евлампьев Александр. Владимирович. deleted
+[INFO    :             django.server] - 2024-01-29 17:24:55,980 : log_message @ 0212: "GET /judges/delete/1/ HTTP/1.1" 302 0
+[INFO    :             django.server] - 2024-01-29 17:24:56,003 : log_message @ 0212: "GET /judges/all/ HTTP/1.1" 200 9248
+[INFO    :             django.server] - 2024-01-29 17:24:58,805 : log_message @ 0212: "GET /judges/edit/4/ HTTP/1.1" 200 3933
+[INFO    :             django.server] - 2024-01-29 17:25:03,519 : log_message @ 0212: "GET /users/login/ HTTP/1.1" 200 2429
+[INFO    :             django.server] - 2024-01-29 17:25:09,197 : log_message @ 0212: "GET /competitions/all/ HTTP/1.1" 200 4794

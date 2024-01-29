@@ -1,6 +1,6 @@
 from django.contrib.auth import authenticate, login, logout
-from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth.views import LoginView
+from django.shortcuts import redirect
 
 from django.urls import reverse, reverse_lazy
 
@@ -14,3 +14,6 @@ class LoginUser(LoginView):
     extra_context = {'title': "Авторизация"}
 
 
+def logout_view(request):
+    logout(request)
+    return redirect('about')  # на главную страницу сайта
