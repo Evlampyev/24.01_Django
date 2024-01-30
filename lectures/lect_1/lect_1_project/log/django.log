@@ -1915,3 +1915,38 @@ INFO 2024-01-26 22:58:24,371 basehttp 17832 15828 "GET /admin/my_fifth_app/produ
 INFO 2024-01-26 22:58:24,404 basehttp 17832 22564 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 INFO 2024-01-26 22:58:45,534 autoreload 17832 21964 C:\GeekBrains\II_quarter\24_01_Django\lectures\lect_1\lect_1_project\my_fifth_app\admin.py changed, reloading.
 INFO 2024-01-26 22:58:45,866 autoreload 18320 24252 Watching for file changes with StatReloader
+INFO 2024-01-30 17:52:49,214 autoreload 12476 13108 Watching for file changes with StatReloader
+INFO 2024-01-30 17:53:45,365 autoreload 3228 12704 Watching for file changes with StatReloader
+INFO 2024-01-30 17:54:22,082 autoreload 3444 1032 Watching for file changes with StatReloader
+INFO 2024-01-30 17:54:44,730 autoreload 12296 1768 Watching for file changes with StatReloader
+INFO 2024-01-30 17:56:54,033 autoreload 12296 1768 C:\Users\Администратор\PycharmProjects\24.01_Django\lectures\lect_1\lect_1_project\my_six_app\urls.py changed, reloading.
+INFO 2024-01-30 17:56:58,597 autoreload 14564 3256 Watching for file changes with StatReloader
+INFO 2024-01-30 17:57:02,179 views 14564 14820 Index page accessed
+INFO 2024-01-30 17:57:02,355 basehttp 14564 14820 "GET / HTTP/1.1" 200 13
+WARNING 2024-01-30 17:57:02,687 log 14564 14820 Not Found: /favicon.ico
+WARNING 2024-01-30 17:57:02,689 basehttp 14564 14820 "GET /favicon.ico HTTP/1.1" 404 12856
+WARNING 2024-01-30 17:57:10,829 log 14564 8768 Not Found: /five
+WARNING 2024-01-30 17:57:10,831 basehttp 14564 8768 "GET /five HTTP/1.1" 404 12828
+INFO 2024-01-30 17:57:10,915 basehttp 14564 8768 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2024-01-30 17:57:10,916 basehttp 14564 1500 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2024-01-30 17:57:10,921 basehttp 14564 12784 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-01-30 17:57:10,979 basehttp 14564 12784 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 2024-01-30 17:57:18,439 log 14564 12784 Not Found: /five/
+WARNING 2024-01-30 17:57:18,440 basehttp 14564 12784 "GET /five/ HTTP/1.1" 404 12727
+INFO 2024-01-30 17:58:12,526 views 14564 13404 Index page accessed
+INFO 2024-01-30 17:58:12,563 basehttp 14564 13404 "GET / HTTP/1.1" 200 13
+INFO 2024-01-30 17:58:22,861 views 14564 12680 Index page accessed
+INFO 2024-01-30 17:58:22,905 basehttp 14564 12680 "GET / HTTP/1.1" 200 13
+WARNING 2024-01-30 17:58:23,066 log 14564 12680 Not Found: /favicon.ico
+WARNING 2024-01-30 17:58:23,068 basehttp 14564 12680 "GET /favicon.ico HTTP/1.1" 404 12856
+INFO 2024-01-30 17:59:36,917 autoreload 13560 12156 Watching for file changes with StatReloader
+INFO 2024-01-30 17:59:38,981 views 13560 5680 Index page accessed
+INFO 2024-01-30 17:59:39,083 basehttp 13560 5680 "GET / HTTP/1.1" 200 13
+INFO 2024-01-30 17:59:46,489 views 13560 464 Index page accessed
+INFO 2024-01-30 17:59:46,520 basehttp 13560 464 "GET / HTTP/1.1" 200 13
+WARNING 2024-01-30 17:59:55,404 log 13560 4896 Not Found: /four/
+WARNING 2024-01-30 17:59:55,406 basehttp 13560 4896 "GET /four/ HTTP/1.1" 404 13269
+INFO 2024-01-30 17:59:55,488 basehttp 13560 4896 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-01-30 17:59:55,489 basehttp 13560 14384 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-01-30 17:59:55,498 basehttp 13560 5420 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-01-30 17:59:55,579 basehttp 13560 5420 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
