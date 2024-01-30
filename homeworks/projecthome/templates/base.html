@@ -8,7 +8,8 @@
     <title>
         {% block title %} Базовый шаблон {% endblock %}
     </title>
-    <link rel="stylesheet" href="{% static 'css/stylesheet.css'%}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/stylesheet.css' %}" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="{% static 'image/favicon.ico' %}"/>
 </head>
 <body>
 
@@ -33,12 +34,13 @@
             <li><a class="a_menu" href="#">Контакты</a></li>
             <li><a class="a_menu" href="{% url 'about' %}">Обо мне</a></li>
             <div class="container enter">
-            {% if user.is_authenticated %}
-                <div class="user_name">{{user.username}}</div>  <a href="{% url 'users:logout' %}" class="btn a_btn">Выйти</a>
-            {% else %}
-                <a href="{% url 'users:login' %}" class="btn a_btn">Войти</a>
-                <a href="#" class="btn a_btn">Регистрация</a>
-            {% endif %}
+                {% if user.is_authenticated %}
+                    <div class="user_name">{{ user.username }}</div>
+                    <a href="{% url 'users:logout' %}" class="btn a_btn">Выйти</a>
+                {% else %}
+                    <a href="{% url 'users:login' %}" class="btn a_btn">Войти</a>
+                    <a href="#" class="btn a_btn">Регистрация</a>
+                {% endif %}
 
             </div>
         </ul>
@@ -46,7 +48,7 @@
 
     <main>
         {% block content %}
-        <h2>Это базовый шаблон</h2>
+            <h2>Это базовый шаблон</h2>
 
 
         {% endblock %}
@@ -54,13 +56,13 @@
 
     <footer>
         {% if messages %}
-        <div class="messages">
-            {% for message in messages %}
-            <div class="alert {% if message.tags %}alert-{{ message.tags }}" {% endif %}>
-                {{ message }}
+            <div class="messages">
+                {% for message in messages %}
+                    <div class="alert {% if message.tags %}alert-{{ message.tags }}" {% endif %}>
+                        {{ message }}
+                    </div>
+                {% endfor %}
             </div>
-            {% endfor %}
-        </div>
         {% endif %}
     </footer>
 </div>

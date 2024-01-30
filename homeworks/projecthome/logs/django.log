@@ -1,23 +1,38 @@
-[INFO    :             django.server] - 2024-01-29 10:40:38,146 : log_message @ 0212: "GET /users/login/ HTTP/1.1" 200 2429
-[INFO    :             django.server] - 2024-01-29 10:40:40,315 : log_message @ 0212: "POST /users/login/ HTTP/1.1" 302 0
-[INFO    :            app_main.views] - 2024-01-29 10:40:40,328 : index @ 0012: Главная страница
-[INFO    :             django.server] - 2024-01-29 10:40:40,332 : log_message @ 0212: "GET / HTTP/1.1" 200 2284
-[INFO    :             django.server] - 2024-01-29 10:40:41,845 : log_message @ 0212: "GET /users/logout/ HTTP/1.1" 302 0
-[INFO    :            app_main.views] - 2024-01-29 10:40:41,855 : about @ 0022: Загружена страница обо мне
-[INFO    :             django.server] - 2024-01-29 10:40:41,857 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 1801
-[WARNING :            django.request] - 2024-01-29 17:24:35,524 : log_response @ 0241: Not Found: /favicon.ico
-[WARNING :             django.server] - 2024-01-29 17:24:35,531 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2933
-[INFO    :             django.server] - 2024-01-29 17:24:40,210 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
-[WARNING :            django.request] - 2024-01-29 17:24:40,310 : log_response @ 0241: Not Found: /favicon.ico
-[WARNING :             django.server] - 2024-01-29 17:24:40,311 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2933
-[INFO    :            app_main.views] - 2024-01-29 17:24:41,432 : index @ 0012: Главная страница
-[INFO    :             django.server] - 2024-01-29 17:24:41,436 : log_message @ 0212: "GET / HTTP/1.1" 200 2307
-[INFO    :             django.server] - 2024-01-29 17:24:44,861 : log_message @ 0212: "GET /judges/all/ HTTP/1.1" 200 10581
-[INFO    :             django.server] - 2024-01-29 17:24:47,954 : log_message @ 0212: "GET /judges/all/ HTTP/1.1" 200 10581
-[INFO    :             django.server] - 2024-01-29 17:24:50,338 : log_message @ 0212: "GET /judges/add/ HTTP/1.1" 200 3697
-[INFO    :      app_for_judges.views] - 2024-01-29 17:24:55,968 : delete_judge @ 0042: M: Евлампьев Александр. Владимирович. deleted
-[INFO    :             django.server] - 2024-01-29 17:24:55,980 : log_message @ 0212: "GET /judges/delete/1/ HTTP/1.1" 302 0
-[INFO    :             django.server] - 2024-01-29 17:24:56,003 : log_message @ 0212: "GET /judges/all/ HTTP/1.1" 200 9248
-[INFO    :             django.server] - 2024-01-29 17:24:58,805 : log_message @ 0212: "GET /judges/edit/4/ HTTP/1.1" 200 3933
-[INFO    :             django.server] - 2024-01-29 17:25:03,519 : log_message @ 0212: "GET /users/login/ HTTP/1.1" 200 2429
-[INFO    :             django.server] - 2024-01-29 17:25:09,197 : log_message @ 0212: "GET /competitions/all/ HTTP/1.1" 200 4794
+[INFO    :             django.server] - 2024-01-30 14:18:47,993 : log_message @ 0212: "GET /judges/all/ HTTP/1.1" 200 9137
+[INFO    :             django.server] - 2024-01-30 14:18:48,128 : log_message @ 0212: "GET /static/image/favicon.ico HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-30 14:24:24,222 : log_message @ 0212: "GET /judges/all/ HTTP/1.1" 200 9137
+[INFO    :             django.server] - 2024-01-30 14:24:24,379 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 8623
+[INFO    :             django.server] - 2024-01-30 14:24:24,434 : log_message @ 0212: "GET /static/image/favicon.ico HTTP/1.1" 200 218654
+[INFO    :            app_main.views] - 2024-01-30 14:27:21,797 : index @ 0012: Главная страница
+[INFO    :             django.server] - 2024-01-30 14:27:21,812 : log_message @ 0212: "GET / HTTP/1.1" 200 2329
+[INFO    :             django.server] - 2024-01-30 14:27:21,894 : log_message @ 0212: "GET /static/image/app_main/cat_1.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-30 14:27:21,894 : log_message @ 0212: "GET /static/image/app_main/cat_2.jpg HTTP/1.1" 304 0
+[INFO    :            app_main.views] - 2024-01-30 14:34:06,481 : index @ 0012: Главная страница
+[INFO    :             django.server] - 2024-01-30 14:34:06,492 : log_message @ 0212: "GET / HTTP/1.1" 200 2329
+[INFO    :             django.server] - 2024-01-30 14:34:06,566 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 8623
+[INFO    :             django.server] - 2024-01-30 14:34:06,569 : log_message @ 0212: "GET /static/image/app_main/cat_1.jpg HTTP/1.1" 200 145712
+[INFO    :             django.server] - 2024-01-30 14:34:06,584 : log_message @ 0212: "GET /static/image/app_main/cat_2.jpg HTTP/1.1" 200 313796
+[INFO    :             django.server] - 2024-01-30 14:34:06,615 : log_message @ 0212: "GET /static/image/favicon.ico HTTP/1.1" 200 123966
+[INFO    :            app_main.views] - 2024-01-30 14:39:58,889 : index @ 0012: Главная страница
+[INFO    :             django.server] - 2024-01-30 14:39:58,898 : log_message @ 0212: "GET / HTTP/1.1" 200 2329
+[INFO    :             django.server] - 2024-01-30 14:39:58,966 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 8623
+[INFO    :             django.server] - 2024-01-30 14:39:58,969 : log_message @ 0212: "GET /static/image/app_main/cat_1.jpg HTTP/1.1" 200 145712
+[INFO    :             django.server] - 2024-01-30 14:39:58,977 : log_message @ 0212: "GET /static/image/app_main/cat_2.jpg HTTP/1.1" 200 313796
+[INFO    :             django.server] - 2024-01-30 14:39:59,021 : log_message @ 0212: "GET /static/image/favicon.ico HTTP/1.1" 200 250334
+[INFO    :            app_main.views] - 2024-01-30 15:15:37,946 : index @ 0012: Главная страница
+[INFO    :             django.server] - 2024-01-30 15:15:37,963 : log_message @ 0212: "GET / HTTP/1.1" 200 2329
+[INFO    :             django.server] - 2024-01-30 15:15:38,044 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-30 15:15:38,045 : log_message @ 0212: "GET /static/image/app_main/cat_1.jpg HTTP/1.1" 304 0
+[INFO    :             django.server] - 2024-01-30 15:15:38,052 : log_message @ 0212: "GET /static/image/app_main/cat_2.jpg HTTP/1.1" 304 0
+[INFO    :            app_main.views] - 2024-01-30 15:16:56,637 : index @ 0012: Главная страница
+[INFO    :             django.server] - 2024-01-30 15:16:56,648 : log_message @ 0212: "GET / HTTP/1.1" 200 2329
+[INFO    :             django.server] - 2024-01-30 15:16:56,738 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 8623
+[INFO    :             django.server] - 2024-01-30 15:16:56,741 : log_message @ 0212: "GET /static/image/app_main/cat_1.jpg HTTP/1.1" 200 145712
+[INFO    :             django.server] - 2024-01-30 15:16:56,752 : log_message @ 0212: "GET /static/image/app_main/cat_2.jpg HTTP/1.1" 200 313796
+[INFO    :             django.server] - 2024-01-30 15:16:56,807 : log_message @ 0212: "GET /static/image/favicon.ico HTTP/1.1" 200 255038
+[INFO    :            app_main.views] - 2024-01-30 17:31:31,761 : index @ 0012: Главная страница
+[INFO    :             django.server] - 2024-01-30 17:31:31,771 : log_message @ 0212: "GET / HTTP/1.1" 200 2329
+[INFO    :             django.server] - 2024-01-30 17:31:31,825 : log_message @ 0212: "GET /static/css/stylesheet.css HTTP/1.1" 200 8623
+[INFO    :             django.server] - 2024-01-30 17:31:31,828 : log_message @ 0212: "GET /static/image/app_main/cat_1.jpg HTTP/1.1" 200 145712
+[INFO    :             django.server] - 2024-01-30 17:31:31,835 : log_message @ 0212: "GET /static/image/app_main/cat_2.jpg HTTP/1.1" 200 313796
+[INFO    :             django.server] - 2024-01-30 17:31:31,879 : log_message @ 0212: "GET /static/image/favicon.ico HTTP/1.1" 200 251966
